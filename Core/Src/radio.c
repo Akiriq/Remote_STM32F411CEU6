@@ -200,6 +200,19 @@ void send_payload(uint8_t* payload, uint8_t length)
     nRF24_CE_H();
 }
 
+void ecretage_joy(uint16_t* val)
+{
+	if 		(2000 < *val && *val < 2400) 	*val = 2048;
+	else if (3800 < *val)					*val = 3800;
+	else if (*val < 200)					*val = 200 ;
+}
+
+void ecretage_slide(uint16_t* val)
+{
+	if		(3800 < *val)					*val = 3800;
+	else if (*val < 200)					*val = 200 ;
+}
+
 void sendCommande(void)
 {
 	for (uint8_t i = 0; i < hadc1.Init.NbrOfConversion; i++)
@@ -211,7 +224,9 @@ void sendCommande(void)
 		pot5 = (uint16_t) readvalue[4];
 		pot6 = (uint16_t) readvalue[5];
 	}
-
+	ecretage_joy(&pot3);
+	ecretage_joy(&pot4);
+	ecretage_slide(&pot2);
 	uint8_t payload[32] = {(uint8_t)(pot1/16),(uint8_t)(pot2/16),(uint8_t)(pot3/16),(uint8_t)(pot4/16),(uint8_t)(pot5/16)};
 
 	send_payload(payload, 5);
