@@ -202,15 +202,23 @@ void send_payload(uint8_t* payload, uint8_t length)
 
 void ecretage_joy(uint16_t* val)
 {
-	if 		(2000 < *val && *val < 2400) 	*val = 2048;
-	else if (3800 < *val)					*val = 3800;
-	else if (*val < 200)					*val = 200 ;
+	uint16_t range = 400;
+
+	if 		(2084 - range < *val && *val < 2048 + range) 	*val = 2048;
+	else if (4096 - range < *val)							*val = 4096 - range;
+	else if (*val < range)									*val = range;
+
+	if 		(*val < 2048) *val = 2048 - range - (2048 - range - *val)*(2048 - range)/(2048 - 2*range);
+	else if (2048 < *val) *val = 2048 + range + (*val - 2048 - range)*(2048 - range)/(2048 - 2*range);
 }
 
 void ecretage_slide(uint16_t* val)
 {
-	if		(3800 < *val)					*val = 3800;
-	else if (*val < 200)					*val = 200 ;
+	uint16_t range = 400;
+
+	if		(4096 - range < *val)	*val =  4096 - range;
+	else if (*val < range)			*val = 0 ;
+	*val *= 4096/(4096-range);
 }
 
 void sendCommande(void)
@@ -224,6 +232,7 @@ void sendCommande(void)
 		pot5 = (uint16_t) readvalue[4];
 		pot6 = (uint16_t) readvalue[5];
 	}
+
 	ecretage_joy(&pot3);
 	ecretage_joy(&pot4);
 	ecretage_slide(&pot2);
