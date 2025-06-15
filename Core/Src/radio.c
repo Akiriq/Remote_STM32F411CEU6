@@ -24,7 +24,7 @@ extern uint16_t pot4;
 extern uint16_t pot5;
 extern uint16_t pot6;
 
-extern UART_HandleTypeDef huart2;
+
 extern uint8_t CDC_Transmit_FS(uint8_t* Buf, uint16_t Len);
 
 
@@ -72,8 +72,6 @@ void UART_SendInt(int32_t num) {
     do str[i++] = (char) (num % 10 + '0'); while ((num /= 10) > 0);
     for (i--; i >= 0; i--) UART_SendChar(str[i]);
 }
-
-uint8_t nRF24_payload[32];
 
 // Pipe number
 nRF24_RXResult pipe;
@@ -232,16 +230,83 @@ void sendCommande(void)
 		pot5 = (uint16_t) readvalue[4];
 		pot6 = (uint16_t) readvalue[5];
 	}
+	uint8_t commande;
+	if(HAL_GPIO_ReadPin (BP_SEL_GPIO_Port, BP_SEL_Pin)) commande = 0xaa;
+	else commande = 0xbb;
+	if(HAL_GPIO_ReadPin(BP_GPIO_Port, BP_Pin)) commande = 0xcc;
 
+	ecretage_slide(&pot2);
 	ecretage_joy(&pot3);
 	ecretage_joy(&pot4);
-	ecretage_slide(&pot2);
-	uint8_t payload[32] = {(uint8_t)(pot1/16),(uint8_t)(pot2/16),(uint8_t)(pot3/16),(uint8_t)(pot4/16),(uint8_t)(pot5/16)};
+
+	uint8_t payload[32] = {commande,(uint8_t)(pot2/16),(uint8_t)(pot3/16),(uint8_t)(pot4/16),(uint8_t)(pot5/16)};
 
 	send_payload(payload, 5);
 }
 
+uint8_t channel(void)
+{
+	uint8_t channel = 115;
+	uint8_t set_channel = 0;
+	if(HAL_GPIO_ReadPin (DSW_0_GPIO_Port, DSW_0_Pin)) set_channel += 1;
+	if(HAL_GPIO_ReadPin (DSW_1_GPIO_Port, DSW_1_Pin)) set_channel += 2;
+	if(HAL_GPIO_ReadPin (DSW_2_GPIO_Port, DSW_2_Pin)) set_channel += 4;
+	if(HAL_GPIO_ReadPin (DSW_3_GPIO_Port, DSW_3_Pin)) set_channel += 8;
 
+	switch(set_channel)
+	{
+	case 0 :
+		channel = 115;
+		break;
+	case 1 :
+		channel = 10;
+		break;
+	case 2 :
+		channel = 20;
+		break;
+	case 3 :
+		channel = 30;
+		break;
+	case 4 :
+		channel = 40;
+		break;
+	case 5 :
+		channel = 50;
+		break;
+	case 6 :
+		channel = 60;
+		break;
+	case 7 :
+		channel = 70;
+		break;
+	case 8 :
+		channel = 80;
+		break;
+	case 9 :
+		channel = 90;
+		break;
+	case 10 :
+		channel = 100;
+		break;
+	case 11 :
+		channel = 110;
+		break;
+	case 12 :
+		channel = 120;
+		break;
+	case 13 :
+		channel = 125;
+		break;
+	case 14 :
+		channel = 127;
+		break;
+	case 15 :
+		channel = 115;
+		break;
+	}
+
+	return channel;
+}
 
 void runRadio(void)
 {
@@ -287,7 +352,7 @@ void runRadio(void)
     nRF24_DisableAA(0xFF);
 
     // Set RF channel
-    nRF24_SetRFChannel(115);
+    nRF24_SetRFChannel(channel());
 
     // Set data rate
     nRF24_SetDataRate(nRF24_DR_250kbps);
@@ -319,21 +384,35 @@ void runRadio(void)
     // Put the transceiver to the RX mode
     nRF24_CE_H();
 
-    uint8_t BP_released = 1;
+
     // The main loop
+    uint32_t watch_dog = 0;
+    uint32_t blink = 0;
     while (1) {
-    	//
+
+    	if (watch_dog++ > 100)
+    	{
+    		watch_dog = 100;
+    		blink += 10;
+    	}
+
+    	if(blink++ > 500)
+    	{
+    		blink = 0;
+    		Toggle_LED();
+    	}
+
+    	osDelay(2);
+    	sendCommande();
+
     	// Constantly poll the status of the RX FIFO and get a payload if FIFO is not empty
     	//
     	// This is far from best solution, but it's ok for testing purposes
     	// More smart way is to use the IRQ pin :)
-    	//
-
-    	sendCommande();
-
-
     	if (nRF24_GetStatus_RXFIFO() != nRF24_STATUS_RXFIFO_EMPTY)
     	{
+
+    		uint8_t nRF24_payload[32];
     		// Get a payload from the transceiver
     		pipe = nRF24_ReadPayload(nRF24_payload, &payload_length);
 
@@ -346,34 +425,11 @@ void runRadio(void)
 			UART_SendStr(" PAYLOAD:>");
 			UART_SendBufHex((char *)nRF24_payload, payload_length);
 			UART_SendStr("<\r\n");
-			// send back the payload
-//			HAL_Delay(100);
+
 			osDelay(2);
-//			uint8_t message[32] = {0xaa,0x44,0x11,0x22,0x55};
-//			send_payload(message, 5);
-//			send_payload(nRF24_payload, payload_length);
+			watch_dog = 0;
     	}
-    	if(!HAL_GPIO_ReadPin(BP_GPIO_Port, BP_Pin)&& BP_released)
-    	{
-    		BP_released = 0;
 
-    		uint8_t payload[32] = {0x01,0x23,0x45,0x67,0x89};
-//        	for (i = 0; i < 5; i++) {
-//        		payload[i] = j++;
-//        		if (j > 0x000000FF) j = 0;
-//        	}
-
-
-    		send_payload(payload, 5);
-    		osDelay(10);
-    	}
-    	if(HAL_GPIO_ReadPin(BP_GPIO_Port, BP_Pin) && !BP_released)
-    	{
-
-    		BP_released = 1;
-    		osDelay(10);
-
-    	}
 
     }
 }

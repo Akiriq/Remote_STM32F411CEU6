@@ -5,5 +5,3 @@
 ../Core/Src/stm32f4xx_hal_msp.c:227:6:HAL_I2C_MspDeInit	2
 ../Core/Src/stm32f4xx_hal_msp.c:258:6:HAL_SPI_MspInit	2
 ../Core/Src/stm32f4xx_hal_msp.c:296:6:HAL_SPI_MspDeInit	2
-../Core/Src/stm32f4xx_hal_msp.c:326:6:HAL_UART_MspInit	2
-../Core/Src/stm32f4xx_hal_msp.c:363:6:HAL_UART_MspDeInit	2
