@@ -45,6 +45,7 @@ void UART_SendStr(char *string)
 void Toggle_LED()
 {
     HAL_GPIO_TogglePin(LD2_GPIO_Port,LD2_Pin);
+    HAL_GPIO_TogglePin(LD1_GPIO_Port,LD1_Pin);
 }
 
 void UART_SendBufHex(char *buf, uint16_t bufsize) {
@@ -212,11 +213,12 @@ void ecretage_joy(uint16_t* val)
 
 void ecretage_slide(uint16_t* val)
 {
-	uint16_t range = 400;
+	uint16_t range_b = 400;
+	uint16_t range_h = 1600;
 
-	if		(4096 - range < *val)	*val =  4096 - range;
-	else if (*val < range)			*val = 0 ;
-	*val *= 4096/(4096-range);
+	if		((4096 - range_h) < *val)	*val =  4096 - range_h;
+	else if (*val < range_b)		*val = 0 ;
+	*val = (*val*4096)/(4096 - range_h);
 }
 
 void sendCommande(void)
@@ -231,13 +233,13 @@ void sendCommande(void)
 		pot6 = (uint16_t) readvalue[5];
 	}
 	uint8_t commande;
-	if(HAL_GPIO_ReadPin (BP_SEL_GPIO_Port, BP_SEL_Pin)) commande = 0xaa;
+	if(HAL_GPIO_ReadPin (!BP_SEL_GPIO_Port, BP_SEL_Pin)) commande = 0xaa;
 	else commande = 0xbb;
-	if(HAL_GPIO_ReadPin(BP_GPIO_Port, BP_Pin)) commande = 0xcc;
+	if(HAL_GPIO_ReadPin (!BP_GPIO_Port, BP_Pin)) commande = 0xcc;
 
 	ecretage_slide(&pot2);
-	ecretage_joy(&pot3);
-	ecretage_joy(&pot4);
+//	ecretage_joy(&pot3);
+//	ecretage_joy(&pot4);
 
 	uint8_t payload[32] = {commande,(uint8_t)(pot2/16),(uint8_t)(pot3/16),(uint8_t)(pot4/16),(uint8_t)(pot5/16)};
 
@@ -248,10 +250,10 @@ uint8_t channel(void)
 {
 	uint8_t channel = 115;
 	uint8_t set_channel = 0;
-	if(HAL_GPIO_ReadPin (DSW_0_GPIO_Port, DSW_0_Pin)) set_channel += 1;
-	if(HAL_GPIO_ReadPin (DSW_1_GPIO_Port, DSW_1_Pin)) set_channel += 2;
-	if(HAL_GPIO_ReadPin (DSW_2_GPIO_Port, DSW_2_Pin)) set_channel += 4;
-	if(HAL_GPIO_ReadPin (DSW_3_GPIO_Port, DSW_3_Pin)) set_channel += 8;
+	if(!HAL_GPIO_ReadPin (DSW_0_GPIO_Port, DSW_0_Pin)) set_channel += 1;
+	if(!HAL_GPIO_ReadPin (DSW_1_GPIO_Port, DSW_1_Pin)) set_channel += 2;
+	if(!HAL_GPIO_ReadPin (DSW_2_GPIO_Port, DSW_2_Pin)) set_channel += 4;
+	if(!HAL_GPIO_ReadPin (DSW_3_GPIO_Port, DSW_3_Pin)) set_channel += 8;
 
 	switch(set_channel)
 	{
