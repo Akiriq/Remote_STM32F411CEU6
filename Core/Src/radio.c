@@ -199,16 +199,38 @@ void send_payload(uint8_t* payload, uint8_t length)
     nRF24_CE_H();
 }
 
-void ecretage_joy(uint16_t* val)
+void ecretage_joy_x(uint16_t* val)
 {
-	uint16_t range = 400;
+	uint16_t middle = 1500;// value when the joystick is at the center
+	uint16_t range_z = 200;// minimal range to start the mouvment
+	uint16_t range_l = 350;// range between start and max to left
+	uint16_t range_r = 350;// range between start and max to right
+	uint16_t minimal_pow = 200;// minimal value send when mouvment start
 
-	if 		(2084 - range < *val && *val < 2048 + range) 	*val = 2048;
-	else if (4096 - range < *val)							*val = 4096 - range;
-	else if (*val < range)									*val = range;
+	if 		(middle - range_z < *val && *val < middle + range_z) 	*val = middle;
+	else if (*val < middle - range_z - range_r)						*val = middle - range_z - range_r;
+	else if (middle + range_z + range_l < *val)						*val = middle + range_z + range_l;
 
-	if 		(*val < 2048) *val = 2048 - range - (2048 - range - *val)*(2048 - range)/(2048 - 2*range);
-	else if (2048 < *val) *val = 2048 + range + (*val - 2048 - range)*(2048 - range)/(2048 - 2*range);
+	if 		(*val < middle) *val = 2048 + minimal_pow + (middle - range_z - *val)*(2048 - minimal_pow)/(range_r);//right
+	else if (middle < *val) *val = 2048 - minimal_pow - (*val - middle - range_z)*(2048 - minimal_pow)/(range_l);//left
+	else if (*val == middle) *val = 2048;
+}
+
+void ecretage_joy_y(uint16_t* val)
+{
+	uint16_t middle = 3300;// value when the joystick is at the center
+	uint16_t range_z = 200;// minimal range to start the mouvment
+	uint16_t range_f = 500;// range between start and max to forward
+	uint16_t range_b = 200;// range between start and max to backward
+	uint16_t minimal_pow = 200;// minimal value send when mouvment start
+
+	if 		(middle - range_z < *val && *val < middle + range_z) 	*val = middle;
+	else if (*val < middle - range_f - range_z)						*val = middle - range_f - range_z;
+	else if (middle + range_b + range_z < *val)						*val = middle + range_b + range_z;
+
+	if 		(*val < middle) *val = 2048 + minimal_pow + (middle - range_z - *val)*(2048 - minimal_pow)/(range_f);//forward
+	else if (middle < *val) *val = 2048 - minimal_pow - (*val - middle - range_z)*(2048 - minimal_pow)/(range_b);//backward
+	else if (*val == middle) *val = 2048;
 }
 
 void ecretage_slide(uint16_t* val)
@@ -232,14 +254,14 @@ void sendCommande(void)
 		pot5 = (uint16_t) readvalue[4];
 		pot6 = (uint16_t) readvalue[5];
 	}
-	uint8_t commande;
-	if(HAL_GPIO_ReadPin (!BP_SEL_GPIO_Port, BP_SEL_Pin)) commande = 0xaa;
+	uint8_t commande = 0;
+	if(!HAL_GPIO_ReadPin (BP_SEL_GPIO_Port, BP_SEL_Pin)) commande = 0xaa;
 	else commande = 0xbb;
-	if(HAL_GPIO_ReadPin (!BP_GPIO_Port, BP_Pin)) commande = 0xcc;
+	if(!HAL_GPIO_ReadPin (BP_GPIO_Port, BP_Pin)) commande = 0xcc;
 
 	ecretage_slide(&pot2);
-//	ecretage_joy(&pot3);
-//	ecretage_joy(&pot4);
+    ecretage_joy_x(&pot3);
+    ecretage_joy_y(&pot4);
 
 	uint8_t payload[32] = {commande,(uint8_t)(pot2/16),(uint8_t)(pot3/16),(uint8_t)(pot4/16),(uint8_t)(pot5/16)};
 
