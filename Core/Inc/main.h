@@ -79,8 +79,8 @@ void Error_Handler(void);
 #define BP_M_GPIO_Port GPIOB
 #define BP_D_Pin GPIO_PIN_1
 #define BP_D_GPIO_Port GPIOB
-#define BP_SEL_Pin GPIO_PIN_2
-#define BP_SEL_GPIO_Port GPIOB
+#define BOOT_Pin GPIO_PIN_2
+#define BOOT_GPIO_Port GPIOB
 #define LD1_Pin GPIO_PIN_10
 #define LD1_GPIO_Port GPIOB
 #define BP_JOY_Pin GPIO_PIN_12
@@ -93,6 +93,8 @@ void Error_Handler(void);
 #define DSW_1_GPIO_Port GPIOB
 #define DSW_0_Pin GPIO_PIN_8
 #define DSW_0_GPIO_Port GPIOA
+#define BP_SEL_Pin GPIO_PIN_10
+#define BP_SEL_GPIO_Port GPIOA
 #define NRF_CSN_Pin GPIO_PIN_15
 #define NRF_CSN_GPIO_Port GPIOA
 #define NRF_CE_Pin GPIO_PIN_6

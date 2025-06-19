@@ -255,9 +255,13 @@ void sendCommande(void)
 		pot6 = (uint16_t) readvalue[5];
 	}
 	uint8_t commande = 0;
-	if(!HAL_GPIO_ReadPin (BP_SEL_GPIO_Port, BP_SEL_Pin)) commande = 0xaa;
-	else commande = 0xbb;
-	if(!HAL_GPIO_ReadPin (BP_GPIO_Port, BP_Pin)) commande = 0xcc;
+	if(!HAL_GPIO_ReadPin (BP_SEL_GPIO_Port, BP_SEL_Pin))
+		commande = 0xaa;
+	else
+		commande = 0xbb;
+
+	if(HAL_GPIO_ReadPin (BP_GPIO_Port, BP_Pin)) // check mode securite
+		commande = 0xcc;
 
 	ecretage_slide(&pot2);
     ecretage_joy_x(&pot3);

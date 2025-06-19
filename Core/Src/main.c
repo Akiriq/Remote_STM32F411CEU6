@@ -470,19 +470,25 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(LD2_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : BP_Pin BP_G_Pin DSW_0_Pin */
-  GPIO_InitStruct.Pin = BP_Pin|BP_G_Pin|DSW_0_Pin;
+  /*Configure GPIO pins : BP_Pin BP_G_Pin DSW_0_Pin BP_SEL_Pin */
+  GPIO_InitStruct.Pin = BP_Pin|BP_G_Pin|DSW_0_Pin|BP_SEL_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : BP_M_Pin BP_D_Pin BP_SEL_Pin BP_JOY_Pin
-                           DSW_3_Pin DSW_2_Pin DSW_1_Pin */
-  GPIO_InitStruct.Pin = BP_M_Pin|BP_D_Pin|BP_SEL_Pin|BP_JOY_Pin
-                          |DSW_3_Pin|DSW_2_Pin|DSW_1_Pin;
+  /*Configure GPIO pins : BP_M_Pin BP_D_Pin BP_JOY_Pin DSW_3_Pin
+                           DSW_2_Pin DSW_1_Pin */
+  GPIO_InitStruct.Pin = BP_M_Pin|BP_D_Pin|BP_JOY_Pin|DSW_3_Pin
+                          |DSW_2_Pin|DSW_1_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : BOOT_Pin */
+  GPIO_InitStruct.Pin = BOOT_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(BOOT_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pins : LD1_Pin NRF_CE_Pin */
   GPIO_InitStruct.Pin = LD1_Pin|NRF_CE_Pin;

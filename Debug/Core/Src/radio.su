@@ -12,5 +12,5 @@
 ../Core/Src/radio.c:219:6:ecretage_joy_y	32	static
 ../Core/Src/radio.c:236:6:ecretage_slide	24	static
 ../Core/Src/radio.c:246:6:sendCommande	48	static
-../Core/Src/radio.c:271:9:channel	16	static
-../Core/Src/radio.c:335:6:runRadio	48	static
+../Core/Src/radio.c:275:9:channel	16	static
+../Core/Src/radio.c:339:6:runRadio	48	static

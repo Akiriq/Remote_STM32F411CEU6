@@ -5,9 +5,9 @@
 ../Core/Src/main.c:391:13:MX_SPI1_Init	2
 ../Core/Src/main.c:427:13:MX_DMA_Init	1
 ../Core/Src/main.c:445:13:MX_GPIO_Init	1
-../Core/Src/main.c:522:6:StartDefaultTask	1
-../Core/Src/main.c:544:6:send_usb_data_func	1
-../Core/Src/main.c:562:6:read_nrf_func	1
-../Core/Src/main.c:580:6:send_nrf_func	1
-../Core/Src/main.c:599:6:HAL_TIM_PeriodElapsedCallback	2
-../Core/Src/main.c:617:6:Error_Handler	1
+../Core/Src/main.c:528:6:StartDefaultTask	1
+../Core/Src/main.c:550:6:send_usb_data_func	1
+../Core/Src/main.c:568:6:read_nrf_func	1
+../Core/Src/main.c:586:6:send_nrf_func	1
+../Core/Src/main.c:605:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/main.c:623:6:Error_Handler	1
