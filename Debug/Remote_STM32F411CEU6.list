@@ -3459,8 +3459,8 @@ void ecretage_slide(uint16_t* val)
  80016fc:	b085      	sub	sp, #20
  80016fe:	af00      	add	r7, sp, #0
  8001700:	6078      	str	r0, [r7, #4]
-	uint16_t range_b = 400;
- 8001702:	f44f 73c8 	mov.w	r3, #400	@ 0x190
+	uint16_t range_b = 600;
+ 8001702:	f44f 7316 	mov.w	r3, #600	@ 0x258
  8001706:	81fb      	strh	r3, [r7, #14]
 	uint16_t range_h = 1600;
  8001708:	f44f 63c8 	mov.w	r3, #1600	@ 0x640

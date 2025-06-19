@@ -235,7 +235,7 @@ void ecretage_joy_y(uint16_t* val)
 
 void ecretage_slide(uint16_t* val)
 {
-	uint16_t range_b = 400;
+	uint16_t range_b = 600;
 	uint16_t range_h = 1600;
 
 	if		((4096 - range_h) < *val)	*val =  4096 - range_h;
