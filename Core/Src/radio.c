@@ -401,7 +401,7 @@ void runRadio(void)
     nRF24_SetAddr(nRF24_PIPETX, nRF24_ADDR_Tx); // program TX address
 
     // Set TX power (maximum)
-    nRF24_SetTXPower(nRF24_TXPWR_0dBm);
+    nRF24_SetTXPower(nRF24_TXPWR_6dBm);
 
     // Set operational mode (PRX == receiver)
     nRF24_SetOperationalMode(nRF24_MODE_RX);
@@ -418,19 +418,23 @@ void runRadio(void)
     uint32_t blink = 0;
     while (1) {
 
-    	if (watch_dog++ > 100)
+    	if (watch_dog++ > 30)
     	{
-    		watch_dog = 100;
-    		blink += 10;
+    		watch_dog = 31;
+
+			if(blink++ > 15)
+			{
+				blink = 0;
+				Toggle_LED();
+			}
+    	}
+    	else
+    	{
+    		HAL_GPIO_WritePin(LD1_GPIO_Port, LD1_Pin, GPIO_PIN_RESET);
+    		HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
     	}
 
-    	if(blink++ > 100)
-    	{
-    		blink = 0;
-    		Toggle_LED();
-    	}
-
-    	osDelay(2);
+    	osDelay(1);
     	sendCommande();
 
     	// Constantly poll the status of the RX FIFO and get a payload if FIFO is not empty
@@ -448,11 +452,11 @@ void runRadio(void)
 			nRF24_ClearIRQFlags();
 
 			// Print a payload contents to UART
-			UART_SendStr("RCV PIPE#");
-			UART_SendInt(pipe);
-			UART_SendStr(" PAYLOAD:>");
-			UART_SendBufHex((char *)nRF24_payload, payload_length);
-			UART_SendStr("<\r\n");
+			//UART_SendStr("RCV PIPE#");
+			//UART_SendInt(pipe);
+			//UART_SendStr(" PAYLOAD:>");
+			//UART_SendBufHex((char *)nRF24_payload, payload_length);
+			//UART_SendStr("<\r\n");
 
 			osDelay(2);
 			watch_dog = 0;

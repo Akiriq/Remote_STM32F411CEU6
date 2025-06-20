@@ -3177,7 +3177,7 @@ Contents of the .debug_info section:
     <1749>   DW_AT_decl_column : 22
     <174a>   DW_AT_type        : <0x16e4>
     <174e>   DW_AT_external    : 1
-    <174e>   DW_AT_location    : 5 byte block: 3 c8 d1 0 8 	(DW_OP_addr: 800d1c8)
+    <174e>   DW_AT_location    : 5 byte block: 3 dc d0 0 8 	(DW_OP_addr: 800d0dc)
  <1><1754>: Abbrev Number: 8 (DW_TAG_variable)
     <1755>   DW_AT_name        : (indirect string, offset: 0x53254): send_usb_dataHandle
     <1759>   DW_AT_decl_file   : 1
@@ -3193,7 +3193,7 @@ Contents of the .debug_info section:
     <176b>   DW_AT_decl_column : 22
     <176c>   DW_AT_type        : <0x16e4>
     <1770>   DW_AT_external    : 1
-    <1770>   DW_AT_location    : 5 byte block: 3 ec d1 0 8 	(DW_OP_addr: 800d1ec)
+    <1770>   DW_AT_location    : 5 byte block: 3 0 d1 0 8 	(DW_OP_addr: 800d100)
  <1><1776>: Abbrev Number: 8 (DW_TAG_variable)
     <1777>   DW_AT_name        : (indirect string, offset: 0x20efc): read_nrfHandle
     <177b>   DW_AT_decl_file   : 1
@@ -3209,7 +3209,7 @@ Contents of the .debug_info section:
     <178d>   DW_AT_decl_column : 22
     <178e>   DW_AT_type        : <0x16e4>
     <1792>   DW_AT_external    : 1
-    <1792>   DW_AT_location    : 5 byte block: 3 10 d2 0 8 	(DW_OP_addr: 800d210)
+    <1792>   DW_AT_location    : 5 byte block: 3 24 d1 0 8 	(DW_OP_addr: 800d124)
  <1><1798>: Abbrev Number: 8 (DW_TAG_variable)
     <1799>   DW_AT_name        : (indirect string, offset: 0x7253a): send_nrfHandle
     <179d>   DW_AT_decl_file   : 1
@@ -3225,7 +3225,7 @@ Contents of the .debug_info section:
     <17af>   DW_AT_decl_column : 22
     <17b0>   DW_AT_type        : <0x16e4>
     <17b4>   DW_AT_external    : 1
-    <17b4>   DW_AT_location    : 5 byte block: 3 34 d2 0 8 	(DW_OP_addr: 800d234)
+    <17b4>   DW_AT_location    : 5 byte block: 3 48 d1 0 8 	(DW_OP_addr: 800d148)
  <1><17ba>: Abbrev Number: 8 (DW_TAG_variable)
     <17bb>   DW_AT_name        : (indirect string, offset: 0x5d5a0): pot1
     <17bf>   DW_AT_decl_file   : 1
@@ -4908,7 +4908,7 @@ Contents of the .debug_info section:
     <23c2>   DW_AT_decl_line   : 188
     <23c3>   DW_AT_decl_column : 22
     <23c4>   DW_AT_type        : <0x23b7>
-    <23c8>   DW_AT_location    : 5 byte block: 3 58 d2 0 8 	(DW_OP_addr: 800d258)
+    <23c8>   DW_AT_location    : 5 byte block: 3 6c d1 0 8 	(DW_OP_addr: 800d16c)
  <1><23ce>: Abbrev Number: 21 (DW_TAG_array_type)
     <23cf>   DW_AT_type        : <0x1cfc>
     <23d3>   DW_AT_sibling     : <0x23de>
@@ -4924,7 +4924,7 @@ Contents of the .debug_info section:
     <23e9>   DW_AT_decl_line   : 198
     <23ea>   DW_AT_decl_column : 22
     <23eb>   DW_AT_type        : <0x23de>
-    <23ef>   DW_AT_location    : 5 byte block: 3 60 d2 0 8 	(DW_OP_addr: 800d260)
+    <23ef>   DW_AT_location    : 5 byte block: 3 74 d1 0 8 	(DW_OP_addr: 800d174)
  <1><23f5>: Abbrev Number: 39 (DW_TAG_subprogram)
     <23f6>   DW_AT_external    : 1
     <23f6>   DW_AT_name        : (indirect string, offset: 0x4561f): Error_Handler
@@ -7551,8 +7551,8 @@ Contents of the .debug_info section:
     <3695>   DW_AT_decl_line   : 339
     <3697>   DW_AT_decl_column : 6
     <3698>   DW_AT_prototyped  : 1
-    <3698>   DW_AT_low_pc      : 0x80019a8
-    <369c>   DW_AT_high_pc     : 0x16c
+    <3698>   DW_AT_low_pc      : 0x80018f8
+    <369c>   DW_AT_high_pc     : 0x14c
     <36a0>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <36a2>   DW_AT_call_all_tail_calls: 1
     <36a2>   DW_AT_sibling     : <0x3702>
@@ -7562,14 +7562,14 @@ Contents of the .debug_info section:
     <36ab>   DW_AT_decl_line   : 395
     <36ad>   DW_AT_decl_column : 26
     <36ae>   DW_AT_type        : <0x3712>
-    <36b2>   DW_AT_location    : 5 byte block: 3 68 d2 0 8 	(DW_OP_addr: 800d268)
+    <36b2>   DW_AT_location    : 5 byte block: 3 7c d1 0 8 	(DW_OP_addr: 800d17c)
  <2><36b8>: Abbrev Number: 11 (DW_TAG_variable)
     <36b9>   DW_AT_name        : (indirect string, offset: 0xa0606): nRF24_ADDR_Tx
     <36bd>   DW_AT_decl_file   : 1
     <36bd>   DW_AT_decl_line   : 400
     <36bf>   DW_AT_decl_column : 26
     <36c0>   DW_AT_type        : <0x3712>
-    <36c4>   DW_AT_location    : 5 byte block: 3 6c d2 0 8 	(DW_OP_addr: 800d26c)
+    <36c4>   DW_AT_location    : 5 byte block: 3 80 d1 0 8 	(DW_OP_addr: 800d180)
  <2><36ca>: Abbrev Number: 11 (DW_TAG_variable)
     <36cb>   DW_AT_name        : (indirect string, offset: 0xa05e7): watch_dog
     <36cf>   DW_AT_decl_file   : 1
@@ -7585,12 +7585,12 @@ Contents of the .debug_info section:
     <36e1>   DW_AT_type        : <0x2c60>
     <36e5>   DW_AT_location    : 2 byte block: 91 70 	(DW_OP_fbreg: -16)
  <2><36e8>: Abbrev Number: 31 (DW_TAG_lexical_block)
-    <36e9>   DW_AT_low_pc      : 0x8001a98
-    <36ed>   DW_AT_high_pc     : 0x4c
+    <36e9>   DW_AT_low_pc      : 0x80019fa
+    <36ed>   DW_AT_high_pc     : 0x20
  <3><36f1>: Abbrev Number: 11 (DW_TAG_variable)
     <36f2>   DW_AT_name        : (indirect string, offset: 0xa0433): nRF24_payload
     <36f6>   DW_AT_decl_file   : 1
-    <36f6>   DW_AT_decl_line   : 443
+    <36f6>   DW_AT_decl_line   : 447
     <36f8>   DW_AT_decl_column : 15
     <36f9>   DW_AT_type        : <0x3717>
     <36fd>   DW_AT_location    : 2 byte block: 91 50 	(DW_OP_fbreg: -48)
@@ -7620,8 +7620,8 @@ Contents of the .debug_info section:
     <372f>   DW_AT_decl_column : 9
     <3730>   DW_AT_prototyped  : 1
     <3730>   DW_AT_type        : <0x2c37>
-    <3734>   DW_AT_low_pc      : 0x8001880
-    <3738>   DW_AT_high_pc     : 0x128
+    <3734>   DW_AT_low_pc      : 0x80017ec
+    <3738>   DW_AT_high_pc     : 0x10c
     <373c>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <373e>   DW_AT_call_all_tail_calls: 1
     <373e>   DW_AT_sibling     : <0x3761>
@@ -7647,7 +7647,7 @@ Contents of the .debug_info section:
     <3766>   DW_AT_decl_line   : 246
     <3767>   DW_AT_decl_column : 6
     <3767>   DW_AT_prototyped  : 1
-    <3767>   DW_AT_low_pc      : 0x800175c
+    <3767>   DW_AT_low_pc      : 0x80016c8
     <376b>   DW_AT_high_pc     : 0x124
     <376f>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <3771>   DW_AT_call_all_tail_calls: 1
@@ -7667,7 +7667,7 @@ Contents of the .debug_info section:
     <378c>   DW_AT_type        : <0x3717>
     <3790>   DW_AT_location    : 2 byte block: 91 54 	(DW_OP_fbreg: -44)
  <2><3793>: Abbrev Number: 31 (DW_TAG_lexical_block)
-    <3794>   DW_AT_low_pc      : 0x8001762
+    <3794>   DW_AT_low_pc      : 0x80016ce
     <3798>   DW_AT_high_pc     : 0x5a
  <3><379c>: Abbrev Number: 21 (DW_TAG_variable)
     <379d>   DW_AT_name        : i
@@ -7685,7 +7685,7 @@ Contents of the .debug_info section:
     <37af>   DW_AT_decl_line   : 236
     <37b0>   DW_AT_decl_column : 6
     <37b0>   DW_AT_prototyped  : 1
-    <37b0>   DW_AT_low_pc      : 0x80016fa
+    <37b0>   DW_AT_low_pc      : 0x8001666
     <37b4>   DW_AT_high_pc     : 0x62
     <37b8>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <37ba>   DW_AT_call_all_calls: 1
@@ -7719,7 +7719,7 @@ Contents of the .debug_info section:
     <37f0>   DW_AT_decl_line   : 219
     <37f1>   DW_AT_decl_column : 6
     <37f1>   DW_AT_prototyped  : 1
-    <37f1>   DW_AT_low_pc      : 0x80015d4
+    <37f1>   DW_AT_low_pc      : 0x8001540
     <37f5>   DW_AT_high_pc     : 0x126
     <37f9>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <37fb>   DW_AT_call_all_calls: 1
@@ -7774,7 +7774,7 @@ Contents of the .debug_info section:
     <385e>   DW_AT_decl_line   : 202
     <385f>   DW_AT_decl_column : 6
     <385f>   DW_AT_prototyped  : 1
-    <385f>   DW_AT_low_pc      : 0x80014ac
+    <385f>   DW_AT_low_pc      : 0x8001418
     <3863>   DW_AT_high_pc     : 0x128
     <3867>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <3869>   DW_AT_call_all_calls: 1
@@ -7829,7 +7829,7 @@ Contents of the .debug_info section:
     <38cc>   DW_AT_decl_line   : 163
     <38cd>   DW_AT_decl_column : 6
     <38cd>   DW_AT_prototyped  : 1
-    <38cd>   DW_AT_low_pc      : 0x80013f8
+    <38cd>   DW_AT_low_pc      : 0x8001364
     <38d1>   DW_AT_high_pc     : 0xb4
     <38d5>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <38d7>   DW_AT_call_all_tail_calls: 1
@@ -7857,7 +7857,7 @@ Contents of the .debug_info section:
     <38ff>   DW_AT_decl_column : 16
     <3900>   DW_AT_prototyped  : 1
     <3900>   DW_AT_type        : <0x34d5>
-    <3904>   DW_AT_low_pc      : 0x8001358
+    <3904>   DW_AT_low_pc      : 0x80012c4
     <3908>   DW_AT_high_pc     : 0xa0
     <390c>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <390e>   DW_AT_call_all_tail_calls: 1
@@ -7898,7 +7898,7 @@ Contents of the .debug_info section:
     <3952>   DW_AT_decl_line   : 66
     <3953>   DW_AT_decl_column : 6
     <3953>   DW_AT_prototyped  : 1
-    <3953>   DW_AT_low_pc      : 0x80012c4
+    <3953>   DW_AT_low_pc      : 0
     <3957>   DW_AT_high_pc     : 0x94
     <395b>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <395d>   DW_AT_call_all_tail_calls: 1
@@ -8075,7 +8075,7 @@ Contents of the .debug_info section:
     <3a94>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <3a98>   DW_AT_ranges      : 0x1ed
     <3a9c>   DW_AT_low_pc      : 0
-    <3aa0>   DW_AT_stmt_list   : 0x2e1e
+    <3aa0>   DW_AT_stmt_list   : 0x2e0b
     <3aa4>   DW_AT_macros      : 0x177f
  <1><3aa8>: Abbrev Number: 11 (DW_TAG_enumeration_type)
     <3aa9>   DW_AT_encoding    : 5	(signed)
@@ -10319,7 +10319,7 @@ Contents of the .debug_info section:
     <4a69>   DW_AT_decl_line   : 258
     <4a6b>   DW_AT_decl_column : 6
     <4a6b>   DW_AT_prototyped  : 1
-    <4a6b>   DW_AT_low_pc      : 0x8001cfc
+    <4a6b>   DW_AT_low_pc      : 0x8001c2c
     <4a6f>   DW_AT_high_pc     : 0x90
     <4a73>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <4a75>   DW_AT_call_all_tail_calls: 1
@@ -10339,7 +10339,7 @@ Contents of the .debug_info section:
     <4a90>   DW_AT_type        : <0x427a>
     <4a94>   DW_AT_location    : 2 byte block: 91 64 	(DW_OP_fbreg: -28)
  <2><4a97>: Abbrev Number: 17 (DW_TAG_lexical_block)
-    <4a98>   DW_AT_low_pc      : 0x8001d1e
+    <4a98>   DW_AT_low_pc      : 0x8001c4e
     <4a9c>   DW_AT_high_pc     : 0x1c
     <4aa0>   DW_AT_sibling     : <0x4ab4>
  <3><4aa4>: Abbrev Number: 24 (DW_TAG_variable)
@@ -10351,7 +10351,7 @@ Contents of the .debug_info section:
     <4ab0>   DW_AT_location    : 2 byte block: 91 60 	(DW_OP_fbreg: -32)
  <3><4ab3>: Abbrev Number: 0
  <2><4ab4>: Abbrev Number: 18 (DW_TAG_lexical_block)
-    <4ab5>   DW_AT_low_pc      : 0x8001d3a
+    <4ab5>   DW_AT_low_pc      : 0x8001c6a
     <4ab9>   DW_AT_high_pc     : 0x1c
  <3><4abd>: Abbrev Number: 24 (DW_TAG_variable)
     <4abe>   DW_AT_name        : (indirect string, offset: 0x16f7): tmpreg
@@ -10392,7 +10392,7 @@ Contents of the .debug_info section:
     <4afb>   DW_AT_decl_line   : 190
     <4afc>   DW_AT_decl_column : 6
     <4afc>   DW_AT_prototyped  : 1
-    <4afc>   DW_AT_low_pc      : 0x8001c6c
+    <4afc>   DW_AT_low_pc      : 0x8001b9c
     <4b00>   DW_AT_high_pc     : 0x90
     <4b04>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <4b06>   DW_AT_call_all_tail_calls: 1
@@ -10412,7 +10412,7 @@ Contents of the .debug_info section:
     <4b1f>   DW_AT_type        : <0x427a>
     <4b23>   DW_AT_location    : 2 byte block: 91 64 	(DW_OP_fbreg: -28)
  <2><4b26>: Abbrev Number: 17 (DW_TAG_lexical_block)
-    <4b27>   DW_AT_low_pc      : 0x8001c8e
+    <4b27>   DW_AT_low_pc      : 0x8001bbe
     <4b2b>   DW_AT_high_pc     : 0x1c
     <4b2f>   DW_AT_sibling     : <0x4b42>
  <3><4b33>: Abbrev Number: 13 (DW_TAG_variable)
@@ -10424,7 +10424,7 @@ Contents of the .debug_info section:
     <4b3e>   DW_AT_location    : 2 byte block: 91 60 	(DW_OP_fbreg: -32)
  <3><4b41>: Abbrev Number: 0
  <2><4b42>: Abbrev Number: 18 (DW_TAG_lexical_block)
-    <4b43>   DW_AT_low_pc      : 0x8001ccc
+    <4b43>   DW_AT_low_pc      : 0x8001bfc
     <4b47>   DW_AT_high_pc     : 0x1c
  <3><4b4b>: Abbrev Number: 13 (DW_TAG_variable)
     <4b4c>   DW_AT_name        : (indirect string, offset: 0x16f7): tmpreg
@@ -10465,7 +10465,7 @@ Contents of the .debug_info section:
     <4b88>   DW_AT_decl_line   : 89
     <4b89>   DW_AT_decl_column : 6
     <4b89>   DW_AT_prototyped  : 1
-    <4b89>   DW_AT_low_pc      : 0x8001b6c
+    <4b89>   DW_AT_low_pc      : 0x8001a9c
     <4b8d>   DW_AT_high_pc     : 0x100
     <4b91>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <4b93>   DW_AT_call_all_tail_calls: 1
@@ -10485,7 +10485,7 @@ Contents of the .debug_info section:
     <4bac>   DW_AT_type        : <0x427a>
     <4bb0>   DW_AT_location    : 2 byte block: 91 64 	(DW_OP_fbreg: -28)
  <2><4bb3>: Abbrev Number: 17 (DW_TAG_lexical_block)
-    <4bb4>   DW_AT_low_pc      : 0x8001b8e
+    <4bb4>   DW_AT_low_pc      : 0x8001abe
     <4bb8>   DW_AT_high_pc     : 0x1c
     <4bbc>   DW_AT_sibling     : <0x4bcf>
  <3><4bc0>: Abbrev Number: 13 (DW_TAG_variable)
@@ -10497,7 +10497,7 @@ Contents of the .debug_info section:
     <4bcb>   DW_AT_location    : 2 byte block: 91 60 	(DW_OP_fbreg: -32)
  <3><4bce>: Abbrev Number: 0
  <2><4bcf>: Abbrev Number: 18 (DW_TAG_lexical_block)
-    <4bd0>   DW_AT_low_pc      : 0x8001baa
+    <4bd0>   DW_AT_low_pc      : 0x8001ada
     <4bd4>   DW_AT_high_pc     : 0x1c
  <3><4bd8>: Abbrev Number: 13 (DW_TAG_variable)
     <4bd9>   DW_AT_name        : (indirect string, offset: 0x16f7): tmpreg
@@ -10515,12 +10515,12 @@ Contents of the .debug_info section:
     <4bee>   DW_AT_decl_line   : 64
     <4bef>   DW_AT_decl_column : 6
     <4bf0>   DW_AT_prototyped  : 1
-    <4bf0>   DW_AT_low_pc      : 0x8001b14
+    <4bf0>   DW_AT_low_pc      : 0x8001a44
     <4bf4>   DW_AT_high_pc     : 0x58
     <4bf8>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <4bfa>   DW_AT_call_all_tail_calls: 1
  <2><4bfa>: Abbrev Number: 17 (DW_TAG_lexical_block)
-    <4bfb>   DW_AT_low_pc      : 0x8001b1a
+    <4bfb>   DW_AT_low_pc      : 0x8001a4a
     <4bff>   DW_AT_high_pc     : 0x1c
     <4c03>   DW_AT_sibling     : <0x4c16>
  <3><4c07>: Abbrev Number: 13 (DW_TAG_variable)
@@ -10532,7 +10532,7 @@ Contents of the .debug_info section:
     <4c12>   DW_AT_location    : 2 byte block: 91 74 	(DW_OP_fbreg: -12)
  <3><4c15>: Abbrev Number: 0
  <2><4c16>: Abbrev Number: 18 (DW_TAG_lexical_block)
-    <4c17>   DW_AT_low_pc      : 0x8001b36
+    <4c17>   DW_AT_low_pc      : 0x8001a66
     <4c1b>   DW_AT_high_pc     : 0x1c
  <3><4c1f>: Abbrev Number: 13 (DW_TAG_variable)
     <4c20>   DW_AT_name        : (indirect string, offset: 0x16f7): tmpreg
@@ -10557,7 +10557,7 @@ Contents of the .debug_info section:
     <4c46>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <4c4a>   DW_AT_ranges      : 0x227
     <4c4e>   DW_AT_low_pc      : 0
-    <4c52>   DW_AT_stmt_list   : 0x3738
+    <4c52>   DW_AT_stmt_list   : 0x3725
     <4c56>   DW_AT_macros      : 0x19c1
  <1><4c5a>: Abbrev Number: 13 (DW_TAG_enumeration_type)
     <4c5b>   DW_AT_encoding    : 5	(signed)
@@ -12049,7 +12049,7 @@ Contents of the .debug_info section:
     <5727>   DW_AT_decl_column : 19
     <5728>   DW_AT_prototyped  : 1
     <5728>   DW_AT_type        : <0x51f9>
-    <572c>   DW_AT_low_pc      : 0x8001d8c
+    <572c>   DW_AT_low_pc      : 0x8001cbc
     <5730>   DW_AT_high_pc     : 0xf8
     <5734>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <5736>   DW_AT_call_all_tail_calls: 1
@@ -12103,7 +12103,7 @@ Contents of the .debug_info section:
     <5792>   DW_AT_type        : <0x51f9>
     <5796>   DW_AT_location    : 2 byte block: 91 73 	(DW_OP_fbreg: -13)
  <2><5799>: Abbrev Number: 33 (DW_TAG_lexical_block)
-    <579a>   DW_AT_low_pc      : 0x8001d9c
+    <579a>   DW_AT_low_pc      : 0x8001ccc
     <579e>   DW_AT_high_pc     : 0x1c
  <3><57a2>: Abbrev Number: 11 (DW_TAG_variable)
     <57a3>   DW_AT_name        : (indirect string, offset: 0x16f7): tmpreg
@@ -12128,7 +12128,7 @@ Contents of the .debug_info section:
     <57c9>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <57cd>   DW_AT_ranges      : 0x247
     <57d1>   DW_AT_low_pc      : 0
-    <57d5>   DW_AT_stmt_list   : 0x3fba
+    <57d5>   DW_AT_stmt_list   : 0x3fa7
     <57d9>   DW_AT_macros      : 0x1bf4
  <1><57dd>: Abbrev Number: 8 (DW_TAG_base_type)
     <57de>   DW_AT_byte_size   : 1
@@ -14014,7 +14014,7 @@ Contents of the .debug_info section:
     <655d>   DW_AT_decl_line   : 210
     <655e>   DW_AT_decl_column : 6
     <655e>   DW_AT_prototyped  : 1
-    <655e>   DW_AT_low_pc      : 0x8001ef8
+    <655e>   DW_AT_low_pc      : 0x8001e28
     <6562>   DW_AT_high_pc     : 0x14
     <6566>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <6568>   DW_AT_call_all_tail_calls: 1
@@ -14025,7 +14025,7 @@ Contents of the .debug_info section:
     <656d>   DW_AT_decl_line   : 196
     <656e>   DW_AT_decl_column : 6
     <656e>   DW_AT_prototyped  : 1
-    <656e>   DW_AT_low_pc      : 0x8001ee4
+    <656e>   DW_AT_low_pc      : 0x8001e14
     <6572>   DW_AT_high_pc     : 0x14
     <6576>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <6578>   DW_AT_call_all_tail_calls: 1
@@ -14036,7 +14036,7 @@ Contents of the .debug_info section:
     <657d>   DW_AT_decl_line   : 182
     <657e>   DW_AT_decl_column : 6
     <657e>   DW_AT_prototyped  : 1
-    <657e>   DW_AT_low_pc      : 0x8001ed0
+    <657e>   DW_AT_low_pc      : 0x8001e00
     <6582>   DW_AT_high_pc     : 0x14
     <6586>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <6588>   DW_AT_call_all_tail_calls: 1
@@ -14047,7 +14047,7 @@ Contents of the .debug_info section:
     <658d>   DW_AT_decl_line   : 168
     <658e>   DW_AT_decl_column : 6
     <658e>   DW_AT_prototyped  : 1
-    <658e>   DW_AT_low_pc      : 0x8001ebc
+    <658e>   DW_AT_low_pc      : 0x8001dec
     <6592>   DW_AT_high_pc     : 0x14
     <6596>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <6598>   DW_AT_call_all_tail_calls: 1
@@ -14058,7 +14058,7 @@ Contents of the .debug_info section:
     <659d>   DW_AT_decl_line   : 148
     <659e>   DW_AT_decl_column : 6
     <659e>   DW_AT_prototyped  : 1
-    <659e>   DW_AT_low_pc      : 0x8001eac
+    <659e>   DW_AT_low_pc      : 0x8001ddc
     <65a2>   DW_AT_high_pc     : 0xe
     <65a6>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <65a8>   DW_AT_call_all_calls: 1
@@ -14069,7 +14069,7 @@ Contents of the .debug_info section:
     <65ad>   DW_AT_decl_line   : 133
     <65ae>   DW_AT_decl_column : 6
     <65ae>   DW_AT_prototyped  : 1
-    <65ae>   DW_AT_low_pc      : 0x8001ea4
+    <65ae>   DW_AT_low_pc      : 0x8001dd4
     <65b2>   DW_AT_high_pc     : 0x8
     <65b6>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <65b8>   DW_AT_call_all_calls: 1
@@ -14080,7 +14080,7 @@ Contents of the .debug_info section:
     <65bd>   DW_AT_decl_line   : 118
     <65be>   DW_AT_decl_column : 6
     <65be>   DW_AT_prototyped  : 1
-    <65be>   DW_AT_low_pc      : 0x8001e9c
+    <65be>   DW_AT_low_pc      : 0x8001dcc
     <65c2>   DW_AT_high_pc     : 0x8
     <65c6>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <65c8>   DW_AT_call_all_calls: 1
@@ -14091,7 +14091,7 @@ Contents of the .debug_info section:
     <65cd>   DW_AT_decl_line   : 103
     <65ce>   DW_AT_decl_column : 6
     <65ce>   DW_AT_prototyped  : 1
-    <65ce>   DW_AT_low_pc      : 0x8001e94
+    <65ce>   DW_AT_low_pc      : 0x8001dc4
     <65d2>   DW_AT_high_pc     : 0x8
     <65d6>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <65d8>   DW_AT_call_all_calls: 1
@@ -14102,7 +14102,7 @@ Contents of the .debug_info section:
     <65dd>   DW_AT_decl_line   : 88
     <65de>   DW_AT_decl_column : 6
     <65de>   DW_AT_prototyped  : 1
-    <65de>   DW_AT_low_pc      : 0x8001e8c
+    <65de>   DW_AT_low_pc      : 0x8001dbc
     <65e2>   DW_AT_high_pc     : 0x8
     <65e6>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <65e8>   DW_AT_call_all_calls: 1
@@ -14113,7 +14113,7 @@ Contents of the .debug_info section:
     <65ed>   DW_AT_decl_line   : 73
     <65ee>   DW_AT_decl_column : 6
     <65ee>   DW_AT_prototyped  : 1
-    <65ee>   DW_AT_low_pc      : 0x8001e84
+    <65ee>   DW_AT_low_pc      : 0x8001db4
     <65f2>   DW_AT_high_pc     : 0x8
     <65f6>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <65f8>   DW_AT_call_all_calls: 1
@@ -14131,7 +14131,7 @@ Contents of the .debug_info section:
     <660f>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <6613>   DW_AT_ranges      : 0x290
     <6617>   DW_AT_low_pc      : 0
-    <661b>   DW_AT_stmt_list   : 0x488f
+    <661b>   DW_AT_stmt_list   : 0x487c
     <661f>   DW_AT_macros      : 0x1e40
  <1><6623>: Abbrev Number: 2 (DW_TAG_base_type)
     <6624>   DW_AT_byte_size   : 1
@@ -14722,13 +14722,13 @@ Contents of the .debug_info section:
     <6ab5>   DW_AT_decl_file   : 1
     <6ab5>   DW_AT_decl_line   : 138
     <6ab6>   DW_AT_decl_column : 15
-    <6ab7>   DW_AT_location    : 5 byte block: 3 70 d2 0 8 	(DW_OP_addr: 800d270)
+    <6ab7>   DW_AT_location    : 5 byte block: 3 84 d1 0 8 	(DW_OP_addr: 800d184)
  <1><6abd>: Abbrev Number: 11 (DW_TAG_variable)
     <6abe>   DW_AT_specification: <0x68bc>
     <6ac2>   DW_AT_decl_file   : 1
     <6ac2>   DW_AT_decl_line   : 139
     <6ac3>   DW_AT_decl_column : 15
-    <6ac4>   DW_AT_location    : 5 byte block: 3 80 d2 0 8 	(DW_OP_addr: 800d280)
+    <6ac4>   DW_AT_location    : 5 byte block: 3 94 d1 0 8 	(DW_OP_addr: 800d194)
  <1><6aca>: Abbrev Number: 16 (DW_TAG_subprogram)
     <6acb>   DW_AT_external    : 1
     <6acb>   DW_AT_name        : (indirect string, offset: 0xa0d54): SystemCoreClockUpdate
@@ -14784,7 +14784,7 @@ Contents of the .debug_info section:
     <6b2a>   DW_AT_decl_line   : 167
     <6b2b>   DW_AT_decl_column : 6
     <6b2c>   DW_AT_prototyped  : 1
-    <6b2c>   DW_AT_low_pc      : 0x8001f0c
+    <6b2c>   DW_AT_low_pc      : 0x8001e3c
     <6b30>   DW_AT_high_pc     : 0x24
     <6b34>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <6b36>   DW_AT_call_all_calls: 1
@@ -14796,7 +14796,7 @@ Contents of the .debug_info section:
    Abbrev Offset: 0x1084
    Pointer Size:  4
  <0><6b43>: Abbrev Number: 1 (DW_TAG_compile_unit)
-    <6b44>   DW_AT_stmt_list   : 0x5118
+    <6b44>   DW_AT_stmt_list   : 0x5105
     <6b48>   DW_AT_ranges      : 0x2aa
     <6b4c>   DW_AT_name        : (indirect string, offset: 0xa0e1a): ../Core/Startup/startup_stm32f411ceux.s
     <6b50>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
@@ -14805,7 +14805,7 @@ Contents of the .debug_info section:
  <1><6b5a>: Abbrev Number: 2 (DW_TAG_subprogram)
     <6b5b>   DW_AT_name        : (indirect string, offset: 0xa0e50): Reset_Handler
     <6b5f>   DW_AT_type        : <0x6b65>
-    <6b60>   DW_AT_low_pc      : 0x8001f31
+    <6b60>   DW_AT_low_pc      : 0x8001e61
     <6b64>   DW_AT_high_pc     : 56
  <1><6b65>: Abbrev Number: 3 (DW_TAG_unspecified_type)
  <1><6b66>: Abbrev Number: 0
@@ -14822,7 +14822,7 @@ Contents of the .debug_info section:
     <6b7d>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <6b81>   DW_AT_ranges      : 0x2c3
     <6b85>   DW_AT_low_pc      : 0
-    <6b89>   DW_AT_stmt_list   : 0x5192
+    <6b89>   DW_AT_stmt_list   : 0x517f
     <6b8d>   DW_AT_macros      : 0x2073
  <1><6b91>: Abbrev Number: 11 (DW_TAG_enumeration_type)
     <6b92>   DW_AT_encoding    : 5	(signed)
@@ -15838,7 +15838,7 @@ Contents of the .debug_info section:
     <72dc>   DW_AT_decl_line   : 390
     <72de>   DW_AT_decl_column : 13
     <72df>   DW_AT_prototyped  : 1
-    <72df>   DW_AT_low_pc      : 0x8002008
+    <72df>   DW_AT_low_pc      : 0x8001f38
     <72e3>   DW_AT_high_pc     : 0x48
     <72e7>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <72e9>   DW_AT_call_all_tail_calls: 1
@@ -15932,7 +15932,7 @@ Contents of the .debug_info section:
     <7397>   DW_AT_decl_column : 17
     <7398>   DW_AT_prototyped  : 1
     <7398>   DW_AT_type        : <0x6d82>
-    <739c>   DW_AT_low_pc      : 0x8001ff0
+    <739c>   DW_AT_low_pc      : 0x8001f20
     <73a0>   DW_AT_high_pc     : 0x18
     <73a4>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <73a6>   DW_AT_call_all_calls: 1
@@ -15943,7 +15943,7 @@ Contents of the .debug_info section:
     <73ab>   DW_AT_decl_line   : 312
     <73ad>   DW_AT_decl_column : 13
     <73ae>   DW_AT_prototyped  : 1
-    <73ae>   DW_AT_low_pc      : 0x8001fc8
+    <73ae>   DW_AT_low_pc      : 0x8001ef8
     <73b2>   DW_AT_high_pc     : 0x28
     <73b6>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <73b8>   DW_AT_call_all_calls: 1
@@ -16010,7 +16010,7 @@ Contents of the .debug_info section:
     <741c>   DW_AT_decl_column : 19
     <741c>   DW_AT_prototyped  : 1
     <741c>   DW_AT_type        : <0x70d3>
-    <7420>   DW_AT_low_pc      : 0x8001f84
+    <7420>   DW_AT_low_pc      : 0x8001eb4
     <7424>   DW_AT_high_pc     : 0x44
     <7428>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <742a>   DW_AT_call_all_tail_calls: 1
@@ -16028,7 +16028,7 @@ Contents of the .debug_info section:
     <7441>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <7445>   DW_AT_ranges      : 0x372
     <7449>   DW_AT_low_pc      : 0
-    <744d>   DW_AT_stmt_list   : 0x5c88
+    <744d>   DW_AT_stmt_list   : 0x5c75
     <7451>   DW_AT_macros      : 0x2306
  <1><7455>: Abbrev Number: 7 (DW_TAG_base_type)
     <7456>   DW_AT_byte_size   : 1
@@ -17030,7 +17030,7 @@ Contents of the .debug_info section:
     <7b3f>   DW_AT_decl_line   : 2080
     <7b41>   DW_AT_decl_column : 13
     <7b41>   DW_AT_prototyped  : 1
-    <7b41>   DW_AT_low_pc      : 0x8002a62
+    <7b41>   DW_AT_low_pc      : 0x8002992
     <7b45>   DW_AT_high_pc     : 0x2e
     <7b49>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <7b4b>   DW_AT_call_all_tail_calls: 1
@@ -17056,7 +17056,7 @@ Contents of the .debug_info section:
     <7b73>   DW_AT_decl_line   : 2063
     <7b75>   DW_AT_decl_column : 13
     <7b75>   DW_AT_prototyped  : 1
-    <7b75>   DW_AT_low_pc      : 0x8002a46
+    <7b75>   DW_AT_low_pc      : 0x8002976
     <7b79>   DW_AT_high_pc     : 0x1c
     <7b7d>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <7b7f>   DW_AT_call_all_tail_calls: 1
@@ -17082,7 +17082,7 @@ Contents of the .debug_info section:
     <7ba7>   DW_AT_decl_line   : 1994
     <7ba9>   DW_AT_decl_column : 13
     <7ba9>   DW_AT_prototyped  : 1
-    <7ba9>   DW_AT_low_pc      : 0x800298c
+    <7ba9>   DW_AT_low_pc      : 0x80028bc
     <7bad>   DW_AT_high_pc     : 0xba
     <7bb1>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <7bb3>   DW_AT_call_all_tail_calls: 1
@@ -17108,7 +17108,7 @@ Contents of the .debug_info section:
     <7bdc>   DW_AT_decl_line   : 1906
     <7bde>   DW_AT_decl_column : 13
     <7bdf>   DW_AT_prototyped  : 1
-    <7bdf>   DW_AT_low_pc      : 0x8002794
+    <7bdf>   DW_AT_low_pc      : 0x80026c4
     <7be3>   DW_AT_high_pc     : 0x1f8
     <7be7>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <7be9>   DW_AT_call_all_calls: 1
@@ -17212,7 +17212,7 @@ Contents of the .debug_info section:
     <7caa>   DW_AT_decl_column : 19
     <7cab>   DW_AT_prototyped  : 1
     <7cab>   DW_AT_type        : <0x76f8>
-    <7caf>   DW_AT_low_pc      : 0x8002530
+    <7caf>   DW_AT_low_pc      : 0x8002460
     <7cb3>   DW_AT_high_pc     : 0x264
     <7cb7>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <7cb9>   DW_AT_call_all_calls: 1
@@ -17256,7 +17256,7 @@ Contents of the .debug_info section:
     <7d04>   DW_AT_decl_line   : 1631
     <7d06>   DW_AT_decl_column : 13
     <7d06>   DW_AT_prototyped  : 1
-    <7d06>   DW_AT_low_pc      : 0x800251c
+    <7d06>   DW_AT_low_pc      : 0x800244c
     <7d0a>   DW_AT_high_pc     : 0x14
     <7d0e>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <7d10>   DW_AT_call_all_calls: 1
@@ -17276,7 +17276,7 @@ Contents of the .debug_info section:
     <7d29>   DW_AT_decl_line   : 1610
     <7d2b>   DW_AT_decl_column : 13
     <7d2b>   DW_AT_prototyped  : 1
-    <7d2b>   DW_AT_low_pc      : 0x8002508
+    <7d2b>   DW_AT_low_pc      : 0x8002438
     <7d2f>   DW_AT_high_pc     : 0x14
     <7d33>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <7d35>   DW_AT_call_all_calls: 1
@@ -17296,7 +17296,7 @@ Contents of the .debug_info section:
     <7d4e>   DW_AT_decl_line   : 1595
     <7d50>   DW_AT_decl_column : 13
     <7d50>   DW_AT_prototyped  : 1
-    <7d50>   DW_AT_low_pc      : 0x80024f4
+    <7d50>   DW_AT_low_pc      : 0x8002424
     <7d54>   DW_AT_high_pc     : 0x14
     <7d58>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <7d5a>   DW_AT_call_all_calls: 1
@@ -17316,7 +17316,7 @@ Contents of the .debug_info section:
     <7d73>   DW_AT_decl_line   : 1580
     <7d75>   DW_AT_decl_column : 13
     <7d75>   DW_AT_prototyped  : 1
-    <7d75>   DW_AT_low_pc      : 0x80024e0
+    <7d75>   DW_AT_low_pc      : 0x8002410
     <7d79>   DW_AT_high_pc     : 0x14
     <7d7d>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <7d7f>   DW_AT_call_all_calls: 1
@@ -17386,7 +17386,7 @@ Contents of the .debug_info section:
     <7dfc>   DW_AT_decl_column : 19
     <7dfc>   DW_AT_prototyped  : 1
     <7dfc>   DW_AT_type        : <0x76f8>
-    <7e00>   DW_AT_low_pc      : 0x80022f8
+    <7e00>   DW_AT_low_pc      : 0x8002228
     <7e04>   DW_AT_high_pc     : 0x1e8
     <7e08>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <7e0a>   DW_AT_call_all_tail_calls: 1
@@ -17444,7 +17444,7 @@ Contents of the .debug_info section:
     <7e74>   DW_AT_decl_line   : 1199
     <7e76>   DW_AT_decl_column : 6
     <7e77>   DW_AT_prototyped  : 1
-    <7e77>   DW_AT_low_pc      : 0x80020d6
+    <7e77>   DW_AT_low_pc      : 0x8002006
     <7e7b>   DW_AT_high_pc     : 0x220
     <7e7f>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <7e81>   DW_AT_call_all_tail_calls: 1
@@ -17750,7 +17750,7 @@ Contents of the .debug_info section:
     <80dc>   DW_AT_decl_column : 19
     <80dd>   DW_AT_prototyped  : 1
     <80dd>   DW_AT_type        : <0x76f8>
-    <80e1>   DW_AT_low_pc      : 0x8002050
+    <80e1>   DW_AT_low_pc      : 0x8001f80
     <80e5>   DW_AT_high_pc     : 0x86
     <80e9>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <80eb>   DW_AT_call_all_tail_calls: 1
@@ -17783,7 +17783,7 @@ Contents of the .debug_info section:
     <8121>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <8125>   DW_AT_ranges      : 0x427
     <8129>   DW_AT_low_pc      : 0
-    <812d>   DW_AT_stmt_list   : 0x6ed5
+    <812d>   DW_AT_stmt_list   : 0x6ec2
     <8131>   DW_AT_macros      : 0x253a
  <1><8135>: Abbrev Number: 7 (DW_TAG_base_type)
     <8136>   DW_AT_byte_size   : 1
@@ -18981,7 +18981,7 @@ Contents of the .debug_info section:
     <8995>   DW_AT_decl_line   : 800
     <8997>   DW_AT_decl_column : 13
     <8998>   DW_AT_prototyped  : 1
-    <8998>   DW_AT_low_pc      : 0x8002a90
+    <8998>   DW_AT_low_pc      : 0x80029c0
     <899c>   DW_AT_high_pc     : 0x14
     <89a0>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <89a2>   DW_AT_call_all_calls: 1
@@ -19353,7 +19353,7 @@ Contents of the .debug_info section:
     <8c86>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <8c8a>   DW_AT_ranges      : 0x498
     <8c8e>   DW_AT_low_pc      : 0
-    <8c92>   DW_AT_stmt_list   : 0x7e16
+    <8c92>   DW_AT_stmt_list   : 0x7e03
     <8c96>   DW_AT_macros      : 0x276d
  <1><8c9a>: Abbrev Number: 29 (DW_TAG_enumeration_type)
     <8c9b>   DW_AT_encoding    : 5	(signed)
@@ -20593,7 +20593,7 @@ Contents of the .debug_info section:
     <95a6>   DW_AT_decl_line   : 185
     <95a7>   DW_AT_decl_column : 6
     <95a7>   DW_AT_prototyped  : 1
-    <95a7>   DW_AT_low_pc      : 0x8002c4c
+    <95a7>   DW_AT_low_pc      : 0x8002b7c
     <95ab>   DW_AT_high_pc     : 0x1c
     <95af>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <95b1>   DW_AT_call_all_tail_calls: 1
@@ -20613,7 +20613,7 @@ Contents of the .debug_info section:
     <95c9>   DW_AT_decl_line   : 163
     <95ca>   DW_AT_decl_column : 6
     <95ca>   DW_AT_prototyped  : 1
-    <95ca>   DW_AT_low_pc      : 0x8002c14
+    <95ca>   DW_AT_low_pc      : 0x8002b44
     <95ce>   DW_AT_high_pc     : 0x38
     <95d2>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <95d4>   DW_AT_call_all_tail_calls: 1
@@ -20654,7 +20654,7 @@ Contents of the .debug_info section:
     <9617>   DW_AT_decl_line   : 141
     <9618>   DW_AT_decl_column : 6
     <9618>   DW_AT_prototyped  : 1
-    <9618>   DW_AT_low_pc      : 0x8002bfe
+    <9618>   DW_AT_low_pc      : 0x8002b2e
     <961c>   DW_AT_high_pc     : 0x16
     <9620>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <9622>   DW_AT_call_all_tail_calls: 1
@@ -20782,7 +20782,7 @@ Contents of the .debug_info section:
     <9722>   DW_AT_decl_column : 26
     <9722>   DW_AT_prototyped  : 1
     <9722>   DW_AT_type        : <0x8ec2>
-    <9726>   DW_AT_low_pc      : 0x8002b98
+    <9726>   DW_AT_low_pc      : 0x8002ac8
     <972a>   DW_AT_high_pc     : 0x66
     <972e>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <9730>   DW_AT_call_all_calls: 1
@@ -20856,7 +20856,7 @@ Contents of the .debug_info section:
     <97be>   DW_AT_decl_line   : 1814
     <97c0>   DW_AT_decl_column : 22
     <97c0>   DW_AT_prototyped  : 1
-    <97c0>   DW_AT_low_pc      : 0x8002b44
+    <97c0>   DW_AT_low_pc      : 0x8002a74
     <97c4>   DW_AT_high_pc     : 0x54
     <97c8>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <97ca>   DW_AT_call_all_calls: 1
@@ -20993,7 +20993,7 @@ Contents of the .debug_info section:
     <98dc>   DW_AT_decl_line   : 1684
     <98de>   DW_AT_decl_column : 22
     <98de>   DW_AT_prototyped  : 1
-    <98de>   DW_AT_low_pc      : 0x8002b08
+    <98de>   DW_AT_low_pc      : 0x8002a38
     <98e2>   DW_AT_high_pc     : 0x3c
     <98e6>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <98e8>   DW_AT_call_all_calls: 1
@@ -21013,7 +21013,7 @@ Contents of the .debug_info section:
     <9905>   DW_AT_decl_column : 26
     <9906>   DW_AT_prototyped  : 1
     <9906>   DW_AT_type        : <0x8ec2>
-    <990a>   DW_AT_low_pc      : 0x8002aec
+    <990a>   DW_AT_low_pc      : 0x8002a1c
     <990e>   DW_AT_high_pc     : 0x1c
     <9912>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <9914>   DW_AT_call_all_calls: 1
@@ -21023,7 +21023,7 @@ Contents of the .debug_info section:
     <9919>   DW_AT_decl_line   : 1653
     <991b>   DW_AT_decl_column : 22
     <991b>   DW_AT_prototyped  : 1
-    <991b>   DW_AT_low_pc      : 0x8002aa4
+    <991b>   DW_AT_low_pc      : 0x80029d4
     <991f>   DW_AT_high_pc     : 0x48
     <9923>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <9925>   DW_AT_call_all_calls: 1
@@ -21085,7 +21085,7 @@ Contents of the .debug_info section:
     <9982>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <9986>   DW_AT_ranges      : 0x578
     <998a>   DW_AT_low_pc      : 0
-    <998e>   DW_AT_stmt_list   : 0x8bdc
+    <998e>   DW_AT_stmt_list   : 0x8bc9
     <9992>   DW_AT_macros      : 0x29a0
  <1><9996>: Abbrev Number: 6 (DW_TAG_base_type)
     <9997>   DW_AT_byte_size   : 1
@@ -21665,7 +21665,7 @@ Contents of the .debug_info section:
     <9da0>   DW_AT_decl_column : 26
     <9da1>   DW_AT_prototyped  : 1
     <9da1>   DW_AT_type        : <0x9ad9>
-    <9da5>   DW_AT_low_pc      : 0x8003250
+    <9da5>   DW_AT_low_pc      : 0x8003180
     <9da9>   DW_AT_high_pc     : 0xf6
     <9dad>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <9daf>   DW_AT_call_all_calls: 1
@@ -21699,7 +21699,7 @@ Contents of the .debug_info section:
     <9de9>   DW_AT_decl_column : 17
     <9dea>   DW_AT_prototyped  : 1
     <9dea>   DW_AT_type        : <0x9a05>
-    <9dee>   DW_AT_low_pc      : 0x80031e4
+    <9dee>   DW_AT_low_pc      : 0x8003114
     <9df2>   DW_AT_high_pc     : 0x6c
     <9df6>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <9df8>   DW_AT_call_all_calls: 1
@@ -21724,7 +21724,7 @@ Contents of the .debug_info section:
     <9e1f>   DW_AT_decl_line   : 1190
     <9e21>   DW_AT_decl_column : 24
     <9e22>   DW_AT_type        : <0x9a32>
-    <9e26>   DW_AT_location    : 5 byte block: 3 88 d2 0 8 	(DW_OP_addr: 800d288)
+    <9e26>   DW_AT_location    : 5 byte block: 3 9c d1 0 8 	(DW_OP_addr: 800d19c)
  <2><9e2c>: Abbrev Number: 0
  <1><9e2d>: Abbrev Number: 29 (DW_TAG_subprogram)
     <9e2e>   DW_AT_name        : (indirect string, offset: 0xa1f8f): DMA_SetConfig
@@ -21732,7 +21732,7 @@ Contents of the .debug_info section:
     <9e33>   DW_AT_decl_line   : 1151
     <9e35>   DW_AT_decl_column : 13
     <9e36>   DW_AT_prototyped  : 1
-    <9e36>   DW_AT_low_pc      : 0x8003188
+    <9e36>   DW_AT_low_pc      : 0x80030b8
     <9e3a>   DW_AT_high_pc     : 0x5c
     <9e3e>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <9e40>   DW_AT_call_all_calls: 1
@@ -21901,7 +21901,7 @@ Contents of the .debug_info section:
     <9f8a>   DW_AT_decl_line   : 746
     <9f8c>   DW_AT_decl_column : 6
     <9f8d>   DW_AT_prototyped  : 1
-    <9f8d>   DW_AT_low_pc      : 0x8002e74
+    <9f8d>   DW_AT_low_pc      : 0x8002da4
     <9f91>   DW_AT_high_pc     : 0x314
     <9f95>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <9f97>   DW_AT_call_all_tail_calls: 1
@@ -22079,7 +22079,7 @@ Contents of the .debug_info section:
     <a0f6>   DW_AT_decl_column : 19
     <a0f6>   DW_AT_prototyped  : 1
     <a0f6>   DW_AT_type        : <0x9ad9>
-    <a0fa>   DW_AT_low_pc      : 0x8002dc4
+    <a0fa>   DW_AT_low_pc      : 0x8002cf4
     <a0fe>   DW_AT_high_pc     : 0xb0
     <a102>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <a104>   DW_AT_call_all_tail_calls: 1
@@ -22212,7 +22212,7 @@ Contents of the .debug_info section:
     <a207>   DW_AT_decl_column : 19
     <a208>   DW_AT_prototyped  : 1
     <a208>   DW_AT_type        : <0x9ad9>
-    <a20c>   DW_AT_low_pc      : 0x8002c68
+    <a20c>   DW_AT_low_pc      : 0x8002b98
     <a210>   DW_AT_high_pc     : 0x15c
     <a214>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <a216>   DW_AT_call_all_tail_calls: 1
@@ -22259,7 +22259,7 @@ Contents of the .debug_info section:
     <a268>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <a26c>   DW_AT_ranges      : 0x5e8
     <a270>   DW_AT_low_pc      : 0
-    <a274>   DW_AT_stmt_list   : 0x9c3e
+    <a274>   DW_AT_stmt_list   : 0x9c2b
     <a278>   DW_AT_macros      : 0x2bd9
  <1><a27c>: Abbrev Number: 3 (DW_TAG_base_type)
     <a27d>   DW_AT_byte_size   : 1
@@ -22987,7 +22987,7 @@ Contents of the .debug_info section:
     <a786>   DW_AT_decl_line   : 433
     <a788>   DW_AT_decl_column : 6
     <a789>   DW_AT_prototyped  : 1
-    <a789>   DW_AT_low_pc      : 0x80036b2
+    <a789>   DW_AT_low_pc      : 0x80035e2
     <a78d>   DW_AT_high_pc     : 0x34
     <a791>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <a793>   DW_AT_call_all_calls: 1
@@ -23021,7 +23021,7 @@ Contents of the .debug_info section:
     <a7ca>   DW_AT_decl_line   : 410
     <a7cc>   DW_AT_decl_column : 6
     <a7cd>   DW_AT_prototyped  : 1
-    <a7cd>   DW_AT_low_pc      : 0x8003680
+    <a7cd>   DW_AT_low_pc      : 0x80035b0
     <a7d1>   DW_AT_high_pc     : 0x32
     <a7d5>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <a7d7>   DW_AT_call_all_calls: 1
@@ -23056,7 +23056,7 @@ Contents of the .debug_info section:
     <a810>   DW_AT_decl_column : 15
     <a811>   DW_AT_prototyped  : 1
     <a811>   DW_AT_type        : <0xa6db>
-    <a815>   DW_AT_low_pc      : 0x8003650
+    <a815>   DW_AT_low_pc      : 0x8003580
     <a819>   DW_AT_high_pc     : 0x30
     <a81d>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <a81f>   DW_AT_call_all_calls: 1
@@ -23145,7 +23145,7 @@ Contents of the .debug_info section:
     <a8c8>   DW_AT_decl_line   : 164
     <a8c9>   DW_AT_decl_column : 6
     <a8ca>   DW_AT_prototyped  : 1
-    <a8ca>   DW_AT_low_pc      : 0x8003348
+    <a8ca>   DW_AT_low_pc      : 0x8003278
     <a8ce>   DW_AT_high_pc     : 0x308
     <a8d2>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <a8d4>   DW_AT_call_all_calls: 1
@@ -23193,7 +23193,7 @@ Contents of the .debug_info section:
     <a925>   DW_AT_type        : <0xa2fe>
     <a929>   DW_AT_location    : 2 byte block: 91 70 	(DW_OP_fbreg: -16)
  <2><a92c>: Abbrev Number: 28 (DW_TAG_lexical_block)
-    <a92d>   DW_AT_low_pc      : 0x80034ce
+    <a92d>   DW_AT_low_pc      : 0x80033fe
     <a931>   DW_AT_high_pc     : 0x1c
  <3><a935>: Abbrev Number: 8 (DW_TAG_variable)
     <a936>   DW_AT_name        : (indirect string, offset: 0x16f7): tmpreg
@@ -23221,7 +23221,7 @@ Contents of the .debug_info section:
     <a961>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <a965>   DW_AT_ranges      : 0x634
     <a969>   DW_AT_low_pc      : 0
-    <a96d>   DW_AT_stmt_list   : 0xa850
+    <a96d>   DW_AT_stmt_list   : 0xa83d
     <a971>   DW_AT_macros      : 0x2e12
  <1><a975>: Abbrev Number: 12 (DW_TAG_base_type)
     <a976>   DW_AT_byte_size   : 1
@@ -27749,7 +27749,7 @@ Contents of the .debug_info section:
     <cd33>   DW_AT_decl_column : 19
     <cd34>   DW_AT_prototyped  : 1
     <cd34>   DW_AT_type        : <0xab53>
-    <cd38>   DW_AT_low_pc      : 0x80036e8
+    <cd38>   DW_AT_low_pc      : 0x8003618
     <cd3c>   DW_AT_high_pc     : 0x288
     <cd40>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <cd42>   DW_AT_call_all_tail_calls: 1
@@ -27789,7 +27789,7 @@ Contents of the .debug_info section:
     <cd87>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <cd8b>   DW_AT_ranges      : 0x863
     <cd8f>   DW_AT_low_pc      : 0
-    <cd93>   DW_AT_stmt_list   : 0xe3f3
+    <cd93>   DW_AT_stmt_list   : 0xe3e0
     <cd97>   DW_AT_macros      : 0x3093
  <1><cd9b>: Abbrev Number: 13 (DW_TAG_base_type)
     <cd9c>   DW_AT_byte_size   : 1
@@ -29433,7 +29433,7 @@ Contents of the .debug_info section:
     <d92a>   DW_AT_decl_column : 26
     <d92a>   DW_AT_prototyped  : 1
     <d92a>   DW_AT_type        : <0xd214>
-    <d92e>   DW_AT_low_pc      : 0x8004cc0
+    <d92e>   DW_AT_low_pc      : 0x8004bf0
     <d932>   DW_AT_high_pc     : 0x8c
     <d936>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <d938>   DW_AT_call_all_tail_calls: 1
@@ -29488,7 +29488,7 @@ Contents of the .debug_info section:
     <d99e>   DW_AT_decl_column : 26
     <d99e>   DW_AT_prototyped  : 1
     <d99e>   DW_AT_type        : <0xd214>
-    <d9a2>   DW_AT_low_pc      : 0x8004af0
+    <d9a2>   DW_AT_low_pc      : 0x8004a20
     <d9a6>   DW_AT_high_pc     : 0x1d0
     <d9aa>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <d9ac>   DW_AT_call_all_tail_calls: 1
@@ -29550,7 +29550,7 @@ Contents of the .debug_info section:
     <da20>   DW_AT_decl_column : 26
     <da20>   DW_AT_prototyped  : 1
     <da20>   DW_AT_type        : <0xd214>
-    <da24>   DW_AT_low_pc      : 0x80049d8
+    <da24>   DW_AT_low_pc      : 0x8004908
     <da28>   DW_AT_high_pc     : 0x118
     <da2c>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <da2e>   DW_AT_call_all_tail_calls: 1
@@ -29756,7 +29756,7 @@ Contents of the .debug_info section:
     <dbc1>   DW_AT_decl_column : 19
     <dbc1>   DW_AT_prototyped  : 1
     <dbc1>   DW_AT_type        : <0xd214>
-    <dbc5>   DW_AT_low_pc      : 0x8004976
+    <dbc5>   DW_AT_low_pc      : 0x80048a6
     <dbc9>   DW_AT_high_pc     : 0x62
     <dbcd>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <dbcf>   DW_AT_call_all_tail_calls: 1
@@ -29801,7 +29801,7 @@ Contents of the .debug_info section:
     <dc1b>   DW_AT_decl_column : 19
     <dc1b>   DW_AT_prototyped  : 1
     <dc1b>   DW_AT_type        : <0xd214>
-    <dc1f>   DW_AT_low_pc      : 0x80048ca
+    <dc1f>   DW_AT_low_pc      : 0x80047fa
     <dc23>   DW_AT_high_pc     : 0xac
     <dc27>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <dc29>   DW_AT_call_all_tail_calls: 1
@@ -29836,7 +29836,7 @@ Contents of the .debug_info section:
     <dc61>   DW_AT_decl_column : 19
     <dc61>   DW_AT_prototyped  : 1
     <dc61>   DW_AT_type        : <0xd214>
-    <dc65>   DW_AT_low_pc      : 0x8004804
+    <dc65>   DW_AT_low_pc      : 0x8004734
     <dc69>   DW_AT_high_pc     : 0xc6
     <dc6d>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <dc6f>   DW_AT_call_all_tail_calls: 1
@@ -29871,7 +29871,7 @@ Contents of the .debug_info section:
     <dca7>   DW_AT_decl_column : 19
     <dca7>   DW_AT_prototyped  : 1
     <dca7>   DW_AT_type        : <0xd214>
-    <dcab>   DW_AT_low_pc      : 0x8004790
+    <dcab>   DW_AT_low_pc      : 0x80046c0
     <dcaf>   DW_AT_high_pc     : 0x74
     <dcb3>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <dcb5>   DW_AT_call_all_tail_calls: 1
@@ -29920,7 +29920,7 @@ Contents of the .debug_info section:
     <dd0b>   DW_AT_decl_column : 10
     <dd0c>   DW_AT_prototyped  : 1
     <dd0c>   DW_AT_type        : <0xce27>
-    <dd10>   DW_AT_low_pc      : 0x8004760
+    <dd10>   DW_AT_low_pc      : 0x8004690
     <dd14>   DW_AT_high_pc     : 0x30
     <dd18>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <dd1a>   DW_AT_call_all_calls: 1
@@ -29948,7 +29948,7 @@ Contents of the .debug_info section:
     <dd44>   DW_AT_decl_column : 19
     <dd44>   DW_AT_prototyped  : 1
     <dd44>   DW_AT_type        : <0xd214>
-    <dd48>   DW_AT_low_pc      : 0x80046ea
+    <dd48>   DW_AT_low_pc      : 0x800461a
     <dd4c>   DW_AT_high_pc     : 0x76
     <dd50>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <dd52>   DW_AT_call_all_tail_calls: 1
@@ -29997,7 +29997,7 @@ Contents of the .debug_info section:
     <dda8>   DW_AT_decl_column : 19
     <dda8>   DW_AT_prototyped  : 1
     <dda8>   DW_AT_type        : <0xd214>
-    <ddac>   DW_AT_low_pc      : 0x8004656
+    <ddac>   DW_AT_low_pc      : 0x8004586
     <ddb0>   DW_AT_high_pc     : 0x94
     <ddb4>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <ddb6>   DW_AT_call_all_tail_calls: 1
@@ -30032,7 +30032,7 @@ Contents of the .debug_info section:
     <ddee>   DW_AT_decl_column : 19
     <ddee>   DW_AT_prototyped  : 1
     <ddee>   DW_AT_type        : <0xd214>
-    <ddf2>   DW_AT_low_pc      : 0x8004582
+    <ddf2>   DW_AT_low_pc      : 0x80044b2
     <ddf6>   DW_AT_high_pc     : 0xd4
     <ddfa>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <ddfc>   DW_AT_call_all_tail_calls: 1
@@ -30088,7 +30088,7 @@ Contents of the .debug_info section:
     <de61>   DW_AT_decl_column : 19
     <de61>   DW_AT_prototyped  : 1
     <de61>   DW_AT_type        : <0xd214>
-    <de65>   DW_AT_low_pc      : 0x800453a
+    <de65>   DW_AT_low_pc      : 0x800446a
     <de69>   DW_AT_high_pc     : 0x48
     <de6d>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <de6f>   DW_AT_call_all_tail_calls: 1
@@ -30446,7 +30446,7 @@ Contents of the .debug_info section:
     <e11b>   DW_AT_decl_line   : 1068
     <e11d>   DW_AT_decl_column : 6
     <e11e>   DW_AT_prototyped  : 1
-    <e11e>   DW_AT_low_pc      : 0x8003bf8
+    <e11e>   DW_AT_low_pc      : 0x8003b28
     <e122>   DW_AT_high_pc     : 0x942
     <e126>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <e128>   DW_AT_call_all_tail_calls: 1
@@ -30558,7 +30558,7 @@ Contents of the .debug_info section:
     <e1ff>   DW_AT_decl_column : 19
     <e1ff>   DW_AT_prototyped  : 1
     <e1ff>   DW_AT_type        : <0xd214>
-    <e203>   DW_AT_low_pc      : 0x8003b8e
+    <e203>   DW_AT_low_pc      : 0x8003abe
     <e207>   DW_AT_high_pc     : 0x6a
     <e20b>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <e20d>   DW_AT_call_all_tail_calls: 1
@@ -30647,7 +30647,7 @@ Contents of the .debug_info section:
     <e2ac>   DW_AT_decl_column : 19
     <e2ad>   DW_AT_prototyped  : 1
     <e2ad>   DW_AT_type        : <0xd214>
-    <e2b1>   DW_AT_low_pc      : 0x8003970
+    <e2b1>   DW_AT_low_pc      : 0x80038a0
     <e2b5>   DW_AT_high_pc     : 0x21e
     <e2b9>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <e2bb>   DW_AT_call_all_tail_calls: 1
@@ -30687,7 +30687,7 @@ Contents of the .debug_info section:
     <e2fe>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <e302>   DW_AT_ranges      : 0x95d
     <e306>   DW_AT_low_pc      : 0
-    <e30a>   DW_AT_stmt_list   : 0xf934
+    <e30a>   DW_AT_stmt_list   : 0xf921
     <e30e>   DW_AT_macros      : 0x32d2
  <1><e312>: Abbrev Number: 6 (DW_TAG_base_type)
     <e313>   DW_AT_byte_size   : 1
@@ -31518,7 +31518,7 @@ Contents of the .debug_info section:
     <e90f>   DW_AT_decl_line   : 303
     <e911>   DW_AT_decl_column : 13
     <e911>   DW_AT_prototyped  : 1
-    <e911>   DW_AT_low_pc      : 0x8004dfc
+    <e911>   DW_AT_low_pc      : 0x8004d2c
     <e915>   DW_AT_high_pc     : 0x18
     <e919>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <e91b>   DW_AT_call_all_calls: 1
@@ -31546,7 +31546,7 @@ Contents of the .debug_info section:
     <e944>   DW_AT_decl_column : 19
     <e945>   DW_AT_prototyped  : 1
     <e945>   DW_AT_type        : <0xe50e>
-    <e949>   DW_AT_low_pc      : 0x8004dda
+    <e949>   DW_AT_low_pc      : 0x8004d0a
     <e94d>   DW_AT_high_pc     : 0x22
     <e951>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <e953>   DW_AT_call_all_calls: 1
@@ -31574,7 +31574,7 @@ Contents of the .debug_info section:
     <e97b>   DW_AT_decl_column : 19
     <e97c>   DW_AT_prototyped  : 1
     <e97c>   DW_AT_type        : <0xe50e>
-    <e980>   DW_AT_low_pc      : 0x8004d4c
+    <e980>   DW_AT_low_pc      : 0x8004c7c
     <e984>   DW_AT_high_pc     : 0x8e
     <e988>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <e98a>   DW_AT_call_all_calls: 1
@@ -31628,7 +31628,7 @@ Contents of the .debug_info section:
     <e9e8>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <e9ec>   DW_AT_ranges      : 0x983
     <e9f0>   DW_AT_low_pc      : 0
-    <e9f4>   DW_AT_stmt_list   : 0x101f3
+    <e9f4>   DW_AT_stmt_list   : 0x101e0
     <e9f8>   DW_AT_macros      : 0x3505
  <1><e9fc>: Abbrev Number: 4 (DW_TAG_base_type)
     <e9fd>   DW_AT_byte_size   : 1
@@ -32552,7 +32552,7 @@ Contents of the .debug_info section:
     <f04c>   DW_AT_decl_line   : 1058
     <f04e>   DW_AT_decl_column : 6
     <f04f>   DW_AT_prototyped  : 1
-    <f04f>   DW_AT_low_pc      : 0x800569c
+    <f04f>   DW_AT_low_pc      : 0x80055cc
     <f053>   DW_AT_high_pc     : 0x64
     <f057>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <f059>   DW_AT_call_all_calls: 1
@@ -32621,7 +32621,7 @@ Contents of the .debug_info section:
     <f0cd>   DW_AT_decl_column : 10
     <f0cd>   DW_AT_prototyped  : 1
     <f0cd>   DW_AT_type        : <0xea8f>
-    <f0d1>   DW_AT_low_pc      : 0x8005674
+    <f0d1>   DW_AT_low_pc      : 0x80055a4
     <f0d5>   DW_AT_high_pc     : 0x28
     <f0d9>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <f0db>   DW_AT_call_all_tail_calls: 1
@@ -32633,7 +32633,7 @@ Contents of the .debug_info section:
     <f0e3>   DW_AT_decl_column : 10
     <f0e4>   DW_AT_prototyped  : 1
     <f0e4>   DW_AT_type        : <0xea8f>
-    <f0e8>   DW_AT_low_pc      : 0x800565c
+    <f0e8>   DW_AT_low_pc      : 0x800558c
     <f0ec>   DW_AT_high_pc     : 0x18
     <f0f0>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <f0f2>   DW_AT_call_all_calls: 1
@@ -32645,7 +32645,7 @@ Contents of the .debug_info section:
     <f0f9>   DW_AT_decl_column : 17
     <f0fa>   DW_AT_prototyped  : 1
     <f0fa>   DW_AT_type        : <0xea8f>
-    <f0fe>   DW_AT_low_pc      : 0x80054d0
+    <f0fe>   DW_AT_low_pc      : 0x8005400
     <f102>   DW_AT_high_pc     : 0x18c
     <f106>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <f108>   DW_AT_call_all_tail_calls: 1
@@ -32773,7 +32773,7 @@ Contents of the .debug_info section:
     <f1fe>   DW_AT_decl_column : 19
     <f1ff>   DW_AT_prototyped  : 1
     <f1ff>   DW_AT_type        : <0xee3e>
-    <f203>   DW_AT_low_pc      : 0x8005304
+    <f203>   DW_AT_low_pc      : 0x8005234
     <f207>   DW_AT_high_pc     : 0x1cc
     <f20b>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <f20d>   DW_AT_call_all_tail_calls: 1
@@ -32811,7 +32811,7 @@ Contents of the .debug_info section:
     <f24b>   DW_AT_decl_column : 26
     <f24c>   DW_AT_prototyped  : 1
     <f24c>   DW_AT_type        : <0xee3e>
-    <f250>   DW_AT_low_pc      : 0x8004e14
+    <f250>   DW_AT_low_pc      : 0x8004d44
     <f254>   DW_AT_high_pc     : 0x4f0
     <f258>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <f25a>   DW_AT_call_all_tail_calls: 1
@@ -32838,7 +32838,7 @@ Contents of the .debug_info section:
     <f280>   DW_AT_type        : <0xea8f>
     <f284>   DW_AT_location    : 2 byte block: 91 6c 	(DW_OP_fbreg: -20)
  <2><f287>: Abbrev Number: 21 (DW_TAG_lexical_block)
-    <f288>   DW_AT_low_pc      : 0x800507a
+    <f288>   DW_AT_low_pc      : 0x8004faa
     <f28c>   DW_AT_high_pc     : 0x12e
  <3><f290>: Abbrev Number: 5 (DW_TAG_variable)
     <f291>   DW_AT_name        : (indirect string, offset: 0xa364e): pwrclkchanged
@@ -32848,7 +32848,7 @@ Contents of the .debug_info section:
     <f298>   DW_AT_type        : <0xedef>
     <f29c>   DW_AT_location    : 2 byte block: 91 77 	(DW_OP_fbreg: -9)
  <3><f29f>: Abbrev Number: 21 (DW_TAG_lexical_block)
-    <f2a0>   DW_AT_low_pc      : 0x800508a
+    <f2a0>   DW_AT_low_pc      : 0x8004fba
     <f2a4>   DW_AT_high_pc     : 0x1c
  <4><f2a8>: Abbrev Number: 5 (DW_TAG_variable)
     <f2a9>   DW_AT_name        : (indirect string, offset: 0x16f7): tmpreg
@@ -32889,7 +32889,7 @@ Contents of the .debug_info section:
     <f2ec>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <f2f0>   DW_AT_ranges      : 0x9e9
     <f2f4>   DW_AT_low_pc      : 0
-    <f2f8>   DW_AT_stmt_list   : 0x110f6
+    <f2f8>   DW_AT_stmt_list   : 0x110e3
     <f2fc>   DW_AT_macros      : 0x375c
  <1><f300>: Abbrev Number: 10 (DW_TAG_base_type)
     <f301>   DW_AT_byte_size   : 1
@@ -33956,7 +33956,7 @@ Contents of the .debug_info section:
     <faa8>   DW_AT_decl_column : 26
     <faa8>   DW_AT_prototyped  : 1
     <faa8>   DW_AT_type        : <0xf4dc>
-    <faac>   DW_AT_low_pc      : 0x8005c74
+    <faac>   DW_AT_low_pc      : 0x8005ba4
     <fab0>   DW_AT_high_pc     : 0xa8
     <fab4>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <fab6>   DW_AT_call_all_tail_calls: 1
@@ -34031,7 +34031,7 @@ Contents of the .debug_info section:
     <fb45>   DW_AT_decl_column : 26
     <fb45>   DW_AT_prototyped  : 1
     <fb45>   DW_AT_type        : <0xf4dc>
-    <fb49>   DW_AT_low_pc      : 0x8005b64
+    <fb49>   DW_AT_low_pc      : 0x8005a94
     <fb4d>   DW_AT_high_pc     : 0x110
     <fb51>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <fb53>   DW_AT_call_all_tail_calls: 1
@@ -35343,7 +35343,7 @@ Contents of the .debug_info section:
     <105b7>   DW_AT_decl_column : 19
     <105b7>   DW_AT_prototyped  : 1
     <105b7>   DW_AT_type        : <0xf4dc>
-    <105bb>   DW_AT_low_pc      : 0x8005812
+    <105bb>   DW_AT_low_pc      : 0x8005742
     <105bf>   DW_AT_high_pc     : 0x352
     <105c3>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <105c5>   DW_AT_call_all_tail_calls: 1
@@ -35419,7 +35419,7 @@ Contents of the .debug_info section:
     <10658>   DW_AT_type        : <0xf38c>
     <1065c>   DW_AT_location    : 2 byte block: 91 74 	(DW_OP_fbreg: -12)
  <2><1065f>: Abbrev Number: 8 (DW_TAG_lexical_block)
-    <10660>   DW_AT_low_pc      : 0x8005b28
+    <10660>   DW_AT_low_pc      : 0x8005a58
     <10664>   DW_AT_high_pc     : 0x16
  <3><10668>: Abbrev Number: 2 (DW_TAG_variable)
     <10669>   DW_AT_name        : (indirect string, offset: 0xa37f8): tmpreg_ovr
@@ -35615,7 +35615,7 @@ Contents of the .debug_info section:
     <107e6>   DW_AT_decl_column : 19
     <107e7>   DW_AT_prototyped  : 1
     <107e7>   DW_AT_type        : <0xf4dc>
-    <107eb>   DW_AT_low_pc      : 0x8005700
+    <107eb>   DW_AT_low_pc      : 0x8005630
     <107ef>   DW_AT_high_pc     : 0x112
     <107f3>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <107f5>   DW_AT_call_all_tail_calls: 1
@@ -35641,7 +35641,7 @@ Contents of the .debug_info section:
     <1081c>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <10820>   DW_AT_ranges      : 0xb58
     <10824>   DW_AT_low_pc      : 0
-    <10828>   DW_AT_stmt_list   : 0x12e87
+    <10828>   DW_AT_stmt_list   : 0x12e74
     <1082c>   DW_AT_macros      : 0x399e
  <1><10830>: Abbrev Number: 11 (DW_TAG_base_type)
     <10831>   DW_AT_byte_size   : 1
@@ -37717,7 +37717,7 @@ Contents of the .debug_info section:
     <11783>   DW_AT_decl_line   : 6777
     <11785>   DW_AT_decl_column : 6
     <11786>   DW_AT_prototyped  : 1
-    <11786>   DW_AT_low_pc      : 0x80060c4
+    <11786>   DW_AT_low_pc      : 0x8005ff4
     <1178a>   DW_AT_high_pc     : 0x10c
     <1178e>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <11790>   DW_AT_call_all_calls: 1
@@ -38238,7 +38238,7 @@ Contents of the .debug_info section:
     <11b89>   DW_AT_decl_line   : 5762
     <11b8b>   DW_AT_decl_column : 13
     <11b8c>   DW_AT_prototyped  : 1
-    <11b8c>   DW_AT_low_pc      : 0x80060b0
+    <11b8c>   DW_AT_low_pc      : 0x8005fe0
     <11b90>   DW_AT_high_pc     : 0x14
     <11b94>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <11b96>   DW_AT_call_all_calls: 1
@@ -38278,7 +38278,7 @@ Contents of the .debug_info section:
     <11bd5>   DW_AT_decl_line   : 5732
     <11bd7>   DW_AT_decl_column : 13
     <11bd8>   DW_AT_prototyped  : 1
-    <11bd8>   DW_AT_low_pc      : 0x800609c
+    <11bd8>   DW_AT_low_pc      : 0x8005fcc
     <11bdc>   DW_AT_high_pc     : 0x14
     <11be0>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <11be2>   DW_AT_call_all_calls: 1
@@ -38318,7 +38318,7 @@ Contents of the .debug_info section:
     <11c21>   DW_AT_decl_line   : 5702
     <11c23>   DW_AT_decl_column : 13
     <11c24>   DW_AT_prototyped  : 1
-    <11c24>   DW_AT_low_pc      : 0x8006088
+    <11c24>   DW_AT_low_pc      : 0x8005fb8
     <11c28>   DW_AT_high_pc     : 0x14
     <11c2c>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <11c2e>   DW_AT_call_all_calls: 1
@@ -38338,7 +38338,7 @@ Contents of the .debug_info section:
     <11c47>   DW_AT_decl_line   : 5687
     <11c49>   DW_AT_decl_column : 13
     <11c4a>   DW_AT_prototyped  : 1
-    <11c4a>   DW_AT_low_pc      : 0x8006074
+    <11c4a>   DW_AT_low_pc      : 0x8005fa4
     <11c4e>   DW_AT_high_pc     : 0x14
     <11c52>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <11c54>   DW_AT_call_all_calls: 1
@@ -39144,7 +39144,7 @@ Contents of the .debug_info section:
     <122ae>   DW_AT_decl_line   : 3823
     <122b0>   DW_AT_decl_column : 6
     <122b0>   DW_AT_prototyped  : 1
-    <122b0>   DW_AT_low_pc      : 0x8005e94
+    <122b0>   DW_AT_low_pc      : 0x8005dc4
     <122b4>   DW_AT_high_pc     : 0x1e0
     <122b8>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <122ba>   DW_AT_call_all_tail_calls: 1
@@ -40887,7 +40887,7 @@ Contents of the .debug_info section:
     <1306a>   DW_AT_decl_column : 19
     <1306b>   DW_AT_prototyped  : 1
     <1306b>   DW_AT_type        : <0x10a8d>
-    <1306f>   DW_AT_low_pc      : 0x8005dd0
+    <1306f>   DW_AT_low_pc      : 0x8005d00
     <13073>   DW_AT_high_pc     : 0xc4
     <13077>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <13079>   DW_AT_call_all_calls: 1
@@ -40983,7 +40983,7 @@ Contents of the .debug_info section:
     <1312a>   DW_AT_decl_line   : 369
     <1312c>   DW_AT_decl_column : 13
     <1312d>   DW_AT_prototyped  : 1
-    <1312d>   DW_AT_low_pc      : 0x8005dba
+    <1312d>   DW_AT_low_pc      : 0x8005cea
     <13131>   DW_AT_high_pc     : 0x14
     <13135>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <13137>   DW_AT_call_all_calls: 1
@@ -41025,7 +41025,7 @@ Contents of the .debug_info section:
     <1317c>   DW_AT_decl_column : 19
     <1317d>   DW_AT_prototyped  : 1
     <1317d>   DW_AT_type        : <0x10a8d>
-    <13181>   DW_AT_low_pc      : 0x8005d1c
+    <13181>   DW_AT_low_pc      : 0x8005c4c
     <13185>   DW_AT_high_pc     : 0x9e
     <13189>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1318b>   DW_AT_call_all_tail_calls: 1
@@ -41051,7 +41051,7 @@ Contents of the .debug_info section:
     <131b2>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <131b6>   DW_AT_ranges      : 0xe72
     <131ba>   DW_AT_low_pc      : 0
-    <131be>   DW_AT_stmt_list   : 0x164bc
+    <131be>   DW_AT_stmt_list   : 0x164a9
     <131c2>   DW_AT_macros      : 0x3bd2
  <1><131c6>: Abbrev Number: 10 (DW_TAG_base_type)
     <131c7>   DW_AT_byte_size   : 1
@@ -42529,7 +42529,7 @@ Contents of the .debug_info section:
     <13c50>   DW_AT_decl_line   : 2176
     <13c52>   DW_AT_decl_column : 13
     <13c52>   DW_AT_prototyped  : 1
-    <13c52>   DW_AT_low_pc      : 0x80061e4
+    <13c52>   DW_AT_low_pc      : 0x8006114
     <13c56>   DW_AT_high_pc     : 0x14
     <13c5a>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <13c5c>   DW_AT_call_all_calls: 1
@@ -42569,7 +42569,7 @@ Contents of the .debug_info section:
     <13c9a>   DW_AT_decl_line   : 2147
     <13c9c>   DW_AT_decl_column : 13
     <13c9c>   DW_AT_prototyped  : 1
-    <13c9c>   DW_AT_low_pc      : 0x80061d0
+    <13c9c>   DW_AT_low_pc      : 0x8006100
     <13ca0>   DW_AT_high_pc     : 0x14
     <13ca4>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <13ca6>   DW_AT_call_all_calls: 1
@@ -43820,7 +43820,7 @@ Contents of the .debug_info section:
     <14686>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <1468a>   DW_AT_ranges      : 0xf97
     <1468e>   DW_AT_low_pc      : 0
-    <14692>   DW_AT_stmt_list   : 0x17ead
+    <14692>   DW_AT_stmt_list   : 0x17e9a
     <14696>   DW_AT_macros      : 0x3e05
  <1><1469a>: Abbrev Number: 10 (DW_TAG_base_type)
     <1469b>   DW_AT_byte_size   : 1
@@ -45790,7 +45790,7 @@ Contents of the .debug_info section:
     <15508>   DW_AT_decl_column : 26
     <15509>   DW_AT_prototyped  : 1
     <15509>   DW_AT_type        : <0x14bb4>
-    <1550d>   DW_AT_low_pc      : 0x8007824
+    <1550d>   DW_AT_low_pc      : 0x8007754
     <15511>   DW_AT_high_pc     : 0x70
     <15515>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <15517>   DW_AT_call_all_calls: 1
@@ -45818,7 +45818,7 @@ Contents of the .debug_info section:
     <15541>   DW_AT_decl_column : 19
     <15542>   DW_AT_prototyped  : 1
     <15542>   DW_AT_type        : <0x14bb4>
-    <15546>   DW_AT_low_pc      : 0x8007768
+    <15546>   DW_AT_low_pc      : 0x8007698
     <1554a>   DW_AT_high_pc     : 0xbc
     <1554e>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <15550>   DW_AT_call_all_calls: 1
@@ -45867,7 +45867,7 @@ Contents of the .debug_info section:
     <155a7>   DW_AT_decl_column : 19
     <155a8>   DW_AT_prototyped  : 1
     <155a8>   DW_AT_type        : <0x14bb4>
-    <155ac>   DW_AT_low_pc      : 0x8007722
+    <155ac>   DW_AT_low_pc      : 0x8007652
     <155b0>   DW_AT_high_pc     : 0x46
     <155b4>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <155b6>   DW_AT_call_all_calls: 1
@@ -45895,7 +45895,7 @@ Contents of the .debug_info section:
     <155e0>   DW_AT_decl_column : 10
     <155e1>   DW_AT_prototyped  : 1
     <155e1>   DW_AT_type        : <0x14721>
-    <155e5>   DW_AT_low_pc      : 0x8007706
+    <155e5>   DW_AT_low_pc      : 0x8007636
     <155e9>   DW_AT_high_pc     : 0x1c
     <155ed>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <155ef>   DW_AT_call_all_calls: 1
@@ -45943,7 +45943,7 @@ Contents of the .debug_info section:
     <15640>   DW_AT_decl_column : 10
     <15641>   DW_AT_prototyped  : 1
     <15641>   DW_AT_type        : <0x14721>
-    <15645>   DW_AT_low_pc      : 0x80076aa
+    <15645>   DW_AT_low_pc      : 0x80075da
     <15649>   DW_AT_high_pc     : 0x5c
     <1564d>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1564f>   DW_AT_call_all_calls: 1
@@ -45999,7 +45999,7 @@ Contents of the .debug_info section:
     <156b5>   DW_AT_decl_column : 10
     <156b6>   DW_AT_prototyped  : 1
     <156b6>   DW_AT_type        : <0x14721>
-    <156ba>   DW_AT_low_pc      : 0x800766e
+    <156ba>   DW_AT_low_pc      : 0x800759e
     <156be>   DW_AT_high_pc     : 0x3c
     <156c2>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <156c4>   DW_AT_call_all_calls: 1
@@ -46041,7 +46041,7 @@ Contents of the .debug_info section:
     <1570c>   DW_AT_decl_column : 10
     <1570d>   DW_AT_prototyped  : 1
     <1570d>   DW_AT_type        : <0x14721>
-    <15711>   DW_AT_low_pc      : 0x800763a
+    <15711>   DW_AT_low_pc      : 0x800756a
     <15715>   DW_AT_high_pc     : 0x34
     <15719>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1571b>   DW_AT_call_all_calls: 1
@@ -46076,7 +46076,7 @@ Contents of the .debug_info section:
     <15754>   DW_AT_decl_column : 10
     <15755>   DW_AT_prototyped  : 1
     <15755>   DW_AT_type        : <0x14721>
-    <15759>   DW_AT_low_pc      : 0x8007606
+    <15759>   DW_AT_low_pc      : 0x8007536
     <1575d>   DW_AT_high_pc     : 0x34
     <15761>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <15763>   DW_AT_call_all_calls: 1
@@ -46153,7 +46153,7 @@ Contents of the .debug_info section:
     <157f3>   DW_AT_decl_column : 10
     <157f4>   DW_AT_prototyped  : 1
     <157f4>   DW_AT_type        : <0x14721>
-    <157f8>   DW_AT_low_pc      : 0x80075e0
+    <157f8>   DW_AT_low_pc      : 0x8007510
     <157fc>   DW_AT_high_pc     : 0x26
     <15800>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <15802>   DW_AT_call_all_calls: 1
@@ -46181,7 +46181,7 @@ Contents of the .debug_info section:
     <1582c>   DW_AT_decl_column : 19
     <1582d>   DW_AT_prototyped  : 1
     <1582d>   DW_AT_type        : <0x14bb4>
-    <15831>   DW_AT_low_pc      : 0x800759e
+    <15831>   DW_AT_low_pc      : 0x80074ce
     <15835>   DW_AT_high_pc     : 0x42
     <15839>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1583b>   DW_AT_call_all_calls: 1
@@ -46209,7 +46209,7 @@ Contents of the .debug_info section:
     <15865>   DW_AT_decl_column : 19
     <15866>   DW_AT_prototyped  : 1
     <15866>   DW_AT_type        : <0x14bb4>
-    <1586a>   DW_AT_low_pc      : 0x800755c
+    <1586a>   DW_AT_low_pc      : 0x800748c
     <1586e>   DW_AT_high_pc     : 0x42
     <15872>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <15874>   DW_AT_call_all_calls: 1
@@ -46237,7 +46237,7 @@ Contents of the .debug_info section:
     <1589e>   DW_AT_decl_column : 19
     <1589f>   DW_AT_prototyped  : 1
     <1589f>   DW_AT_type        : <0x14bb4>
-    <158a3>   DW_AT_low_pc      : 0x8007510
+    <158a3>   DW_AT_low_pc      : 0x8007440
     <158a7>   DW_AT_high_pc     : 0x4c
     <158ab>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <158ad>   DW_AT_call_all_calls: 1
@@ -46314,7 +46314,7 @@ Contents of the .debug_info section:
     <1593a>   DW_AT_decl_column : 19
     <1593b>   DW_AT_prototyped  : 1
     <1593b>   DW_AT_type        : <0x14bb4>
-    <1593f>   DW_AT_low_pc      : 0x8007444
+    <1593f>   DW_AT_low_pc      : 0x8007374
     <15943>   DW_AT_high_pc     : 0xcc
     <15947>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <15949>   DW_AT_call_all_calls: 1
@@ -46359,7 +46359,7 @@ Contents of the .debug_info section:
     <15995>   DW_AT_decl_column : 19
     <15996>   DW_AT_prototyped  : 1
     <15996>   DW_AT_type        : <0x14bb4>
-    <1599a>   DW_AT_low_pc      : 0x8007368
+    <1599a>   DW_AT_low_pc      : 0x8007298
     <1599e>   DW_AT_high_pc     : 0xdc
     <159a2>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <159a4>   DW_AT_call_all_calls: 1
@@ -46401,7 +46401,7 @@ Contents of the .debug_info section:
     <159eb>   DW_AT_decl_column : 7
     <159ec>   DW_AT_prototyped  : 1
     <159ec>   DW_AT_type        : <0x14bc0>
-    <159f0>   DW_AT_low_pc      : 0x80072b8
+    <159f0>   DW_AT_low_pc      : 0x80071e8
     <159f4>   DW_AT_high_pc     : 0xb0
     <159f8>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <159fa>   DW_AT_call_all_calls: 1
@@ -46478,7 +46478,7 @@ Contents of the .debug_info section:
     <15a8b>   DW_AT_decl_column : 19
     <15a8c>   DW_AT_prototyped  : 1
     <15a8c>   DW_AT_type        : <0x14bb4>
-    <15a90>   DW_AT_low_pc      : 0x800723c
+    <15a90>   DW_AT_low_pc      : 0x800716c
     <15a94>   DW_AT_high_pc     : 0x7c
     <15a98>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <15a9a>   DW_AT_call_all_calls: 1
@@ -46555,7 +46555,7 @@ Contents of the .debug_info section:
     <15b2b>   DW_AT_decl_column : 19
     <15b2c>   DW_AT_prototyped  : 1
     <15b2c>   DW_AT_type        : <0x14bb4>
-    <15b30>   DW_AT_low_pc      : 0x80070e8
+    <15b30>   DW_AT_low_pc      : 0x8007018
     <15b34>   DW_AT_high_pc     : 0x154
     <15b38>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <15b3a>   DW_AT_call_all_calls: 1
@@ -46607,7 +46607,7 @@ Contents of the .debug_info section:
     <15b95>   DW_AT_decl_column : 19
     <15b95>   DW_AT_prototyped  : 1
     <15b95>   DW_AT_type        : <0x14bb4>
-    <15b99>   DW_AT_low_pc      : 0x8006bac
+    <15b99>   DW_AT_low_pc      : 0x8006adc
     <15b9d>   DW_AT_high_pc     : 0x53c
     <15ba1>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <15ba3>   DW_AT_call_all_tail_calls: 1
@@ -46705,7 +46705,7 @@ Contents of the .debug_info section:
     <15c5e>   DW_AT_decl_column : 19
     <15c5f>   DW_AT_prototyped  : 1
     <15c5f>   DW_AT_type        : <0x14bb4>
-    <15c63>   DW_AT_low_pc      : 0x80069f4
+    <15c63>   DW_AT_low_pc      : 0x8006924
     <15c67>   DW_AT_high_pc     : 0x1b8
     <15c6b>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <15c6d>   DW_AT_call_all_calls: 1
@@ -46789,7 +46789,7 @@ Contents of the .debug_info section:
     <15d0a>   DW_AT_decl_column : 19
     <15d0b>   DW_AT_prototyped  : 1
     <15d0b>   DW_AT_type        : <0x14bb4>
-    <15d0f>   DW_AT_low_pc      : 0x80068e4
+    <15d0f>   DW_AT_low_pc      : 0x8006814
     <15d13>   DW_AT_high_pc     : 0x10e
     <15d17>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <15d19>   DW_AT_call_all_calls: 1
@@ -46831,7 +46831,7 @@ Contents of the .debug_info section:
     <15d60>   DW_AT_decl_column : 9
     <15d61>   DW_AT_prototyped  : 1
     <15d61>   DW_AT_type        : <0x14704>
-    <15d65>   DW_AT_low_pc      : 0x800689a
+    <15d65>   DW_AT_low_pc      : 0x80067ca
     <15d69>   DW_AT_high_pc     : 0x4a
     <15d6d>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <15d6f>   DW_AT_call_all_calls: 1
@@ -46873,7 +46873,7 @@ Contents of the .debug_info section:
     <15db7>   DW_AT_decl_column : 19
     <15db8>   DW_AT_prototyped  : 1
     <15db8>   DW_AT_type        : <0x14bb4>
-    <15dbc>   DW_AT_low_pc      : 0x8006868
+    <15dbc>   DW_AT_low_pc      : 0x8006798
     <15dc0>   DW_AT_high_pc     : 0x32
     <15dc4>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <15dc6>   DW_AT_call_all_calls: 1
@@ -46908,7 +46908,7 @@ Contents of the .debug_info section:
     <15dff>   DW_AT_decl_column : 19
     <15e00>   DW_AT_prototyped  : 1
     <15e00>   DW_AT_type        : <0x14bb4>
-    <15e04>   DW_AT_low_pc      : 0x800680c
+    <15e04>   DW_AT_low_pc      : 0x800673c
     <15e08>   DW_AT_high_pc     : 0x5c
     <15e0c>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <15e0e>   DW_AT_call_all_calls: 1
@@ -46936,7 +46936,7 @@ Contents of the .debug_info section:
     <15e38>   DW_AT_decl_column : 19
     <15e39>   DW_AT_prototyped  : 1
     <15e39>   DW_AT_type        : <0x14bb4>
-    <15e3d>   DW_AT_low_pc      : 0x80067a8
+    <15e3d>   DW_AT_low_pc      : 0x80066d8
     <15e41>   DW_AT_high_pc     : 0x64
     <15e45>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <15e47>   DW_AT_call_all_calls: 1
@@ -46971,7 +46971,7 @@ Contents of the .debug_info section:
     <15e80>   DW_AT_decl_column : 19
     <15e80>   DW_AT_prototyped  : 1
     <15e80>   DW_AT_type        : <0x14bb4>
-    <15e84>   DW_AT_low_pc      : 0x80064e0
+    <15e84>   DW_AT_low_pc      : 0x8006410
     <15e88>   DW_AT_high_pc     : 0x2c8
     <15e8c>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <15e8e>   DW_AT_call_all_tail_calls: 1
@@ -47020,7 +47020,7 @@ Contents of the .debug_info section:
     <15ee3>   DW_AT_decl_column : 19
     <15ee4>   DW_AT_prototyped  : 1
     <15ee4>   DW_AT_type        : <0x14bb4>
-    <15ee8>   DW_AT_low_pc      : 0x8006448
+    <15ee8>   DW_AT_low_pc      : 0x8006378
     <15eec>   DW_AT_high_pc     : 0x98
     <15ef0>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <15ef2>   DW_AT_call_all_tail_calls: 1
@@ -47055,7 +47055,7 @@ Contents of the .debug_info section:
     <15f26>   DW_AT_decl_column : 19
     <15f26>   DW_AT_prototyped  : 1
     <15f26>   DW_AT_type        : <0x14bb4>
-    <15f2a>   DW_AT_low_pc      : 0x8006426
+    <15f2a>   DW_AT_low_pc      : 0x8006356
     <15f2e>   DW_AT_high_pc     : 0x22
     <15f32>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <15f34>   DW_AT_call_all_calls: 1
@@ -47076,7 +47076,7 @@ Contents of the .debug_info section:
     <15f4d>   DW_AT_decl_column : 19
     <15f4d>   DW_AT_prototyped  : 1
     <15f4d>   DW_AT_type        : <0x14bb4>
-    <15f51>   DW_AT_low_pc      : 0x8006404
+    <15f51>   DW_AT_low_pc      : 0x8006334
     <15f55>   DW_AT_high_pc     : 0x22
     <15f59>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <15f5b>   DW_AT_call_all_calls: 1
@@ -47097,7 +47097,7 @@ Contents of the .debug_info section:
     <15f74>   DW_AT_decl_column : 19
     <15f74>   DW_AT_prototyped  : 1
     <15f74>   DW_AT_type        : <0x14bb4>
-    <15f78>   DW_AT_low_pc      : 0x80062c0
+    <15f78>   DW_AT_low_pc      : 0x80061f0
     <15f7c>   DW_AT_high_pc     : 0x144
     <15f80>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <15f82>   DW_AT_call_all_calls: 1
@@ -47139,7 +47139,7 @@ Contents of the .debug_info section:
     <15fc7>   DW_AT_decl_column : 19
     <15fc8>   DW_AT_prototyped  : 1
     <15fc8>   DW_AT_type        : <0x14bb4>
-    <15fcc>   DW_AT_low_pc      : 0x80061f8
+    <15fcc>   DW_AT_low_pc      : 0x8006128
     <15fd0>   DW_AT_high_pc     : 0xc8
     <15fd4>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <15fd6>   DW_AT_call_all_tail_calls: 1
@@ -47179,7 +47179,7 @@ Contents of the .debug_info section:
     <16019>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <1601d>   DW_AT_ranges      : 0x10de
     <16021>   DW_AT_low_pc      : 0
-    <16025>   DW_AT_stmt_list   : 0x19c7b
+    <16025>   DW_AT_stmt_list   : 0x19c68
     <16029>   DW_AT_macros      : 0x4038
  <1><1602d>: Abbrev Number: 5 (DW_TAG_typedef)
     <1602e>   DW_AT_name        : (indirect string, offset: 0xa53ba): __int8_t
@@ -49051,7 +49051,7 @@ Contents of the .debug_info section:
     <16e45>   DW_AT_decl_column : 9
     <16e45>   DW_AT_prototyped  : 1
     <16e45>   DW_AT_type        : <0x160cb>
-    <16e49>   DW_AT_low_pc      : 0x80081c8
+    <16e49>   DW_AT_low_pc      : 0x80080f8
     <16e4d>   DW_AT_high_pc     : 0x6c
     <16e51>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <16e53>   DW_AT_call_all_tail_calls: 1
@@ -49082,7 +49082,7 @@ Contents of the .debug_info section:
     <16e82>   DW_AT_decl_column : 9
     <16e82>   DW_AT_prototyped  : 1
     <16e82>   DW_AT_type        : <0x160cb>
-    <16e86>   DW_AT_low_pc      : 0x8008148
+    <16e86>   DW_AT_low_pc      : 0x8008078
     <16e8a>   DW_AT_high_pc     : 0x80
     <16e8e>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <16e90>   DW_AT_call_all_tail_calls: 1
@@ -49117,7 +49117,7 @@ Contents of the .debug_info section:
     <16ec9>   DW_AT_decl_column : 9
     <16eca>   DW_AT_prototyped  : 1
     <16eca>   DW_AT_type        : <0x160cb>
-    <16ece>   DW_AT_low_pc      : 0x800810c
+    <16ece>   DW_AT_low_pc      : 0x800803c
     <16ed2>   DW_AT_high_pc     : 0x3a
     <16ed6>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <16ed8>   DW_AT_call_all_calls: 1
@@ -49152,7 +49152,7 @@ Contents of the .debug_info section:
     <16f11>   DW_AT_decl_column : 9
     <16f12>   DW_AT_prototyped  : 1
     <16f12>   DW_AT_type        : <0x160cb>
-    <16f16>   DW_AT_low_pc      : 0x80080c8
+    <16f16>   DW_AT_low_pc      : 0x8007ff8
     <16f1a>   DW_AT_high_pc     : 0x44
     <16f1e>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <16f20>   DW_AT_call_all_calls: 1
@@ -49194,7 +49194,7 @@ Contents of the .debug_info section:
     <16f68>   DW_AT_decl_column : 9
     <16f69>   DW_AT_prototyped  : 1
     <16f69>   DW_AT_type        : <0x160cb>
-    <16f6d>   DW_AT_low_pc      : 0x8008094
+    <16f6d>   DW_AT_low_pc      : 0x8007fc4
     <16f71>   DW_AT_high_pc     : 0x34
     <16f75>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <16f77>   DW_AT_call_all_calls: 1
@@ -49225,7 +49225,7 @@ Contents of the .debug_info section:
     <16fa6>   DW_AT_decl_column : 10
     <16fa7>   DW_AT_prototyped  : 1
     <16fa7>   DW_AT_type        : <0x16268>
-    <16fab>   DW_AT_low_pc      : 0x8008074
+    <16fab>   DW_AT_low_pc      : 0x8007fa4
     <16faf>   DW_AT_high_pc     : 0x20
     <16fb3>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <16fb5>   DW_AT_call_all_calls: 1
@@ -49245,7 +49245,7 @@ Contents of the .debug_info section:
     <16fd0>   DW_AT_decl_column : 17
     <16fd1>   DW_AT_prototyped  : 1
     <16fd1>   DW_AT_type        : <0x16268>
-    <16fd5>   DW_AT_low_pc      : 0x8008004
+    <16fd5>   DW_AT_low_pc      : 0x8007f34
     <16fd9>   DW_AT_high_pc     : 0x70
     <16fdd>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <16fdf>   DW_AT_call_all_tail_calls: 1
@@ -49289,7 +49289,7 @@ Contents of the .debug_info section:
     <1702c>   DW_AT_decl_column : 17
     <1702d>   DW_AT_prototyped  : 1
     <1702d>   DW_AT_type        : <0x16268>
-    <17031>   DW_AT_low_pc      : 0x8007f94
+    <17031>   DW_AT_low_pc      : 0x8007ec4
     <17035>   DW_AT_high_pc     : 0x70
     <17039>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1703b>   DW_AT_call_all_tail_calls: 1
@@ -49330,7 +49330,7 @@ Contents of the .debug_info section:
     <17083>   DW_AT_decl_column : 17
     <17084>   DW_AT_prototyped  : 1
     <17084>   DW_AT_type        : <0x16268>
-    <17088>   DW_AT_low_pc      : 0x8007f24
+    <17088>   DW_AT_low_pc      : 0x8007e54
     <1708c>   DW_AT_high_pc     : 0x70
     <17090>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <17092>   DW_AT_call_all_tail_calls: 1
@@ -49371,7 +49371,7 @@ Contents of the .debug_info section:
     <170da>   DW_AT_decl_column : 16
     <170db>   DW_AT_prototyped  : 1
     <170db>   DW_AT_type        : <0x160cb>
-    <170df>   DW_AT_low_pc      : 0x8007eae
+    <170df>   DW_AT_low_pc      : 0x8007dde
     <170e3>   DW_AT_high_pc     : 0x74
     <170e7>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <170e9>   DW_AT_call_all_tail_calls: 1
@@ -49398,7 +49398,7 @@ Contents of the .debug_info section:
     <17113>   DW_AT_decl_column : 16
     <17114>   DW_AT_prototyped  : 1
     <17114>   DW_AT_type        : <0x160cb>
-    <17118>   DW_AT_low_pc      : 0x8007e3e
+    <17118>   DW_AT_low_pc      : 0x8007d6e
     <1711c>   DW_AT_high_pc     : 0x70
     <17120>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <17122>   DW_AT_call_all_tail_calls: 1
@@ -49432,7 +49432,7 @@ Contents of the .debug_info section:
     <1715b>   DW_AT_decl_column : 16
     <1715c>   DW_AT_prototyped  : 1
     <1715c>   DW_AT_type        : <0x160cb>
-    <17160>   DW_AT_low_pc      : 0x8007d40
+    <17160>   DW_AT_low_pc      : 0x8007c70
     <17164>   DW_AT_high_pc     : 0xfe
     <17168>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1716a>   DW_AT_call_all_tail_calls: 1
@@ -49476,7 +49476,7 @@ Contents of the .debug_info section:
     <171b7>   DW_AT_decl_column : 16
     <171b8>   DW_AT_prototyped  : 1
     <171b8>   DW_AT_type        : <0x160cb>
-    <171bc>   DW_AT_low_pc      : 0x8007b88
+    <171bc>   DW_AT_low_pc      : 0x8007ab8
     <171c0>   DW_AT_high_pc     : 0x1b8
     <171c4>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <171c6>   DW_AT_call_all_tail_calls: 1
@@ -49538,7 +49538,7 @@ Contents of the .debug_info section:
     <1723c>   DW_AT_decl_column : 16
     <1723d>   DW_AT_prototyped  : 1
     <1723d>   DW_AT_type        : <0x160cb>
-    <17241>   DW_AT_low_pc      : 0x8007a84
+    <17241>   DW_AT_low_pc      : 0x80079b4
     <17245>   DW_AT_high_pc     : 0x104
     <17249>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1724b>   DW_AT_call_all_tail_calls: 1
@@ -49565,7 +49565,7 @@ Contents of the .debug_info section:
     <17276>   DW_AT_decl_column : 16
     <17277>   DW_AT_prototyped  : 1
     <17277>   DW_AT_type        : <0x160cb>
-    <1727b>   DW_AT_low_pc      : 0x8007894
+    <1727b>   DW_AT_low_pc      : 0x80077c4
     <1727f>   DW_AT_high_pc     : 0x1f0
     <17283>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <17285>   DW_AT_call_all_tail_calls: 1
@@ -49605,7 +49605,7 @@ Contents of the .debug_info section:
     <172ca>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <172ce>   DW_AT_ranges      : 0x114a
     <172d2>   DW_AT_low_pc      : 0
-    <172d6>   DW_AT_stmt_list   : 0x1abde
+    <172d6>   DW_AT_stmt_list   : 0x1abcb
     <172da>   DW_AT_macros      : 0x45e5
  <1><172de>: Abbrev Number: 10 (DW_TAG_base_type)
     <172df>   DW_AT_byte_size   : 1
@@ -50728,7 +50728,7 @@ Contents of the .debug_info section:
     <17abc>   DW_AT_decl_column : 25
     <17abd>   DW_AT_prototyped  : 1
     <17abd>   DW_AT_type        : <0x17afe>
-    <17ac1>   DW_AT_low_pc      : 0x8008a68
+    <17ac1>   DW_AT_low_pc      : 0x8008998
     <17ac5>   DW_AT_high_pc     : 0x38
     <17ac9>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <17acb>   DW_AT_call_all_calls: 1
@@ -50766,7 +50766,7 @@ Contents of the .debug_info section:
     <17b0a>   DW_AT_decl_column : 7
     <17b0b>   DW_AT_prototyped  : 1
     <17b0b>   DW_AT_type        : <0x1734f>
-    <17b0f>   DW_AT_low_pc      : 0x80089f8
+    <17b0f>   DW_AT_low_pc      : 0x8008928
     <17b13>   DW_AT_high_pc     : 0x70
     <17b17>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <17b19>   DW_AT_call_all_tail_calls: 1
@@ -50828,7 +50828,7 @@ Contents of the .debug_info section:
     <17b89>   DW_AT_decl_column : 9
     <17b8a>   DW_AT_prototyped  : 1
     <17b8a>   DW_AT_type        : <0x17358>
-    <17b8e>   DW_AT_low_pc      : 0x80089de
+    <17b8e>   DW_AT_low_pc      : 0x800890e
     <17b92>   DW_AT_high_pc     : 0x1a
     <17b96>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <17b98>   DW_AT_call_all_calls: 1
@@ -50856,7 +50856,7 @@ Contents of the .debug_info section:
     <17bc2>   DW_AT_decl_column : 9
     <17bc3>   DW_AT_prototyped  : 1
     <17bc3>   DW_AT_type        : <0x17358>
-    <17bc7>   DW_AT_low_pc      : 0x80089c4
+    <17bc7>   DW_AT_low_pc      : 0x80088f4
     <17bcb>   DW_AT_high_pc     : 0x1a
     <17bcf>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <17bd1>   DW_AT_call_all_calls: 1
@@ -50884,7 +50884,7 @@ Contents of the .debug_info section:
     <17bfb>   DW_AT_decl_column : 20
     <17bfc>   DW_AT_prototyped  : 1
     <17bfc>   DW_AT_type        : <0x177e6>
-    <17c00>   DW_AT_low_pc      : 0x800897e
+    <17c00>   DW_AT_low_pc      : 0x80088ae
     <17c04>   DW_AT_high_pc     : 0x46
     <17c08>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <17c0a>   DW_AT_call_all_tail_calls: 1
@@ -50912,7 +50912,7 @@ Contents of the .debug_info section:
     <17c34>   DW_AT_decl_column : 20
     <17c35>   DW_AT_prototyped  : 1
     <17c35>   DW_AT_type        : <0x177e6>
-    <17c39>   DW_AT_low_pc      : 0x8008968
+    <17c39>   DW_AT_low_pc      : 0x8008898
     <17c3d>   DW_AT_high_pc     : 0x16
     <17c41>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <17c43>   DW_AT_call_all_calls: 1
@@ -50933,7 +50933,7 @@ Contents of the .debug_info section:
     <17c5e>   DW_AT_decl_column : 20
     <17c5f>   DW_AT_prototyped  : 1
     <17c5f>   DW_AT_type        : <0x177e6>
-    <17c63>   DW_AT_low_pc      : 0x8008904
+    <17c63>   DW_AT_low_pc      : 0x8008834
     <17c67>   DW_AT_high_pc     : 0x64
     <17c6b>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <17c6d>   DW_AT_call_all_tail_calls: 1
@@ -50961,7 +50961,7 @@ Contents of the .debug_info section:
     <17c97>   DW_AT_decl_column : 20
     <17c98>   DW_AT_prototyped  : 1
     <17c98>   DW_AT_type        : <0x177e6>
-    <17c9c>   DW_AT_low_pc      : 0x80088a0
+    <17c9c>   DW_AT_low_pc      : 0x80087d0
     <17ca0>   DW_AT_high_pc     : 0x64
     <17ca4>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <17ca6>   DW_AT_call_all_tail_calls: 1
@@ -50989,7 +50989,7 @@ Contents of the .debug_info section:
     <17cd0>   DW_AT_decl_column : 20
     <17cd1>   DW_AT_prototyped  : 1
     <17cd1>   DW_AT_type        : <0x177e6>
-    <17cd5>   DW_AT_low_pc      : 0x8008860
+    <17cd5>   DW_AT_low_pc      : 0x8008790
     <17cd9>   DW_AT_high_pc     : 0x40
     <17cdd>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <17cdf>   DW_AT_call_all_tail_calls: 1
@@ -51010,7 +51010,7 @@ Contents of the .debug_info section:
     <17cfa>   DW_AT_decl_column : 20
     <17cfb>   DW_AT_prototyped  : 1
     <17cfb>   DW_AT_type        : <0x177e6>
-    <17cff>   DW_AT_low_pc      : 0x8008830
+    <17cff>   DW_AT_low_pc      : 0x8008760
     <17d03>   DW_AT_high_pc     : 0x30
     <17d07>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <17d09>   DW_AT_call_all_calls: 1
@@ -51031,7 +51031,7 @@ Contents of the .debug_info section:
     <17d24>   DW_AT_decl_column : 20
     <17d25>   DW_AT_prototyped  : 1
     <17d25>   DW_AT_type        : <0x177e6>
-    <17d29>   DW_AT_low_pc      : 0x80087f8
+    <17d29>   DW_AT_low_pc      : 0x8008728
     <17d2d>   DW_AT_high_pc     : 0x38
     <17d31>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <17d33>   DW_AT_call_all_calls: 1
@@ -51052,7 +51052,7 @@ Contents of the .debug_info section:
     <17d4e>   DW_AT_decl_column : 20
     <17d4f>   DW_AT_prototyped  : 1
     <17d4f>   DW_AT_type        : <0x177e6>
-    <17d53>   DW_AT_low_pc      : 0x80087d8
+    <17d53>   DW_AT_low_pc      : 0x8008708
     <17d57>   DW_AT_high_pc     : 0x20
     <17d5b>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <17d5d>   DW_AT_call_all_calls: 1
@@ -51080,7 +51080,7 @@ Contents of the .debug_info section:
     <17d87>   DW_AT_decl_column : 20
     <17d88>   DW_AT_prototyped  : 1
     <17d88>   DW_AT_type        : <0x177e6>
-    <17d8c>   DW_AT_low_pc      : 0x8008732
+    <17d8c>   DW_AT_low_pc      : 0x8008662
     <17d90>   DW_AT_high_pc     : 0xa6
     <17d94>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <17d96>   DW_AT_call_all_tail_calls: 1
@@ -51108,7 +51108,7 @@ Contents of the .debug_info section:
     <17dc0>   DW_AT_decl_column : 20
     <17dc1>   DW_AT_prototyped  : 1
     <17dc1>   DW_AT_type        : <0x177e6>
-    <17dc5>   DW_AT_low_pc      : 0x80085bc
+    <17dc5>   DW_AT_low_pc      : 0x80084ec
     <17dc9>   DW_AT_high_pc     : 0x176
     <17dcd>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <17dcf>   DW_AT_call_all_tail_calls: 1
@@ -51167,7 +51167,7 @@ Contents of the .debug_info section:
     <17e3a>   DW_AT_decl_column : 20
     <17e3b>   DW_AT_prototyped  : 1
     <17e3b>   DW_AT_type        : <0x177e6>
-    <17e3f>   DW_AT_low_pc      : 0x8008444
+    <17e3f>   DW_AT_low_pc      : 0x8008374
     <17e43>   DW_AT_high_pc     : 0x178
     <17e47>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <17e49>   DW_AT_call_all_tail_calls: 1
@@ -51223,7 +51223,7 @@ Contents of the .debug_info section:
     <17eaf>   DW_AT_decl_column : 20
     <17eb0>   DW_AT_prototyped  : 1
     <17eb0>   DW_AT_type        : <0x177e6>
-    <17eb4>   DW_AT_low_pc      : 0x800839a
+    <17eb4>   DW_AT_low_pc      : 0x80082ca
     <17eb8>   DW_AT_high_pc     : 0xaa
     <17ebc>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <17ebe>   DW_AT_call_all_tail_calls: 1
@@ -51258,7 +51258,7 @@ Contents of the .debug_info section:
     <17ef7>   DW_AT_decl_column : 20
     <17ef8>   DW_AT_prototyped  : 1
     <17ef8>   DW_AT_type        : <0x177e6>
-    <17efc>   DW_AT_low_pc      : 0x8008366
+    <17efc>   DW_AT_low_pc      : 0x8008296
     <17f00>   DW_AT_high_pc     : 0x34
     <17f04>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <17f06>   DW_AT_call_all_tail_calls: 1
@@ -51293,7 +51293,7 @@ Contents of the .debug_info section:
     <17f3f>   DW_AT_decl_column : 20
     <17f40>   DW_AT_prototyped  : 1
     <17f40>   DW_AT_type        : <0x177e6>
-    <17f44>   DW_AT_low_pc      : 0x800832e
+    <17f44>   DW_AT_low_pc      : 0x800825e
     <17f48>   DW_AT_high_pc     : 0x38
     <17f4c>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <17f4e>   DW_AT_call_all_tail_calls: 1
@@ -51328,7 +51328,7 @@ Contents of the .debug_info section:
     <17f87>   DW_AT_decl_column : 20
     <17f88>   DW_AT_prototyped  : 1
     <17f88>   DW_AT_type        : <0x177e6>
-    <17f8c>   DW_AT_low_pc      : 0x8008318
+    <17f8c>   DW_AT_low_pc      : 0x8008248
     <17f90>   DW_AT_high_pc     : 0x16
     <17f94>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <17f96>   DW_AT_call_all_calls: 1
@@ -51370,7 +51370,7 @@ Contents of the .debug_info section:
     <17fdb>   DW_AT_decl_column : 20
     <17fdc>   DW_AT_prototyped  : 1
     <17fdc>   DW_AT_type        : <0x177e6>
-    <17fe0>   DW_AT_low_pc      : 0x8008300
+    <17fe0>   DW_AT_low_pc      : 0x8008230
     <17fe4>   DW_AT_high_pc     : 0x18
     <17fe8>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <17fea>   DW_AT_call_all_tail_calls: 1
@@ -51391,7 +51391,7 @@ Contents of the .debug_info section:
     <18004>   DW_AT_decl_column : 20
     <18004>   DW_AT_prototyped  : 1
     <18004>   DW_AT_type        : <0x177e6>
-    <18008>   DW_AT_low_pc      : 0x8008294
+    <18008>   DW_AT_low_pc      : 0x80081c4
     <1800c>   DW_AT_high_pc     : 0x6c
     <18010>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <18012>   DW_AT_call_all_tail_calls: 1
@@ -51454,7 +51454,7 @@ Contents of the .debug_info section:
     <1807d>   DW_AT_decl_column : 20
     <1807e>   DW_AT_prototyped  : 1
     <1807e>   DW_AT_type        : <0x177e6>
-    <18082>   DW_AT_low_pc      : 0x8008234
+    <18082>   DW_AT_low_pc      : 0x8008164
     <18086>   DW_AT_high_pc     : 0x60
     <1808a>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1808c>   DW_AT_call_all_tail_calls: 1
@@ -51501,7 +51501,7 @@ Contents of the .debug_info section:
     <180dc>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <180e0>   DW_AT_ranges      : 0x11eb
     <180e4>   DW_AT_low_pc      : 0
-    <180e8>   DW_AT_stmt_list   : 0x1bbf9
+    <180e8>   DW_AT_stmt_list   : 0x1bbe6
     <180ec>   DW_AT_macros      : 0x4bb2
  <1><180f0>: Abbrev Number: 7 (DW_TAG_base_type)
     <180f1>   DW_AT_byte_size   : 1
@@ -52387,7 +52387,7 @@ Contents of the .debug_info section:
     <18748>   DW_AT_decl_column : 16
     <18749>   DW_AT_prototyped  : 1
     <18749>   DW_AT_type        : <0x1816a>
-    <1874d>   DW_AT_low_pc      : 0x8009730
+    <1874d>   DW_AT_low_pc      : 0x8009660
     <18751>   DW_AT_high_pc     : 0x34
     <18755>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <18757>   DW_AT_call_all_calls: 1
@@ -52421,7 +52421,7 @@ Contents of the .debug_info section:
     <1878f>   DW_AT_decl_line   : 996
     <18791>   DW_AT_decl_column : 6
     <18791>   DW_AT_prototyped  : 1
-    <18791>   DW_AT_low_pc      : 0x800968c
+    <18791>   DW_AT_low_pc      : 0x80095bc
     <18795>   DW_AT_high_pc     : 0xa4
     <18799>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1879b>   DW_AT_call_all_tail_calls: 1
@@ -52469,7 +52469,7 @@ Contents of the .debug_info section:
     <187f3>   DW_AT_decl_line   : 979
     <187f5>   DW_AT_decl_column : 6
     <187f5>   DW_AT_prototyped  : 1
-    <187f5>   DW_AT_low_pc      : 0x800966a
+    <187f5>   DW_AT_low_pc      : 0x800959a
     <187f9>   DW_AT_high_pc     : 0x22
     <187fd>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <187ff>   DW_AT_call_all_tail_calls: 1
@@ -52496,7 +52496,7 @@ Contents of the .debug_info section:
     <18828>   DW_AT_decl_line   : 950
     <1882a>   DW_AT_decl_column : 6
     <1882a>   DW_AT_prototyped  : 1
-    <1882a>   DW_AT_low_pc      : 0x80095f6
+    <1882a>   DW_AT_low_pc      : 0x8009526
     <1882e>   DW_AT_high_pc     : 0x74
     <18832>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <18834>   DW_AT_call_all_tail_calls: 1
@@ -52529,7 +52529,7 @@ Contents of the .debug_info section:
     <1886d>   DW_AT_decl_line   : 922
     <1886f>   DW_AT_decl_column : 13
     <1886f>   DW_AT_prototyped  : 1
-    <1886f>   DW_AT_low_pc      : 0x80095b2
+    <1886f>   DW_AT_low_pc      : 0x80094e2
     <18873>   DW_AT_high_pc     : 0x44
     <18877>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <18879>   DW_AT_call_all_tail_calls: 1
@@ -52555,7 +52555,7 @@ Contents of the .debug_info section:
     <188a2>   DW_AT_decl_line   : 896
     <188a4>   DW_AT_decl_column : 13
     <188a4>   DW_AT_prototyped  : 1
-    <188a4>   DW_AT_low_pc      : 0x8009560
+    <188a4>   DW_AT_low_pc      : 0x8009490
     <188a8>   DW_AT_high_pc     : 0x52
     <188ac>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <188ae>   DW_AT_call_all_tail_calls: 1
@@ -52581,7 +52581,7 @@ Contents of the .debug_info section:
     <188d7>   DW_AT_decl_line   : 855
     <188d9>   DW_AT_decl_column : 13
     <188d9>   DW_AT_prototyped  : 1
-    <188d9>   DW_AT_low_pc      : 0x80094f8
+    <188d9>   DW_AT_low_pc      : 0x8009428
     <188dd>   DW_AT_high_pc     : 0x68
     <188e1>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <188e3>   DW_AT_call_all_tail_calls: 1
@@ -52607,7 +52607,7 @@ Contents of the .debug_info section:
     <1890c>   DW_AT_decl_line   : 821
     <1890e>   DW_AT_decl_column : 13
     <1890e>   DW_AT_prototyped  : 1
-    <1890e>   DW_AT_low_pc      : 0x800948c
+    <1890e>   DW_AT_low_pc      : 0x80093bc
     <18912>   DW_AT_high_pc     : 0x6c
     <18916>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <18918>   DW_AT_call_all_tail_calls: 1
@@ -52634,7 +52634,7 @@ Contents of the .debug_info section:
     <18944>   DW_AT_decl_column : 27
     <18945>   DW_AT_prototyped  : 1
     <18945>   DW_AT_type        : <0x184e6>
-    <18949>   DW_AT_low_pc      : 0x8009338
+    <18949>   DW_AT_low_pc      : 0x8009268
     <1894d>   DW_AT_high_pc     : 0x154
     <18951>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <18953>   DW_AT_call_all_tail_calls: 1
@@ -52674,7 +52674,7 @@ Contents of the .debug_info section:
     <1899e>   DW_AT_decl_line   : 682
     <189a0>   DW_AT_decl_column : 13
     <189a0>   DW_AT_prototyped  : 1
-    <189a0>   DW_AT_low_pc      : 0x80092b0
+    <189a0>   DW_AT_low_pc      : 0x80091e0
     <189a4>   DW_AT_high_pc     : 0x88
     <189a8>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <189aa>   DW_AT_call_all_tail_calls: 1
@@ -52707,7 +52707,7 @@ Contents of the .debug_info section:
     <189e3>   DW_AT_decl_line   : 428
     <189e5>   DW_AT_decl_column : 13
     <189e5>   DW_AT_prototyped  : 1
-    <189e5>   DW_AT_low_pc      : 0x8008fdc
+    <189e5>   DW_AT_low_pc      : 0x8008f0c
     <189e9>   DW_AT_high_pc     : 0x2d2
     <189ed>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <189ef>   DW_AT_call_all_tail_calls: 1
@@ -52756,7 +52756,7 @@ Contents of the .debug_info section:
     <18a47>   DW_AT_decl_column : 20
     <18a47>   DW_AT_prototyped  : 1
     <18a47>   DW_AT_type        : <0x184e6>
-    <18a4b>   DW_AT_low_pc      : 0x8008c9c
+    <18a4b>   DW_AT_low_pc      : 0x8008bcc
     <18a4f>   DW_AT_high_pc     : 0x33e
     <18a53>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <18a55>   DW_AT_call_all_tail_calls: 1
@@ -52815,7 +52815,7 @@ Contents of the .debug_info section:
     <18aba>   DW_AT_decl_column : 20
     <18aba>   DW_AT_prototyped  : 1
     <18aba>   DW_AT_type        : <0x184e6>
-    <18abe>   DW_AT_low_pc      : 0x8008bc4
+    <18abe>   DW_AT_low_pc      : 0x8008af4
     <18ac2>   DW_AT_high_pc     : 0xd8
     <18ac6>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <18ac8>   DW_AT_call_all_tail_calls: 1
@@ -52857,7 +52857,7 @@ Contents of the .debug_info section:
     <18b0b>   DW_AT_decl_column : 20
     <18b0b>   DW_AT_prototyped  : 1
     <18b0b>   DW_AT_type        : <0x184e6>
-    <18b0f>   DW_AT_low_pc      : 0x8008ae0
+    <18b0f>   DW_AT_low_pc      : 0x8008a10
     <18b13>   DW_AT_high_pc     : 0xe2
     <18b17>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <18b19>   DW_AT_call_all_tail_calls: 1
@@ -52891,7 +52891,7 @@ Contents of the .debug_info section:
     <18b50>   DW_AT_decl_column : 26
     <18b51>   DW_AT_prototyped  : 1
     <18b51>   DW_AT_type        : <0x1817b>
-    <18b55>   DW_AT_low_pc      : 0x8008aa0
+    <18b55>   DW_AT_low_pc      : 0x80089d0
     <18b59>   DW_AT_high_pc     : 0x3e
     <18b5d>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <18b5f>   DW_AT_call_all_calls: 1
@@ -52945,7 +52945,7 @@ Contents of the .debug_info section:
     <18bc7>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <18bcb>   DW_AT_ranges      : 0x1259
     <18bcf>   DW_AT_low_pc      : 0
-    <18bd3>   DW_AT_stmt_list   : 0x1cdd6
+    <18bd3>   DW_AT_stmt_list   : 0x1cdc3
     <18bd7>   DW_AT_macros      : 0x4f74
  <1><18bdb>: Abbrev Number: 7 (DW_TAG_base_type)
     <18bdc>   DW_AT_byte_size   : 1
@@ -53763,7 +53763,7 @@ Contents of the .debug_info section:
     <191bb>   DW_AT_decl_column : 20
     <191bc>   DW_AT_prototyped  : 1
     <191bc>   DW_AT_type        : <0x18fd1>
-    <191c0>   DW_AT_low_pc      : 0x800984c
+    <191c0>   DW_AT_low_pc      : 0x800977c
     <191c4>   DW_AT_high_pc     : 0x26
     <191c8>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <191ca>   DW_AT_call_all_tail_calls: 1
@@ -53784,7 +53784,7 @@ Contents of the .debug_info section:
     <191e3>   DW_AT_decl_column : 20
     <191e4>   DW_AT_prototyped  : 1
     <191e4>   DW_AT_type        : <0x18fd1>
-    <191e8>   DW_AT_low_pc      : 0x8009826
+    <191e8>   DW_AT_low_pc      : 0x8009756
     <191ec>   DW_AT_high_pc     : 0x26
     <191f0>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <191f2>   DW_AT_call_all_tail_calls: 1
@@ -53805,7 +53805,7 @@ Contents of the .debug_info section:
     <1920b>   DW_AT_decl_column : 20
     <1920c>   DW_AT_prototyped  : 1
     <1920c>   DW_AT_type        : <0x18fd1>
-    <19210>   DW_AT_low_pc      : 0x8009804
+    <19210>   DW_AT_low_pc      : 0x8009734
     <19214>   DW_AT_high_pc     : 0x22
     <19218>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1921a>   DW_AT_call_all_tail_calls: 1
@@ -53840,7 +53840,7 @@ Contents of the .debug_info section:
     <1924f>   DW_AT_decl_column : 20
     <19250>   DW_AT_prototyped  : 1
     <19250>   DW_AT_type        : <0x18fd1>
-    <19254>   DW_AT_low_pc      : 0x80097c2
+    <19254>   DW_AT_low_pc      : 0x80096f2
     <19258>   DW_AT_high_pc     : 0x42
     <1925c>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1925e>   DW_AT_call_all_tail_calls: 1
@@ -53875,7 +53875,7 @@ Contents of the .debug_info section:
     <19293>   DW_AT_decl_column : 20
     <19294>   DW_AT_prototyped  : 1
     <19294>   DW_AT_type        : <0x18fd1>
-    <19298>   DW_AT_low_pc      : 0x80097a0
+    <19298>   DW_AT_low_pc      : 0x80096d0
     <1929c>   DW_AT_high_pc     : 0x22
     <192a0>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <192a2>   DW_AT_call_all_tail_calls: 1
@@ -53910,7 +53910,7 @@ Contents of the .debug_info section:
     <192d8>   DW_AT_decl_column : 20
     <192d9>   DW_AT_prototyped  : 1
     <192d9>   DW_AT_type        : <0x18fd1>
-    <192dd>   DW_AT_low_pc      : 0x8009764
+    <192dd>   DW_AT_low_pc      : 0x8009694
     <192e1>   DW_AT_high_pc     : 0x3c
     <192e5>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <192e7>   DW_AT_call_all_tail_calls: 1
@@ -53950,7 +53950,7 @@ Contents of the .debug_info section:
     <19329>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <1932d>   DW_AT_ranges      : 0x1290
     <19331>   DW_AT_low_pc      : 0
-    <19335>   DW_AT_stmt_list   : 0x1d8f8
+    <19335>   DW_AT_stmt_list   : 0x1d8e5
     <19339>   DW_AT_macros      : 0x5332
  <1><1933d>: Abbrev Number: 58 (DW_TAG_base_type)
     <1933e>   DW_AT_byte_size   : 4
@@ -58184,7 +58184,7 @@ Contents of the .debug_info section:
     <1b2cb>   DW_AT_decl_line   : 2473
     <1b2cd>   DW_AT_decl_column : 13
     <1b2cd>   DW_AT_prototyped  : 1
-    <1b2cd>   DW_AT_low_pc      : 0x8009b20
+    <1b2cd>   DW_AT_low_pc      : 0x8009a50
     <1b2d1>   DW_AT_high_pc     : 0x34
     <1b2d5>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1b2d7>   DW_AT_call_all_calls: 1
@@ -58245,7 +58245,7 @@ Contents of the .debug_info section:
     <1b34f>   DW_AT_decl_line   : 2459
     <1b351>   DW_AT_decl_column : 13
     <1b351>   DW_AT_prototyped  : 1
-    <1b351>   DW_AT_low_pc      : 0x8009aec
+    <1b351>   DW_AT_low_pc      : 0x8009a1c
     <1b355>   DW_AT_high_pc     : 0x34
     <1b359>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1b35b>   DW_AT_call_all_calls: 1
@@ -60718,7 +60718,7 @@ Contents of the .debug_info section:
     <1c7eb>   DW_AT_decl_column : 12
     <1c7ec>   DW_AT_prototyped  : 1
     <1c7ec>   DW_AT_type        : <0x19d57>
-    <1c7f0>   DW_AT_low_pc      : 0x8009ab4
+    <1c7f0>   DW_AT_low_pc      : 0x80099e4
     <1c7f4>   DW_AT_high_pc     : 0x36
     <1c7f8>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1c7fa>   DW_AT_call_all_tail_calls: 1
@@ -60739,7 +60739,7 @@ Contents of the .debug_info section:
     <1c81a>   DW_AT_location    : 2 byte block: 91 74 	(DW_OP_fbreg: -12)
  <2><1c81d>: Abbrev Number: 9 (DW_TAG_inlined_subroutine)
     <1c81e>   DW_AT_abstract_origin: <0x1d362>
-    <1c822>   DW_AT_low_pc      : 0x8009abc
+    <1c822>   DW_AT_low_pc      : 0x80099ec
     <1c826>   DW_AT_high_pc     : 0x8
     <1c82a>   DW_AT_call_file   : 1
     <1c82a>   DW_AT_call_line   : 884
@@ -61546,7 +61546,7 @@ Contents of the .debug_info section:
     <1cec1>   DW_AT_decl_column : 14
     <1cec2>   DW_AT_prototyped  : 1
     <1cec2>   DW_AT_type        : <0x19d63>
-    <1cec6>   DW_AT_low_pc      : 0x8009990
+    <1cec6>   DW_AT_low_pc      : 0x80098c0
     <1ceca>   DW_AT_high_pc     : 0x124
     <1cece>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1ced0>   DW_AT_call_all_tail_calls: 1
@@ -61609,7 +61609,7 @@ Contents of the .debug_info section:
     <1cf4c>   DW_AT_location    : 2 byte block: 91 68 	(DW_OP_fbreg: -24)
  <2><1cf4f>: Abbrev Number: 9 (DW_TAG_inlined_subroutine)
     <1cf50>   DW_AT_abstract_origin: <0x1d362>
-    <1cf54>   DW_AT_low_pc      : 0x80099a0
+    <1cf54>   DW_AT_low_pc      : 0x80098d0
     <1cf58>   DW_AT_high_pc     : 0x8
     <1cf5c>   DW_AT_call_file   : 1
     <1cf5c>   DW_AT_call_line   : 453
@@ -61897,7 +61897,7 @@ Contents of the .debug_info section:
     <1d1a2>   DW_AT_decl_column : 12
     <1d1a3>   DW_AT_prototyped  : 1
     <1d1a3>   DW_AT_type        : <0x19d57>
-    <1d1a7>   DW_AT_low_pc      : 0x8009944
+    <1d1a7>   DW_AT_low_pc      : 0x8009874
     <1d1ab>   DW_AT_high_pc     : 0x4c
     <1d1af>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1d1b1>   DW_AT_call_all_tail_calls: 1
@@ -61911,7 +61911,7 @@ Contents of the .debug_info section:
     <1d1c1>   DW_AT_location    : 2 byte block: 91 74 	(DW_OP_fbreg: -12)
  <2><1d1c4>: Abbrev Number: 9 (DW_TAG_inlined_subroutine)
     <1d1c5>   DW_AT_abstract_origin: <0x1d362>
-    <1d1c9>   DW_AT_low_pc      : 0x800994a
+    <1d1c9>   DW_AT_low_pc      : 0x800987a
     <1d1cd>   DW_AT_high_pc     : 0x8
     <1d1d1>   DW_AT_call_file   : 1
     <1d1d1>   DW_AT_call_line   : 268
@@ -61988,7 +61988,7 @@ Contents of the .debug_info section:
     <1d253>   DW_AT_decl_column : 12
     <1d254>   DW_AT_prototyped  : 1
     <1d254>   DW_AT_type        : <0x19d57>
-    <1d258>   DW_AT_low_pc      : 0x80098fc
+    <1d258>   DW_AT_low_pc      : 0x800982c
     <1d25c>   DW_AT_high_pc     : 0x48
     <1d260>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1d262>   DW_AT_call_all_calls: 1
@@ -62002,7 +62002,7 @@ Contents of the .debug_info section:
     <1d271>   DW_AT_location    : 2 byte block: 91 74 	(DW_OP_fbreg: -12)
  <2><1d274>: Abbrev Number: 72 (DW_TAG_inlined_subroutine)
     <1d275>   DW_AT_abstract_origin: <0x1d362>
-    <1d279>   DW_AT_low_pc      : 0x8009902
+    <1d279>   DW_AT_low_pc      : 0x8009832
     <1d27d>   DW_AT_high_pc     : 0x8
     <1d281>   DW_AT_call_file   : 1
     <1d282>   DW_AT_call_line   : 201
@@ -62018,7 +62018,7 @@ Contents of the .debug_info section:
     <1d294>   DW_AT_decl_line   : 174
     <1d295>   DW_AT_decl_column : 22
     <1d296>   DW_AT_prototyped  : 1
-    <1d296>   DW_AT_low_pc      : 0x80098e8
+    <1d296>   DW_AT_low_pc      : 0x8009818
     <1d29a>   DW_AT_high_pc     : 0x12
     <1d29e>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1d2a0>   DW_AT_call_all_tail_calls: 1
@@ -62029,7 +62029,7 @@ Contents of the .debug_info section:
     <1d2a6>   DW_AT_decl_line   : 159
     <1d2a7>   DW_AT_decl_column : 6
     <1d2a8>   DW_AT_prototyped  : 1
-    <1d2a8>   DW_AT_low_pc      : 0x80098c8
+    <1d2a8>   DW_AT_low_pc      : 0x80097f8
     <1d2ac>   DW_AT_high_pc     : 0x20
     <1d2b0>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1d2b2>   DW_AT_call_all_tail_calls: 1
@@ -62039,7 +62039,7 @@ Contents of the .debug_info section:
     <1d2b8>   DW_AT_decl_line   : 1814
     <1d2ba>   DW_AT_decl_column : 22
     <1d2bb>   DW_AT_prototyped  : 1
-    <1d2bb>   DW_AT_low_pc      : 0x8009874
+    <1d2bb>   DW_AT_low_pc      : 0x80097a4
     <1d2bf>   DW_AT_high_pc     : 0x54
     <1d2c3>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1d2c5>   DW_AT_call_all_calls: 1
@@ -62172,7 +62172,7 @@ Contents of the .debug_info section:
     <1d3a2>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <1d3a6>   DW_AT_ranges      : 0x14a2
     <1d3aa>   DW_AT_low_pc      : 0
-    <1d3ae>   DW_AT_stmt_list   : 0x1fed8
+    <1d3ae>   DW_AT_stmt_list   : 0x1fec5
     <1d3b2>   DW_AT_macros      : 0x595e
  <1><1d3b6>: Abbrev Number: 1 (DW_TAG_base_type)
     <1d3b7>   DW_AT_byte_size   : 4
@@ -62390,7 +62390,7 @@ Contents of the .debug_info section:
     <1d530>   DW_AT_decl_column : 13
     <1d531>   DW_AT_prototyped  : 1
     <1d531>   DW_AT_type        : <0x1d424>
-    <1d535>   DW_AT_low_pc      : 0x8009c68
+    <1d535>   DW_AT_low_pc      : 0x8009b98
     <1d539>   DW_AT_high_pc     : 0x54
     <1d53d>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1d53f>   DW_AT_call_all_calls: 1
@@ -62422,7 +62422,7 @@ Contents of the .debug_info section:
     <1d56f>   DW_AT_decl_line   : 103
     <1d570>   DW_AT_decl_column : 6
     <1d570>   DW_AT_prototyped  : 1
-    <1d570>   DW_AT_low_pc      : 0x8009bf6
+    <1d570>   DW_AT_low_pc      : 0x8009b26
     <1d574>   DW_AT_high_pc     : 0x72
     <1d578>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1d57a>   DW_AT_call_all_calls: 1
@@ -62463,7 +62463,7 @@ Contents of the .debug_info section:
     <1d5bc>   DW_AT_decl_line   : 74
     <1d5bd>   DW_AT_decl_column : 6
     <1d5bd>   DW_AT_prototyped  : 1
-    <1d5bd>   DW_AT_low_pc      : 0x8009bae
+    <1d5bd>   DW_AT_low_pc      : 0x8009ade
     <1d5c1>   DW_AT_high_pc     : 0x48
     <1d5c5>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1d5c7>   DW_AT_call_all_calls: 1
@@ -62497,7 +62497,7 @@ Contents of the .debug_info section:
     <1d5fb>   DW_AT_decl_line   : 62
     <1d5fc>   DW_AT_decl_column : 6
     <1d5fc>   DW_AT_prototyped  : 1
-    <1d5fc>   DW_AT_low_pc      : 0x8009b94
+    <1d5fc>   DW_AT_low_pc      : 0x8009ac4
     <1d600>   DW_AT_high_pc     : 0x1a
     <1d604>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1d606>   DW_AT_call_all_calls: 1
@@ -62517,7 +62517,7 @@ Contents of the .debug_info section:
     <1d61f>   DW_AT_decl_line   : 37
     <1d620>   DW_AT_decl_column : 6
     <1d621>   DW_AT_prototyped  : 1
-    <1d621>   DW_AT_low_pc      : 0x8009b54
+    <1d621>   DW_AT_low_pc      : 0x8009a84
     <1d625>   DW_AT_high_pc     : 0x40
     <1d629>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1d62b>   DW_AT_call_all_calls: 1
@@ -62543,7 +62543,7 @@ Contents of the .debug_info section:
     <1d651>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <1d655>   DW_AT_ranges      : 0x14cd
     <1d659>   DW_AT_low_pc      : 0
-    <1d65d>   DW_AT_stmt_list   : 0x2066f
+    <1d65d>   DW_AT_stmt_list   : 0x2065c
     <1d661>   DW_AT_macros      : 0x5af7
  <1><1d665>: Abbrev Number: 7 (DW_TAG_typedef)
     <1d666>   DW_AT_name        : (indirect string, offset: 0x84ee9): size_t
@@ -63564,7 +63564,7 @@ Contents of the .debug_info section:
     <1dd87>   DW_AT_decl_line   : 2737
     <1dd89>   DW_AT_decl_column : 7
     <1dd8a>   DW_AT_prototyped  : 1
-    <1dd8a>   DW_AT_low_pc      : 0x800a648
+    <1dd8a>   DW_AT_low_pc      : 0x800a578
     <1dd8e>   DW_AT_high_pc     : 0x68
     <1dd92>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1dd94>   DW_AT_call_all_tail_calls: 1
@@ -63672,7 +63672,7 @@ Contents of the .debug_info section:
     <1de5c>   DW_AT_decl_line   : 2648
     <1de5e>   DW_AT_decl_column : 7
     <1de5e>   DW_AT_prototyped  : 1
-    <1de5e>   DW_AT_low_pc      : 0x800a5f4
+    <1de5e>   DW_AT_low_pc      : 0x800a524
     <1de62>   DW_AT_high_pc     : 0x54
     <1de66>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1de68>   DW_AT_call_all_calls: 1
@@ -63752,7 +63752,7 @@ Contents of the .debug_info section:
     <1df00>   DW_AT_decl_column : 19
     <1df00>   DW_AT_prototyped  : 1
     <1df00>   DW_AT_type        : <0x1d73d>
-    <1df04>   DW_AT_low_pc      : 0x800a5c4
+    <1df04>   DW_AT_low_pc      : 0x800a4f4
     <1df08>   DW_AT_high_pc     : 0x30
     <1df0c>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1df0e>   DW_AT_call_all_tail_calls: 1
@@ -63830,7 +63830,7 @@ Contents of the .debug_info section:
     <1dfa3>   DW_AT_decl_column : 19
     <1dfa3>   DW_AT_prototyped  : 1
     <1dfa3>   DW_AT_type        : <0x1d73d>
-    <1dfa7>   DW_AT_low_pc      : 0x800a598
+    <1dfa7>   DW_AT_low_pc      : 0x800a4c8
     <1dfab>   DW_AT_high_pc     : 0x2c
     <1dfaf>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1dfb1>   DW_AT_call_all_tail_calls: 1
@@ -63856,7 +63856,7 @@ Contents of the .debug_info section:
     <1dfd9>   DW_AT_decl_line   : 2171
     <1dfdb>   DW_AT_decl_column : 13
     <1dfdc>   DW_AT_prototyped  : 1
-    <1dfdc>   DW_AT_low_pc      : 0x800a4f4
+    <1dfdc>   DW_AT_low_pc      : 0x800a424
     <1dfe0>   DW_AT_high_pc     : 0xa4
     <1dfe4>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1dfe6>   DW_AT_call_all_tail_calls: 1
@@ -63869,7 +63869,7 @@ Contents of the .debug_info section:
     <1dff2>   DW_AT_type        : <0x1ddda>
     <1dff6>   DW_AT_location    : 2 byte block: 91 6c 	(DW_OP_fbreg: -20)
  <2><1dff9>: Abbrev Number: 14 (DW_TAG_lexical_block)
-    <1dffa>   DW_AT_low_pc      : 0x800a500
+    <1dffa>   DW_AT_low_pc      : 0x800a430
     <1dffe>   DW_AT_high_pc     : 0x42
     <1e002>   DW_AT_sibling     : <0x1e016>
  <3><1e006>: Abbrev Number: 1 (DW_TAG_variable)
@@ -63881,7 +63881,7 @@ Contents of the .debug_info section:
     <1e012>   DW_AT_location    : 2 byte block: 91 77 	(DW_OP_fbreg: -9)
  <3><1e015>: Abbrev Number: 0
  <2><1e016>: Abbrev Number: 31 (DW_TAG_lexical_block)
-    <1e017>   DW_AT_low_pc      : 0x800a54a
+    <1e017>   DW_AT_low_pc      : 0x800a47a
     <1e01b>   DW_AT_high_pc     : 0x42
  <3><1e01f>: Abbrev Number: 1 (DW_TAG_variable)
     <1e020>   DW_AT_name        : (indirect string, offset: 0xa9972): cRxLock
@@ -63898,7 +63898,7 @@ Contents of the .debug_info section:
     <1e035>   DW_AT_decl_line   : 2153
     <1e037>   DW_AT_decl_column : 13
     <1e038>   DW_AT_prototyped  : 1
-    <1e038>   DW_AT_low_pc      : 0x800a4a8
+    <1e038>   DW_AT_low_pc      : 0x800a3d8
     <1e03c>   DW_AT_high_pc     : 0x4c
     <1e040>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1e042>   DW_AT_call_all_tail_calls: 1
@@ -63925,7 +63925,7 @@ Contents of the .debug_info section:
     <1e06c>   DW_AT_decl_column : 19
     <1e06c>   DW_AT_prototyped  : 1
     <1e06c>   DW_AT_type        : <0x1d73d>
-    <1e070>   DW_AT_low_pc      : 0x800a3d4
+    <1e070>   DW_AT_low_pc      : 0x800a304
     <1e074>   DW_AT_high_pc     : 0xd4
     <1e078>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1e07a>   DW_AT_call_all_tail_calls: 1
@@ -64727,7 +64727,7 @@ Contents of the .debug_info section:
     <1e73b>   DW_AT_decl_column : 12
     <1e73c>   DW_AT_prototyped  : 1
     <1e73c>   DW_AT_type        : <0x1d73d>
-    <1e740>   DW_AT_low_pc      : 0x800a210
+    <1e740>   DW_AT_low_pc      : 0x800a140
     <1e744>   DW_AT_high_pc     : 0x1c4
     <1e748>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1e74a>   DW_AT_call_all_tail_calls: 1
@@ -64775,7 +64775,7 @@ Contents of the .debug_info section:
     <1e7a1>   DW_AT_type        : <0x1ddda>
     <1e7a5>   DW_AT_location    : 2 byte block: 91 70 	(DW_OP_fbreg: -16)
  <2><1e7a8>: Abbrev Number: 14 (DW_TAG_lexical_block)
-    <1e7a9>   DW_AT_low_pc      : 0x800a2a8
+    <1e7a9>   DW_AT_low_pc      : 0x800a1d8
     <1e7ad>   DW_AT_high_pc     : 0x6e
     <1e7b1>   DW_AT_sibling     : <0x1e7c5>
  <3><1e7b5>: Abbrev Number: 1 (DW_TAG_variable)
@@ -64788,7 +64788,7 @@ Contents of the .debug_info section:
  <3><1e7c4>: Abbrev Number: 0
  <2><1e7c5>: Abbrev Number: 5 (DW_TAG_inlined_subroutine)
     <1e7c6>   DW_AT_abstract_origin: <0x1f19e>
-    <1e7ca>   DW_AT_low_pc      : 0x800a22a
+    <1e7ca>   DW_AT_low_pc      : 0x800a15a
     <1e7ce>   DW_AT_high_pc     : 0x14
     <1e7d2>   DW_AT_call_file   : 1
     <1e7d2>   DW_AT_call_line   : 1284
@@ -64800,7 +64800,7 @@ Contents of the .debug_info section:
  <3><1e7e1>: Abbrev Number: 0
  <2><1e7e2>: Abbrev Number: 5 (DW_TAG_inlined_subroutine)
     <1e7e3>   DW_AT_abstract_origin: <0x1f19e>
-    <1e7e7>   DW_AT_low_pc      : 0x800a25a
+    <1e7e7>   DW_AT_low_pc      : 0x800a18a
     <1e7eb>   DW_AT_high_pc     : 0x14
     <1e7ef>   DW_AT_call_file   : 1
     <1e7ef>   DW_AT_call_line   : 1288
@@ -64812,7 +64812,7 @@ Contents of the .debug_info section:
  <3><1e7fe>: Abbrev Number: 0
  <2><1e7ff>: Abbrev Number: 6 (DW_TAG_inlined_subroutine)
     <1e800>   DW_AT_abstract_origin: <0x1f19e>
-    <1e804>   DW_AT_low_pc      : 0x800a28c
+    <1e804>   DW_AT_low_pc      : 0x800a1bc
     <1e808>   DW_AT_high_pc     : 0x14
     <1e80c>   DW_AT_call_file   : 1
     <1e80c>   DW_AT_call_line   : 1293
@@ -64964,7 +64964,7 @@ Contents of the .debug_info section:
     <1e951>   DW_AT_decl_column : 12
     <1e952>   DW_AT_prototyped  : 1
     <1e952>   DW_AT_type        : <0x1d73d>
-    <1e956>   DW_AT_low_pc      : 0x800a0d4
+    <1e956>   DW_AT_low_pc      : 0x800a004
     <1e95a>   DW_AT_high_pc     : 0x13c
     <1e95e>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1e960>   DW_AT_call_all_tail_calls: 1
@@ -65019,7 +65019,7 @@ Contents of the .debug_info section:
     <1e9c8>   DW_AT_type        : <0x1ddda>
     <1e9cc>   DW_AT_location    : 2 byte block: 91 70 	(DW_OP_fbreg: -16)
  <2><1e9cf>: Abbrev Number: 14 (DW_TAG_lexical_block)
-    <1e9d0>   DW_AT_low_pc      : 0x800a196
+    <1e9d0>   DW_AT_low_pc      : 0x800a0c6
     <1e9d4>   DW_AT_high_pc     : 0x5e
     <1e9d8>   DW_AT_sibling     : <0x1e9fb>
  <3><1e9dc>: Abbrev Number: 1 (DW_TAG_variable)
@@ -65039,7 +65039,7 @@ Contents of the .debug_info section:
  <3><1e9fa>: Abbrev Number: 0
  <2><1e9fb>: Abbrev Number: 5 (DW_TAG_inlined_subroutine)
     <1e9fc>   DW_AT_abstract_origin: <0x1f19e>
-    <1ea00>   DW_AT_low_pc      : 0x800a0ec
+    <1ea00>   DW_AT_low_pc      : 0x800a01c
     <1ea04>   DW_AT_high_pc     : 0x14
     <1ea08>   DW_AT_call_file   : 1
     <1ea08>   DW_AT_call_line   : 956
@@ -65051,7 +65051,7 @@ Contents of the .debug_info section:
  <3><1ea17>: Abbrev Number: 0
  <2><1ea18>: Abbrev Number: 5 (DW_TAG_inlined_subroutine)
     <1ea19>   DW_AT_abstract_origin: <0x1f19e>
-    <1ea1d>   DW_AT_low_pc      : 0x800a11c
+    <1ea1d>   DW_AT_low_pc      : 0x800a04c
     <1ea21>   DW_AT_high_pc     : 0x14
     <1ea25>   DW_AT_call_file   : 1
     <1ea25>   DW_AT_call_line   : 957
@@ -65063,7 +65063,7 @@ Contents of the .debug_info section:
  <3><1ea34>: Abbrev Number: 0
  <2><1ea35>: Abbrev Number: 5 (DW_TAG_inlined_subroutine)
     <1ea36>   DW_AT_abstract_origin: <0x1f19e>
-    <1ea3a>   DW_AT_low_pc      : 0x800a14c
+    <1ea3a>   DW_AT_low_pc      : 0x800a07c
     <1ea3e>   DW_AT_high_pc     : 0x14
     <1ea42>   DW_AT_call_file   : 1
     <1ea42>   DW_AT_call_line   : 958
@@ -65075,7 +65075,7 @@ Contents of the .debug_info section:
  <3><1ea51>: Abbrev Number: 0
  <2><1ea52>: Abbrev Number: 5 (DW_TAG_inlined_subroutine)
     <1ea53>   DW_AT_abstract_origin: <0x1f176>
-    <1ea57>   DW_AT_low_pc      : 0x800a168
+    <1ea57>   DW_AT_low_pc      : 0x800a098
     <1ea5b>   DW_AT_high_pc     : 0x1a
     <1ea5f>   DW_AT_call_file   : 1
     <1ea5f>   DW_AT_call_line   : 981
@@ -65090,7 +65090,7 @@ Contents of the .debug_info section:
  <3><1ea76>: Abbrev Number: 0
  <2><1ea77>: Abbrev Number: 6 (DW_TAG_inlined_subroutine)
     <1ea78>   DW_AT_abstract_origin: <0x1f15c>
-    <1ea7c>   DW_AT_low_pc      : 0x800a1fe
+    <1ea7c>   DW_AT_low_pc      : 0x800a12e
     <1ea80>   DW_AT_high_pc     : 0x8
     <1ea84>   DW_AT_call_file   : 1
     <1ea84>   DW_AT_call_line   : 1106
@@ -65108,7 +65108,7 @@ Contents of the .debug_info section:
     <1ea98>   DW_AT_decl_column : 12
     <1ea99>   DW_AT_prototyped  : 1
     <1ea99>   DW_AT_type        : <0x1d73d>
-    <1ea9d>   DW_AT_low_pc      : 0x8009ed0
+    <1ea9d>   DW_AT_low_pc      : 0x8009e00
     <1eaa1>   DW_AT_high_pc     : 0x204
     <1eaa5>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1eaa7>   DW_AT_call_all_tail_calls: 1
@@ -65171,7 +65171,7 @@ Contents of the .debug_info section:
     <1eb20>   DW_AT_location    : 2 byte block: 91 70 	(DW_OP_fbreg: -16)
  <2><1eb23>: Abbrev Number: 5 (DW_TAG_inlined_subroutine)
     <1eb24>   DW_AT_abstract_origin: <0x1f19e>
-    <1eb28>   DW_AT_low_pc      : 0x8009eec
+    <1eb28>   DW_AT_low_pc      : 0x8009e1c
     <1eb2c>   DW_AT_high_pc     : 0x14
     <1eb30>   DW_AT_call_file   : 1
     <1eb30>   DW_AT_call_line   : 746
@@ -65183,7 +65183,7 @@ Contents of the .debug_info section:
  <3><1eb3f>: Abbrev Number: 0
  <2><1eb40>: Abbrev Number: 5 (DW_TAG_inlined_subroutine)
     <1eb41>   DW_AT_abstract_origin: <0x1f19e>
-    <1eb45>   DW_AT_low_pc      : 0x8009f1c
+    <1eb45>   DW_AT_low_pc      : 0x8009e4c
     <1eb49>   DW_AT_high_pc     : 0x14
     <1eb4d>   DW_AT_call_file   : 1
     <1eb4d>   DW_AT_call_line   : 747
@@ -65195,7 +65195,7 @@ Contents of the .debug_info section:
  <3><1eb5c>: Abbrev Number: 0
  <2><1eb5d>: Abbrev Number: 5 (DW_TAG_inlined_subroutine)
     <1eb5e>   DW_AT_abstract_origin: <0x1f19e>
-    <1eb62>   DW_AT_low_pc      : 0x8009f4c
+    <1eb62>   DW_AT_low_pc      : 0x8009e7c
     <1eb66>   DW_AT_high_pc     : 0x14
     <1eb6a>   DW_AT_call_file   : 1
     <1eb6a>   DW_AT_call_line   : 748
@@ -65207,7 +65207,7 @@ Contents of the .debug_info section:
  <3><1eb79>: Abbrev Number: 0
  <2><1eb7a>: Abbrev Number: 6 (DW_TAG_inlined_subroutine)
     <1eb7b>   DW_AT_abstract_origin: <0x1f19e>
-    <1eb7f>   DW_AT_low_pc      : 0x8009f7e
+    <1eb7f>   DW_AT_low_pc      : 0x8009eae
     <1eb83>   DW_AT_high_pc     : 0x14
     <1eb87>   DW_AT_call_file   : 1
     <1eb87>   DW_AT_call_line   : 751
@@ -65632,7 +65632,7 @@ Contents of the .debug_info section:
     <1eef7>   DW_AT_decl_line   : 422
     <1eef9>   DW_AT_decl_column : 13
     <1eefa>   DW_AT_prototyped  : 1
-    <1eefa>   DW_AT_low_pc      : 0x8009e8a
+    <1eefa>   DW_AT_low_pc      : 0x8009dba
     <1eefe>   DW_AT_high_pc     : 0x46
     <1ef02>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1ef04>   DW_AT_call_all_tail_calls: 1
@@ -65748,7 +65748,7 @@ Contents of the .debug_info section:
     <1efe9>   DW_AT_decl_column : 16
     <1efea>   DW_AT_prototyped  : 1
     <1efea>   DW_AT_type        : <0x1da23>
-    <1efee>   DW_AT_low_pc      : 0x8009d90
+    <1efee>   DW_AT_low_pc      : 0x8009cc0
     <1eff2>   DW_AT_high_pc     : 0xfa
     <1eff6>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1eff8>   DW_AT_call_all_tail_calls: 1
@@ -65796,7 +65796,7 @@ Contents of the .debug_info section:
     <1f04f>   DW_AT_type        : <0x1ddd5>
     <1f053>   DW_AT_location    : 2 byte block: 91 74 	(DW_OP_fbreg: -12)
  <2><1f056>: Abbrev Number: 14 (DW_TAG_lexical_block)
-    <1f057>   DW_AT_low_pc      : 0x8009e36
+    <1f057>   DW_AT_low_pc      : 0x8009d66
     <1f05b>   DW_AT_high_pc     : 0x24
     <1f05f>   DW_AT_sibling     : <0x1f08c>
  <3><1f063>: Abbrev Number: 1 (DW_TAG_variable)
@@ -65808,7 +65808,7 @@ Contents of the .debug_info section:
     <1f06f>   DW_AT_location    : 2 byte block: 91 5c 	(DW_OP_fbreg: -36)
  <3><1f072>: Abbrev Number: 6 (DW_TAG_inlined_subroutine)
     <1f073>   DW_AT_abstract_origin: <0x1f19e>
-    <1f077>   DW_AT_low_pc      : 0x8009e40
+    <1f077>   DW_AT_low_pc      : 0x8009d70
     <1f07b>   DW_AT_high_pc     : 0x14
     <1f07f>   DW_AT_call_file   : 1
     <1f07f>   DW_AT_call_line   : 331
@@ -65820,7 +65820,7 @@ Contents of the .debug_info section:
  <3><1f08b>: Abbrev Number: 0
  <2><1f08c>: Abbrev Number: 5 (DW_TAG_inlined_subroutine)
     <1f08d>   DW_AT_abstract_origin: <0x1f19e>
-    <1f091>   DW_AT_low_pc      : 0x8009da4
+    <1f091>   DW_AT_low_pc      : 0x8009cd4
     <1f095>   DW_AT_high_pc     : 0x14
     <1f099>   DW_AT_call_file   : 1
     <1f099>   DW_AT_call_line   : 314
@@ -65832,7 +65832,7 @@ Contents of the .debug_info section:
  <3><1f0a8>: Abbrev Number: 0
  <2><1f0a9>: Abbrev Number: 5 (DW_TAG_inlined_subroutine)
     <1f0aa>   DW_AT_abstract_origin: <0x1f19e>
-    <1f0ae>   DW_AT_low_pc      : 0x8009dc2
+    <1f0ae>   DW_AT_low_pc      : 0x8009cf2
     <1f0b2>   DW_AT_high_pc     : 0x14
     <1f0b6>   DW_AT_call_file   : 1
     <1f0b6>   DW_AT_call_line   : 318
@@ -65844,7 +65844,7 @@ Contents of the .debug_info section:
  <3><1f0c5>: Abbrev Number: 0
  <2><1f0c6>: Abbrev Number: 5 (DW_TAG_inlined_subroutine)
     <1f0c7>   DW_AT_abstract_origin: <0x1f19e>
-    <1f0cb>   DW_AT_low_pc      : 0x8009df0
+    <1f0cb>   DW_AT_low_pc      : 0x8009d20
     <1f0cf>   DW_AT_high_pc     : 0x14
     <1f0d3>   DW_AT_call_file   : 1
     <1f0d3>   DW_AT_call_line   : 322
@@ -65856,7 +65856,7 @@ Contents of the .debug_info section:
  <3><1f0e2>: Abbrev Number: 0
  <2><1f0e3>: Abbrev Number: 6 (DW_TAG_inlined_subroutine)
     <1f0e4>   DW_AT_abstract_origin: <0x1f19e>
-    <1f0e8>   DW_AT_low_pc      : 0x8009e1e
+    <1f0e8>   DW_AT_low_pc      : 0x8009d4e
     <1f0ec>   DW_AT_high_pc     : 0x14
     <1f0f0>   DW_AT_call_file   : 1
     <1f0f0>   DW_AT_call_line   : 323
@@ -65874,7 +65874,7 @@ Contents of the .debug_info section:
     <1f104>   DW_AT_decl_column : 12
     <1f105>   DW_AT_prototyped  : 1
     <1f105>   DW_AT_type        : <0x1d73d>
-    <1f109>   DW_AT_low_pc      : 0x8009cbc
+    <1f109>   DW_AT_low_pc      : 0x8009bec
     <1f10d>   DW_AT_high_pc     : 0xd4
     <1f111>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <1f113>   DW_AT_call_all_tail_calls: 1
@@ -65902,7 +65902,7 @@ Contents of the .debug_info section:
     <1f13f>   DW_AT_location    : 2 byte block: 91 74 	(DW_OP_fbreg: -12)
  <2><1f142>: Abbrev Number: 6 (DW_TAG_inlined_subroutine)
     <1f143>   DW_AT_abstract_origin: <0x1f19e>
-    <1f147>   DW_AT_low_pc      : 0x8009cd0
+    <1f147>   DW_AT_low_pc      : 0x8009c00
     <1f14b>   DW_AT_high_pc     : 0x14
     <1f14f>   DW_AT_call_file   : 1
     <1f14f>   DW_AT_call_line   : 259
@@ -65977,7 +65977,7 @@ Contents of the .debug_info section:
     <1f1ca>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <1f1ce>   DW_AT_ranges      : 0x15d6
     <1f1d2>   DW_AT_low_pc      : 0
-    <1f1d6>   DW_AT_stmt_list   : 0x21d77
+    <1f1d6>   DW_AT_stmt_list   : 0x21d64
     <1f1da>   DW_AT_macros      : 0x5da6
  <1><1f1de>: Abbrev Number: 9 (DW_TAG_typedef)
     <1f1df>   DW_AT_name        : (indirect string, offset: 0x84ee9): size_t
@@ -68064,7 +68064,7 @@ Contents of the .debug_info section:
     <201a3>   DW_AT_decl_line   : 5177
     <201a5>   DW_AT_decl_column : 13
     <201a6>   DW_AT_prototyped  : 1
-    <201a6>   DW_AT_low_pc      : 0x800b47c
+    <201a6>   DW_AT_low_pc      : 0x800b3ac
     <201aa>   DW_AT_high_pc     : 0xa8
     <201ae>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <201b0>   DW_AT_call_all_tail_calls: 1
@@ -68716,7 +68716,7 @@ Contents of the .debug_info section:
     <20719>   DW_AT_decl_column : 13
     <2071a>   DW_AT_prototyped  : 1
     <2071a>   DW_AT_type        : <0x1f990>
-    <2071e>   DW_AT_low_pc      : 0x800b39c
+    <2071e>   DW_AT_low_pc      : 0x800b2cc
     <20722>   DW_AT_high_pc     : 0xe0
     <20726>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <20728>   DW_AT_call_all_tail_calls: 1
@@ -68744,7 +68744,7 @@ Contents of the .debug_info section:
     <20756>   DW_AT_location    : 2 byte block: 91 74 	(DW_OP_fbreg: -12)
  <2><20759>: Abbrev Number: 12 (DW_TAG_inlined_subroutine)
     <2075a>   DW_AT_abstract_origin: <0x21a5f>
-    <2075e>   DW_AT_low_pc      : 0x800b3bc
+    <2075e>   DW_AT_low_pc      : 0x800b2ec
     <20762>   DW_AT_high_pc     : 0x14
     <20766>   DW_AT_call_file   : 1
     <20766>   DW_AT_call_line   : 4115
@@ -68756,7 +68756,7 @@ Contents of the .debug_info section:
  <3><20775>: Abbrev Number: 0
  <2><20776>: Abbrev Number: 8 (DW_TAG_inlined_subroutine)
     <20777>   DW_AT_abstract_origin: <0x21a5f>
-    <2077b>   DW_AT_low_pc      : 0x800b3dc
+    <2077b>   DW_AT_low_pc      : 0x800b30c
     <2077f>   DW_AT_high_pc     : 0x14
     <20783>   DW_AT_call_file   : 1
     <20783>   DW_AT_call_line   : 4116
@@ -68809,7 +68809,7 @@ Contents of the .debug_info section:
     <207df>   DW_AT_decl_column : 13
     <207e0>   DW_AT_prototyped  : 1
     <207e0>   DW_AT_type        : <0x1f990>
-    <207e4>   DW_AT_low_pc      : 0x800b360
+    <207e4>   DW_AT_low_pc      : 0x800b290
     <207e8>   DW_AT_high_pc     : 0x3c
     <207ec>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <207ee>   DW_AT_call_all_calls: 1
@@ -68849,7 +68849,7 @@ Contents of the .debug_info section:
     <20832>   DW_AT_decl_line   : 3943
     <20834>   DW_AT_decl_column : 13
     <20835>   DW_AT_prototyped  : 1
-    <20835>   DW_AT_low_pc      : 0x800b320
+    <20835>   DW_AT_low_pc      : 0x800b250
     <20839>   DW_AT_high_pc     : 0x40
     <2083d>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <2083f>   DW_AT_call_all_calls: 1
@@ -68868,7 +68868,7 @@ Contents of the .debug_info section:
     <20858>   DW_AT_decl_line   : 3887
     <2085a>   DW_AT_decl_column : 14
     <2085b>   DW_AT_prototyped  : 1
-    <2085b>   DW_AT_low_pc      : 0x800b2b4
+    <2085b>   DW_AT_low_pc      : 0x800b1e4
     <2085f>   DW_AT_high_pc     : 0x6a
     <20863>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <20865>   DW_AT_call_all_tail_calls: 1
@@ -68882,7 +68882,7 @@ Contents of the .debug_info section:
     <20875>   DW_AT_location    : 2 byte block: 91 6c 	(DW_OP_fbreg: -20)
  <2><20878>: Abbrev Number: 8 (DW_TAG_inlined_subroutine)
     <20879>   DW_AT_abstract_origin: <0x21a5f>
-    <2087d>   DW_AT_low_pc      : 0x800b2fe
+    <2087d>   DW_AT_low_pc      : 0x800b22e
     <20881>   DW_AT_high_pc     : 0x14
     <20885>   DW_AT_call_file   : 1
     <20885>   DW_AT_call_line   : 3933
@@ -69101,13 +69101,13 @@ Contents of the .debug_info section:
     <20a44>   DW_AT_decl_line   : 3639
     <20a46>   DW_AT_decl_column : 13
     <20a47>   DW_AT_prototyped  : 1
-    <20a47>   DW_AT_low_pc      : 0x800b258
+    <20a47>   DW_AT_low_pc      : 0x800b188
     <20a4b>   DW_AT_high_pc     : 0x5c
     <20a4f>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <20a51>   DW_AT_call_all_tail_calls: 1
     <20a51>   DW_AT_sibling     : <0x20a6f>
  <2><20a55>: Abbrev Number: 27 (DW_TAG_lexical_block)
-    <20a56>   DW_AT_low_pc      : 0x800b25e
+    <20a56>   DW_AT_low_pc      : 0x800b18e
     <20a5a>   DW_AT_high_pc     : 0x3e
  <3><20a5e>: Abbrev Number: 1 (DW_TAG_variable)
     <20a5f>   DW_AT_name        : (indirect string, offset: 0x8d074): pxTCB
@@ -69124,7 +69124,7 @@ Contents of the .debug_info section:
     <20a74>   DW_AT_decl_line   : 3607
     <20a76>   DW_AT_decl_column : 13
     <20a77>   DW_AT_prototyped  : 1
-    <20a77>   DW_AT_low_pc      : 0x800b1d8
+    <20a77>   DW_AT_low_pc      : 0x800b108
     <20a7b>   DW_AT_high_pc     : 0x80
     <20a7f>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <20a81>   DW_AT_call_all_tail_calls: 1
@@ -69143,7 +69143,7 @@ Contents of the .debug_info section:
     <20a9a>   DW_AT_decl_line   : 3392
     <20a9c>   DW_AT_decl_column : 8
     <20a9d>   DW_AT_prototyped  : 1
-    <20a9d>   DW_AT_low_pc      : 0x800b1a8
+    <20a9d>   DW_AT_low_pc      : 0x800b0d8
     <20aa1>   DW_AT_high_pc     : 0x30
     <20aa5>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <20aa7>   DW_AT_call_all_tail_calls: 1
@@ -69237,7 +69237,7 @@ Contents of the .debug_info section:
     <20b56>   DW_AT_decl_line   : 3337
     <20b58>   DW_AT_decl_column : 6
     <20b58>   DW_AT_prototyped  : 1
-    <20b58>   DW_AT_low_pc      : 0x800b190
+    <20b58>   DW_AT_low_pc      : 0x800b0c0
     <20b5c>   DW_AT_high_pc     : 0x18
     <20b60>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <20b62>   DW_AT_call_all_calls: 1
@@ -69249,7 +69249,7 @@ Contents of the .debug_info section:
     <20b69>   DW_AT_decl_column : 12
     <20b6a>   DW_AT_prototyped  : 1
     <20b6a>   DW_AT_type        : <0x1f990>
-    <20b6e>   DW_AT_low_pc      : 0x800b0c8
+    <20b6e>   DW_AT_low_pc      : 0x800aff8
     <20b72>   DW_AT_high_pc     : 0xc8
     <20b76>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <20b78>   DW_AT_call_all_tail_calls: 1
@@ -69276,7 +69276,7 @@ Contents of the .debug_info section:
     <20ba2>   DW_AT_type        : <0x1f990>
     <20ba6>   DW_AT_location    : 2 byte block: 91 74 	(DW_OP_fbreg: -12)
  <2><20ba9>: Abbrev Number: 22 (DW_TAG_lexical_block)
-    <20baa>   DW_AT_low_pc      : 0x800b112
+    <20baa>   DW_AT_low_pc      : 0x800b042
     <20bae>   DW_AT_high_pc     : 0x68
     <20bb2>   DW_AT_sibling     : <0x20bd5>
  <3><20bb6>: Abbrev Number: 1 (DW_TAG_variable)
@@ -69296,7 +69296,7 @@ Contents of the .debug_info section:
  <3><20bd4>: Abbrev Number: 0
  <2><20bd5>: Abbrev Number: 12 (DW_TAG_inlined_subroutine)
     <20bd6>   DW_AT_abstract_origin: <0x21a5f>
-    <20bda>   DW_AT_low_pc      : 0x800b0d8
+    <20bda>   DW_AT_low_pc      : 0x800b008
     <20bde>   DW_AT_high_pc     : 0x14
     <20be2>   DW_AT_call_file   : 1
     <20be2>   DW_AT_call_line   : 3278
@@ -69308,7 +69308,7 @@ Contents of the .debug_info section:
  <3><20bf1>: Abbrev Number: 0
  <2><20bf2>: Abbrev Number: 8 (DW_TAG_inlined_subroutine)
     <20bf3>   DW_AT_abstract_origin: <0x21a5f>
-    <20bf7>   DW_AT_low_pc      : 0x800b0f6
+    <20bf7>   DW_AT_low_pc      : 0x800b026
     <20bfb>   DW_AT_high_pc     : 0x14
     <20bff>   DW_AT_call_file   : 1
     <20bff>   DW_AT_call_line   : 3279
@@ -69335,7 +69335,7 @@ Contents of the .debug_info section:
     <20c25>   DW_AT_decl_line   : 3266
     <20c27>   DW_AT_decl_column : 6
     <20c28>   DW_AT_prototyped  : 1
-    <20c28>   DW_AT_low_pc      : 0x800b09c
+    <20c28>   DW_AT_low_pc      : 0x800afcc
     <20c2c>   DW_AT_high_pc     : 0x2c
     <20c30>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <20c32>   DW_AT_call_all_calls: 1
@@ -69444,7 +69444,7 @@ Contents of the .debug_info section:
     <20d06>   DW_AT_decl_column : 12
     <20d07>   DW_AT_prototyped  : 1
     <20d07>   DW_AT_type        : <0x1f990>
-    <20d0b>   DW_AT_low_pc      : 0x800afd4
+    <20d0b>   DW_AT_low_pc      : 0x800af04
     <20d0f>   DW_AT_high_pc     : 0xc8
     <20d13>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <20d15>   DW_AT_call_all_tail_calls: 1
@@ -69472,7 +69472,7 @@ Contents of the .debug_info section:
     <20d43>   DW_AT_location    : 2 byte block: 91 74 	(DW_OP_fbreg: -12)
  <2><20d46>: Abbrev Number: 8 (DW_TAG_inlined_subroutine)
     <20d47>   DW_AT_abstract_origin: <0x21a5f>
-    <20d4b>   DW_AT_low_pc      : 0x800afea
+    <20d4b>   DW_AT_low_pc      : 0x800af1a
     <20d4f>   DW_AT_high_pc     : 0x14
     <20d53>   DW_AT_call_file   : 1
     <20d53>   DW_AT_call_line   : 3157
@@ -69494,7 +69494,7 @@ Contents of the .debug_info section:
     <20d6f>   DW_AT_decl_line   : 3107
     <20d71>   DW_AT_decl_column : 7
     <20d72>   DW_AT_prototyped  : 1
-    <20d72>   DW_AT_low_pc      : 0x800af7c
+    <20d72>   DW_AT_low_pc      : 0x800aeac
     <20d76>   DW_AT_high_pc     : 0x58
     <20d7a>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <20d7c>   DW_AT_call_all_tail_calls: 1
@@ -69522,7 +69522,7 @@ Contents of the .debug_info section:
     <20daa>   DW_AT_location    : 2 byte block: 91 64 	(DW_OP_fbreg: -28)
  <2><20dad>: Abbrev Number: 8 (DW_TAG_inlined_subroutine)
     <20dae>   DW_AT_abstract_origin: <0x21a5f>
-    <20db2>   DW_AT_low_pc      : 0x800af8e
+    <20db2>   DW_AT_low_pc      : 0x800aebe
     <20db6>   DW_AT_high_pc     : 0x14
     <20dba>   DW_AT_call_file   : 1
     <20dba>   DW_AT_call_line   : 3109
@@ -69596,7 +69596,7 @@ Contents of the .debug_info section:
     <20e46>   DW_AT_decl_line   : 3064
     <20e48>   DW_AT_decl_column : 6
     <20e49>   DW_AT_prototyped  : 1
-    <20e49>   DW_AT_low_pc      : 0x800af30
+    <20e49>   DW_AT_low_pc      : 0x800ae60
     <20e4d>   DW_AT_high_pc     : 0x4c
     <20e51>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <20e53>   DW_AT_call_all_tail_calls: 1
@@ -69617,7 +69617,7 @@ Contents of the .debug_info section:
     <20e72>   DW_AT_location    : 2 byte block: 91 68 	(DW_OP_fbreg: -24)
  <2><20e75>: Abbrev Number: 8 (DW_TAG_inlined_subroutine)
     <20e76>   DW_AT_abstract_origin: <0x21a5f>
-    <20e7a>   DW_AT_low_pc      : 0x800af40
+    <20e7a>   DW_AT_low_pc      : 0x800ae70
     <20e7e>   DW_AT_high_pc     : 0x14
     <20e82>   DW_AT_call_file   : 1
     <20e82>   DW_AT_call_line   : 3066
@@ -69634,13 +69634,13 @@ Contents of the .debug_info section:
     <20e94>   DW_AT_decl_line   : 2989
     <20e96>   DW_AT_decl_column : 6
     <20e97>   DW_AT_prototyped  : 1
-    <20e97>   DW_AT_low_pc      : 0x800ae64
+    <20e97>   DW_AT_low_pc      : 0x800ad94
     <20e9b>   DW_AT_high_pc     : 0xcc
     <20e9f>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <20ea1>   DW_AT_call_all_calls: 1
     <20ea1>   DW_AT_sibling     : <0x20ef5>
  <2><20ea5>: Abbrev Number: 27 (DW_TAG_lexical_block)
-    <20ea6>   DW_AT_low_pc      : 0x800ae80
+    <20ea6>   DW_AT_low_pc      : 0x800adb0
     <20eaa>   DW_AT_high_pc     : 0x80
  <3><20eae>: Abbrev Number: 1 (DW_TAG_variable)
     <20eaf>   DW_AT_name        : (indirect string, offset: 0xaa3d8): uxTopPriority
@@ -69650,7 +69650,7 @@ Contents of the .debug_info section:
     <20eb6>   DW_AT_type        : <0x1f9a6>
     <20eba>   DW_AT_location    : 2 byte block: 91 74 	(DW_OP_fbreg: -12)
  <3><20ebd>: Abbrev Number: 22 (DW_TAG_lexical_block)
-    <20ebe>   DW_AT_low_pc      : 0x800aec0
+    <20ebe>   DW_AT_low_pc      : 0x800adf0
     <20ec2>   DW_AT_high_pc     : 0x3a
     <20ec6>   DW_AT_sibling     : <0x20eda>
  <4><20eca>: Abbrev Number: 1 (DW_TAG_variable)
@@ -69663,7 +69663,7 @@ Contents of the .debug_info section:
  <4><20ed9>: Abbrev Number: 0
  <3><20eda>: Abbrev Number: 8 (DW_TAG_inlined_subroutine)
     <20edb>   DW_AT_abstract_origin: <0x21a5f>
-    <20edf>   DW_AT_low_pc      : 0x800ae8e
+    <20edf>   DW_AT_low_pc      : 0x800adbe
     <20ee3>   DW_AT_high_pc     : 0x14
     <20ee7>   DW_AT_call_file   : 1
     <20ee7>   DW_AT_call_line   : 3041
@@ -69682,7 +69682,7 @@ Contents of the .debug_info section:
     <20efc>   DW_AT_decl_column : 12
     <20efd>   DW_AT_prototyped  : 1
     <20efd>   DW_AT_type        : <0x1f990>
-    <20f01>   DW_AT_low_pc      : 0x800acf0
+    <20f01>   DW_AT_low_pc      : 0x800ac20
     <20f05>   DW_AT_high_pc     : 0x174
     <20f09>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <20f0b>   DW_AT_call_all_tail_calls: 1
@@ -69709,7 +69709,7 @@ Contents of the .debug_info section:
     <20f35>   DW_AT_type        : <0x1f990>
     <20f39>   DW_AT_location    : 2 byte block: 91 74 	(DW_OP_fbreg: -12)
  <2><20f3c>: Abbrev Number: 27 (DW_TAG_lexical_block)
-    <20f3d>   DW_AT_low_pc      : 0x800ad04
+    <20f3d>   DW_AT_low_pc      : 0x800ac34
     <20f41>   DW_AT_high_pc     : 0x120
  <3><20f45>: Abbrev Number: 1 (DW_TAG_variable)
     <20f46>   DW_AT_name        : (indirect string, offset: 0xaa97c): xConstTickCount
@@ -69719,7 +69719,7 @@ Contents of the .debug_info section:
     <20f4d>   DW_AT_type        : <0x1f9cd>
     <20f51>   DW_AT_location    : 2 byte block: 91 70 	(DW_OP_fbreg: -16)
  <3><20f54>: Abbrev Number: 27 (DW_TAG_lexical_block)
-    <20f55>   DW_AT_low_pc      : 0x800ad18
+    <20f55>   DW_AT_low_pc      : 0x800ac48
     <20f59>   DW_AT_high_pc     : 0x44
  <4><20f5d>: Abbrev Number: 1 (DW_TAG_variable)
     <20f5e>   DW_AT_name        : (indirect string, offset: 0xaa84a): pxTemp
@@ -69730,7 +69730,7 @@ Contents of the .debug_info section:
     <20f69>   DW_AT_location    : 2 byte block: 91 6c 	(DW_OP_fbreg: -20)
  <4><20f6c>: Abbrev Number: 8 (DW_TAG_inlined_subroutine)
     <20f6d>   DW_AT_abstract_origin: <0x21a5f>
-    <20f71>   DW_AT_low_pc      : 0x800ad22
+    <20f71>   DW_AT_low_pc      : 0x800ac52
     <20f75>   DW_AT_high_pc     : 0x14
     <20f79>   DW_AT_call_file   : 1
     <20f79>   DW_AT_call_line   : 2729
@@ -69917,7 +69917,7 @@ Contents of the .debug_info section:
     <210e8>   DW_AT_decl_column : 12
     <210e9>   DW_AT_prototyped  : 1
     <210e9>   DW_AT_type        : <0x1f9bc>
-    <210ed>   DW_AT_low_pc      : 0x800acd0
+    <210ed>   DW_AT_low_pc      : 0x800ac00
     <210f1>   DW_AT_high_pc     : 0x20
     <210f5>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <210f7>   DW_AT_call_all_calls: 1
@@ -69938,7 +69938,7 @@ Contents of the .debug_info section:
     <21112>   DW_AT_decl_column : 12
     <21113>   DW_AT_prototyped  : 1
     <21113>   DW_AT_type        : <0x1f990>
-    <21117>   DW_AT_low_pc      : 0x800ab94
+    <21117>   DW_AT_low_pc      : 0x800aac4
     <2111b>   DW_AT_high_pc     : 0x13c
     <2111f>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <21121>   DW_AT_call_all_tail_calls: 1
@@ -69958,7 +69958,7 @@ Contents of the .debug_info section:
     <2113c>   DW_AT_type        : <0x1f990>
     <21140>   DW_AT_location    : 2 byte block: 91 70 	(DW_OP_fbreg: -16)
  <2><21143>: Abbrev Number: 22 (DW_TAG_lexical_block)
-    <21144>   DW_AT_low_pc      : 0x800ac54
+    <21144>   DW_AT_low_pc      : 0x800ab84
     <21148>   DW_AT_high_pc     : 0x2e
     <2114c>   DW_AT_sibling     : <0x21160>
  <3><21150>: Abbrev Number: 1 (DW_TAG_variable)
@@ -69971,7 +69971,7 @@ Contents of the .debug_info section:
  <3><2115f>: Abbrev Number: 0
  <2><21160>: Abbrev Number: 8 (DW_TAG_inlined_subroutine)
     <21161>   DW_AT_abstract_origin: <0x21a5f>
-    <21165>   DW_AT_low_pc      : 0x800abaa
+    <21165>   DW_AT_low_pc      : 0x800aada
     <21169>   DW_AT_high_pc     : 0x14
     <2116d>   DW_AT_call_file   : 1
     <2116d>   DW_AT_call_line   : 2201
@@ -69988,7 +69988,7 @@ Contents of the .debug_info section:
     <2117f>   DW_AT_decl_line   : 2110
     <21181>   DW_AT_decl_column : 6
     <21181>   DW_AT_prototyped  : 1
-    <21181>   DW_AT_low_pc      : 0x800ab78
+    <21181>   DW_AT_low_pc      : 0x800aaa8
     <21185>   DW_AT_high_pc     : 0x1c
     <21189>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <2118b>   DW_AT_call_all_calls: 1
@@ -70023,7 +70023,7 @@ Contents of the .debug_info section:
     <211c0>   DW_AT_decl_line   : 1975
     <211c2>   DW_AT_decl_column : 6
     <211c3>   DW_AT_prototyped  : 1
-    <211c3>   DW_AT_low_pc      : 0x800aa98
+    <211c3>   DW_AT_low_pc      : 0x800a9c8
     <211c7>   DW_AT_high_pc     : 0xe0
     <211cb>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <211cd>   DW_AT_call_all_tail_calls: 1
@@ -70036,7 +70036,7 @@ Contents of the .debug_info section:
     <211d9>   DW_AT_type        : <0x1f990>
     <211dd>   DW_AT_location    : 2 byte block: 91 74 	(DW_OP_fbreg: -12)
  <2><211e0>: Abbrev Number: 22 (DW_TAG_lexical_block)
-    <211e1>   DW_AT_low_pc      : 0x800aa9e
+    <211e1>   DW_AT_low_pc      : 0x800a9ce
     <211e5>   DW_AT_high_pc     : 0x48
     <211e9>   DW_AT_sibling     : <0x2121b>
  <3><211ed>: Abbrev Number: 1 (DW_TAG_variable)
@@ -70063,7 +70063,7 @@ Contents of the .debug_info section:
  <3><2121a>: Abbrev Number: 0
  <2><2121b>: Abbrev Number: 12 (DW_TAG_inlined_subroutine)
     <2121c>   DW_AT_abstract_origin: <0x21a5f>
-    <21220>   DW_AT_low_pc      : 0x800aaf8
+    <21220>   DW_AT_low_pc      : 0x800aa28
     <21224>   DW_AT_high_pc     : 0x14
     <21228>   DW_AT_call_file   : 1
     <21228>   DW_AT_call_line   : 2047
@@ -70075,7 +70075,7 @@ Contents of the .debug_info section:
  <3><21237>: Abbrev Number: 0
  <2><21238>: Abbrev Number: 8 (DW_TAG_inlined_subroutine)
     <21239>   DW_AT_abstract_origin: <0x21a5f>
-    <2123d>   DW_AT_low_pc      : 0x800ab38
+    <2123d>   DW_AT_low_pc      : 0x800aa68
     <21241>   DW_AT_high_pc     : 0x14
     <21245>   DW_AT_call_file   : 1
     <21245>   DW_AT_call_line   : 2090
@@ -70529,7 +70529,7 @@ Contents of the .debug_info section:
     <215fb>   DW_AT_decl_line   : 1341
     <215fd>   DW_AT_decl_column : 7
     <215fe>   DW_AT_prototyped  : 1
-    <215fe>   DW_AT_low_pc      : 0x800aa2c
+    <215fe>   DW_AT_low_pc      : 0x800a95c
     <21602>   DW_AT_high_pc     : 0x6c
     <21606>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <21608>   DW_AT_call_all_tail_calls: 1
@@ -70550,7 +70550,7 @@ Contents of the .debug_info section:
     <21627>   DW_AT_location    : 2 byte block: 91 74 	(DW_OP_fbreg: -12)
  <2><2162a>: Abbrev Number: 8 (DW_TAG_inlined_subroutine)
     <2162b>   DW_AT_abstract_origin: <0x21a5f>
-    <2162f>   DW_AT_low_pc      : 0x800aa46
+    <2162f>   DW_AT_low_pc      : 0x800a976
     <21633>   DW_AT_high_pc     : 0x14
     <21637>   DW_AT_call_file   : 1
     <21637>   DW_AT_call_line   : 1348
@@ -70699,7 +70699,7 @@ Contents of the .debug_info section:
     <21769>   DW_AT_decl_line   : 1077
     <2176b>   DW_AT_decl_column : 13
     <2176c>   DW_AT_prototyped  : 1
-    <2176c>   DW_AT_low_pc      : 0x800a94c
+    <2176c>   DW_AT_low_pc      : 0x800a87c
     <21770>   DW_AT_high_pc     : 0xe0
     <21774>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <21776>   DW_AT_call_all_tail_calls: 1
@@ -70718,7 +70718,7 @@ Contents of the .debug_info section:
     <2178f>   DW_AT_decl_line   : 824
     <21791>   DW_AT_decl_column : 13
     <21792>   DW_AT_prototyped  : 1
-    <21792>   DW_AT_low_pc      : 0x800a7fc
+    <21792>   DW_AT_low_pc      : 0x800a72c
     <21796>   DW_AT_high_pc     : 0x150
     <2179a>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <2179c>   DW_AT_call_all_tail_calls: 1
@@ -70795,7 +70795,7 @@ Contents of the .debug_info section:
     <21832>   DW_AT_location    : 2 byte block: 91 74 	(DW_OP_fbreg: -12)
  <2><21835>: Abbrev Number: 8 (DW_TAG_inlined_subroutine)
     <21836>   DW_AT_abstract_origin: <0x21a5f>
-    <2183a>   DW_AT_low_pc      : 0x800a83e
+    <2183a>   DW_AT_low_pc      : 0x800a76e
     <2183e>   DW_AT_high_pc     : 0x14
     <21842>   DW_AT_call_file   : 1
     <21842>   DW_AT_call_line   : 868
@@ -70823,7 +70823,7 @@ Contents of the .debug_info section:
     <2186a>   DW_AT_decl_column : 13
     <2186b>   DW_AT_prototyped  : 1
     <2186b>   DW_AT_type        : <0x1f990>
-    <2186f>   DW_AT_low_pc      : 0x800a770
+    <2186f>   DW_AT_low_pc      : 0x800a6a0
     <21873>   DW_AT_high_pc     : 0x8a
     <21877>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <21879>   DW_AT_call_all_tail_calls: 1
@@ -70885,7 +70885,7 @@ Contents of the .debug_info section:
     <218ee>   DW_AT_type        : <0x1f990>
     <218f2>   DW_AT_location    : 2 byte block: 91 70 	(DW_OP_fbreg: -16)
  <2><218f5>: Abbrev Number: 27 (DW_TAG_lexical_block)
-    <218f6>   DW_AT_low_pc      : 0x800a780
+    <218f6>   DW_AT_low_pc      : 0x800a6b0
     <218fa>   DW_AT_high_pc     : 0x34
  <3><218fe>: Abbrev Number: 1 (DW_TAG_variable)
     <218ff>   DW_AT_name        : (indirect string, offset: 0xaa328): pxStack
@@ -70904,7 +70904,7 @@ Contents of the .debug_info section:
     <21916>   DW_AT_decl_column : 15
     <21917>   DW_AT_prototyped  : 1
     <21917>   DW_AT_type        : <0x1fbfb>
-    <2191b>   DW_AT_low_pc      : 0x800a6b0
+    <2191b>   DW_AT_low_pc      : 0x800a5e0
     <2191f>   DW_AT_high_pc     : 0xc0
     <21923>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <21925>   DW_AT_call_all_tail_calls: 1
@@ -70973,7 +70973,7 @@ Contents of the .debug_info section:
     <219a9>   DW_AT_type        : <0x1fbfb>
     <219ad>   DW_AT_location    : 2 byte block: 91 64 	(DW_OP_fbreg: -28)
  <2><219b0>: Abbrev Number: 22 (DW_TAG_lexical_block)
-    <219b1>   DW_AT_low_pc      : 0x800a6fa
+    <219b1>   DW_AT_low_pc      : 0x800a62a
     <219b5>   DW_AT_high_pc     : 0x24
     <219b9>   DW_AT_sibling     : <0x219e6>
  <3><219bd>: Abbrev Number: 1 (DW_TAG_variable)
@@ -70985,7 +70985,7 @@ Contents of the .debug_info section:
     <219c9>   DW_AT_location    : 2 byte block: 91 60 	(DW_OP_fbreg: -32)
  <3><219cc>: Abbrev Number: 8 (DW_TAG_inlined_subroutine)
     <219cd>   DW_AT_abstract_origin: <0x21a5f>
-    <219d1>   DW_AT_low_pc      : 0x800a704
+    <219d1>   DW_AT_low_pc      : 0x800a634
     <219d5>   DW_AT_high_pc     : 0x14
     <219d9>   DW_AT_call_file   : 1
     <219d9>   DW_AT_call_line   : 601
@@ -70997,7 +70997,7 @@ Contents of the .debug_info section:
  <3><219e5>: Abbrev Number: 0
  <2><219e6>: Abbrev Number: 12 (DW_TAG_inlined_subroutine)
     <219e7>   DW_AT_abstract_origin: <0x21a5f>
-    <219eb>   DW_AT_low_pc      : 0x800a6c4
+    <219eb>   DW_AT_low_pc      : 0x800a5f4
     <219ef>   DW_AT_high_pc     : 0x14
     <219f3>   DW_AT_call_file   : 1
     <219f3>   DW_AT_call_line   : 592
@@ -71009,7 +71009,7 @@ Contents of the .debug_info section:
  <3><21a02>: Abbrev Number: 0
  <2><21a03>: Abbrev Number: 8 (DW_TAG_inlined_subroutine)
     <21a04>   DW_AT_abstract_origin: <0x21a5f>
-    <21a08>   DW_AT_low_pc      : 0x800a6e2
+    <21a08>   DW_AT_low_pc      : 0x800a612
     <21a0c>   DW_AT_high_pc     : 0x14
     <21a10>   DW_AT_call_file   : 1
     <21a10>   DW_AT_call_line   : 593
@@ -71084,7 +71084,7 @@ Contents of the .debug_info section:
     <21a8b>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <21a8f>   DW_AT_ranges      : 0x1776
     <21a93>   DW_AT_low_pc      : 0
-    <21a97>   DW_AT_stmt_list   : 0x23a26
+    <21a97>   DW_AT_stmt_list   : 0x23a13
     <21a9b>   DW_AT_macros      : 0x6047
  <1><21a9f>: Abbrev Number: 7 (DW_TAG_typedef)
     <21aa0>   DW_AT_name        : (indirect string, offset: 0x84ee9): size_t
@@ -73549,13 +73549,13 @@ Contents of the .debug_info section:
     <22d3a>   DW_AT_decl_line   : 941
     <22d3c>   DW_AT_decl_column : 13
     <22d3d>   DW_AT_prototyped  : 1
-    <22d3d>   DW_AT_low_pc      : 0x800bb58
+    <22d3d>   DW_AT_low_pc      : 0x800ba88
     <22d41>   DW_AT_high_pc     : 0x80
     <22d45>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <22d47>   DW_AT_call_all_tail_calls: 1
     <22d47>   DW_AT_sibling     : <0x22d7a>
  <2><22d4b>: Abbrev Number: 47 (DW_TAG_lexical_block)
-    <22d4c>   DW_AT_low_pc      : 0x800bb82
+    <22d4c>   DW_AT_low_pc      : 0x800bab2
     <22d50>   DW_AT_high_pc     : 0x16
  <3><22d54>: Abbrev Number: 5 (DW_TAG_variable)
     <22d55>   DW_AT_name        : (indirect string, offset: 0xab1e3): xStaticTimerQueue
@@ -73586,7 +73586,7 @@ Contents of the .debug_info section:
     <22d8f>   DW_AT_decl_line   : 882
     <22d91>   DW_AT_decl_column : 13
     <22d92>   DW_AT_prototyped  : 1
-    <22d92>   DW_AT_low_pc      : 0x800ba8c
+    <22d92>   DW_AT_low_pc      : 0x800b9bc
     <22d96>   DW_AT_high_pc     : 0xcc
     <22d9a>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <22d9c>   DW_AT_call_all_tail_calls: 1
@@ -73628,7 +73628,7 @@ Contents of the .debug_info section:
     <22de8>   DW_AT_location    : 2 byte block: 91 64 	(DW_OP_fbreg: -28)
  <2><22deb>: Abbrev Number: 9 (DW_TAG_inlined_subroutine)
     <22dec>   DW_AT_abstract_origin: <0x235ae>
-    <22df0>   DW_AT_low_pc      : 0x800bb10
+    <22df0>   DW_AT_low_pc      : 0x800ba40
     <22df4>   DW_AT_high_pc     : 0x14
     <22df8>   DW_AT_call_file   : 1
     <22df8>   DW_AT_call_line   : 925
@@ -73644,7 +73644,7 @@ Contents of the .debug_info section:
     <22e0a>   DW_AT_decl_line   : 734
     <22e0c>   DW_AT_decl_column : 13
     <22e0d>   DW_AT_prototyped  : 1
-    <22e0d>   DW_AT_low_pc      : 0x800b8c0
+    <22e0d>   DW_AT_low_pc      : 0x800b7f0
     <22e11>   DW_AT_high_pc     : 0x1cc
     <22e15>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <22e17>   DW_AT_call_all_tail_calls: 1
@@ -73685,7 +73685,7 @@ Contents of the .debug_info section:
     <22e5f>   DW_AT_type        : <0x2223b>
     <22e63>   DW_AT_location    : 2 byte block: 91 6c 	(DW_OP_fbreg: -20)
  <2><22e66>: Abbrev Number: 29 (DW_TAG_lexical_block)
-    <22e67>   DW_AT_low_pc      : 0x800b8ce
+    <22e67>   DW_AT_low_pc      : 0x800b7fe
     <22e6b>   DW_AT_high_pc     : 0x34
     <22e6f>   DW_AT_sibling     : <0x22e9c>
  <3><22e73>: Abbrev Number: 5 (DW_TAG_variable)
@@ -73697,7 +73697,7 @@ Contents of the .debug_info section:
     <22e7f>   DW_AT_location    : 2 byte block: 91 74 	(DW_OP_fbreg: -12)
  <3><22e82>: Abbrev Number: 9 (DW_TAG_inlined_subroutine)
     <22e83>   DW_AT_abstract_origin: <0x235ae>
-    <22e87>   DW_AT_low_pc      : 0x800b8da
+    <22e87>   DW_AT_low_pc      : 0x800b80a
     <22e8b>   DW_AT_high_pc     : 0x14
     <22e8f>   DW_AT_call_file   : 1
     <22e8f>   DW_AT_call_line   : 753
@@ -73709,7 +73709,7 @@ Contents of the .debug_info section:
  <3><22e9b>: Abbrev Number: 0
  <2><22e9c>: Abbrev Number: 48 (DW_TAG_inlined_subroutine)
     <22e9d>   DW_AT_abstract_origin: <0x235ae>
-    <22ea1>   DW_AT_low_pc      : 0x800b9be
+    <22ea1>   DW_AT_low_pc      : 0x800b8ee
     <22ea5>   DW_AT_high_pc     : 0x14
     <22ea9>   DW_AT_call_file   : 1
     <22eaa>   DW_AT_call_line   : 812
@@ -73721,7 +73721,7 @@ Contents of the .debug_info section:
  <3><22eb9>: Abbrev Number: 0
  <2><22eba>: Abbrev Number: 9 (DW_TAG_inlined_subroutine)
     <22ebb>   DW_AT_abstract_origin: <0x235ae>
-    <22ebf>   DW_AT_low_pc      : 0x800ba0a
+    <22ebf>   DW_AT_low_pc      : 0x800b93a
     <22ec3>   DW_AT_high_pc     : 0x14
     <22ec7>   DW_AT_call_file   : 1
     <22ec7>   DW_AT_call_line   : 836
@@ -73743,7 +73743,7 @@ Contents of the .debug_info section:
     <22ee5>   DW_AT_decl_column : 19
     <22ee5>   DW_AT_prototyped  : 1
     <22ee5>   DW_AT_type        : <0x22214>
-    <22ee9>   DW_AT_low_pc      : 0x800b83c
+    <22ee9>   DW_AT_low_pc      : 0x800b76c
     <22eed>   DW_AT_high_pc     : 0x84
     <22ef1>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <22ef3>   DW_AT_call_all_tail_calls: 1
@@ -73791,7 +73791,7 @@ Contents of the .debug_info section:
     <22f4a>   DW_AT_decl_column : 19
     <22f4a>   DW_AT_prototyped  : 1
     <22f4a>   DW_AT_type        : <0x2223b>
-    <22f4e>   DW_AT_low_pc      : 0x800b7fc
+    <22f4e>   DW_AT_low_pc      : 0x800b72c
     <22f52>   DW_AT_high_pc     : 0x40
     <22f56>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <22f58>   DW_AT_call_all_tail_calls: 1
@@ -73825,7 +73825,7 @@ Contents of the .debug_info section:
     <22f95>   DW_AT_decl_column : 19
     <22f96>   DW_AT_prototyped  : 1
     <22f96>   DW_AT_type        : <0x2223b>
-    <22f9a>   DW_AT_low_pc      : 0x800b7b4
+    <22f9a>   DW_AT_low_pc      : 0x800b6e4
     <22f9e>   DW_AT_high_pc     : 0x48
     <22fa2>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <22fa4>   DW_AT_call_all_calls: 1
@@ -73851,7 +73851,7 @@ Contents of the .debug_info section:
     <22fcc>   DW_AT_decl_line   : 584
     <22fce>   DW_AT_decl_column : 13
     <22fcf>   DW_AT_prototyped  : 1
-    <22fcf>   DW_AT_low_pc      : 0x800b718
+    <22fcf>   DW_AT_low_pc      : 0x800b648
     <22fd3>   DW_AT_high_pc     : 0x9c
     <22fd7>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <22fd9>   DW_AT_call_all_tail_calls: 1
@@ -73891,7 +73891,7 @@ Contents of the .debug_info section:
     <2301f>   DW_AT_decl_line   : 548
     <23021>   DW_AT_decl_column : 8
     <23022>   DW_AT_prototyped  : 1
-    <23022>   DW_AT_low_pc      : 0x800b6f0
+    <23022>   DW_AT_low_pc      : 0x800b620
     <23026>   DW_AT_high_pc     : 0x26
     <2302a>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <2302c>   DW_AT_call_all_tail_calls: 1
@@ -73924,7 +73924,7 @@ Contents of the .debug_info section:
     <23063>   DW_AT_decl_line   : 507
     <23065>   DW_AT_decl_column : 13
     <23066>   DW_AT_prototyped  : 1
-    <23066>   DW_AT_low_pc      : 0x800b654
+    <23066>   DW_AT_low_pc      : 0x800b584
     <2306a>   DW_AT_high_pc     : 0x9c
     <2306e>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <23070>   DW_AT_call_all_tail_calls: 1
@@ -73959,7 +73959,7 @@ Contents of the .debug_info section:
     <230ad>   DW_AT_location    : 2 byte block: 91 74 	(DW_OP_fbreg: -12)
  <2><230b0>: Abbrev Number: 9 (DW_TAG_inlined_subroutine)
     <230b1>   DW_AT_abstract_origin: <0x235ae>
-    <230b5>   DW_AT_low_pc      : 0x800b6b0
+    <230b5>   DW_AT_low_pc      : 0x800b5e0
     <230b9>   DW_AT_high_pc     : 0x14
     <230bd>   DW_AT_call_file   : 1
     <230bd>   DW_AT_call_line   : 529
@@ -74217,7 +74217,7 @@ Contents of the .debug_info section:
     <232c7>   DW_AT_decl_column : 12
     <232c8>   DW_AT_prototyped  : 1
     <232c8>   DW_AT_type        : <0x22214>
-    <232cc>   DW_AT_low_pc      : 0x800b5b8
+    <232cc>   DW_AT_low_pc      : 0x800b4e8
     <232d0>   DW_AT_high_pc     : 0x9c
     <232d4>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <232d6>   DW_AT_call_all_tail_calls: 1
@@ -74273,7 +74273,7 @@ Contents of the .debug_info section:
     <23340>   DW_AT_location    : 2 byte block: 91 60 	(DW_OP_fbreg: -32)
  <2><23343>: Abbrev Number: 9 (DW_TAG_inlined_subroutine)
     <23344>   DW_AT_abstract_origin: <0x235ae>
-    <23348>   DW_AT_low_pc      : 0x800b5d0
+    <23348>   DW_AT_low_pc      : 0x800b500
     <2334c>   DW_AT_high_pc     : 0x14
     <23350>   DW_AT_call_file   : 1
     <23350>   DW_AT_call_line   : 386
@@ -74512,7 +74512,7 @@ Contents of the .debug_info section:
     <2353b>   DW_AT_decl_column : 12
     <2353c>   DW_AT_prototyped  : 1
     <2353c>   DW_AT_type        : <0x22214>
-    <23540>   DW_AT_low_pc      : 0x800b524
+    <23540>   DW_AT_low_pc      : 0x800b454
     <23544>   DW_AT_high_pc     : 0x94
     <23548>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <2354a>   DW_AT_call_all_tail_calls: 1
@@ -74525,7 +74525,7 @@ Contents of the .debug_info section:
     <23555>   DW_AT_type        : <0x22214>
     <23559>   DW_AT_location    : 2 byte block: 91 74 	(DW_OP_fbreg: -12)
  <2><2355c>: Abbrev Number: 29 (DW_TAG_lexical_block)
-    <2355d>   DW_AT_low_pc      : 0x800b53a
+    <2355d>   DW_AT_low_pc      : 0x800b46a
     <23561>   DW_AT_high_pc     : 0x44
     <23565>   DW_AT_sibling     : <0x23594>
  <3><23569>: Abbrev Number: 17 (DW_TAG_variable)
@@ -74552,7 +74552,7 @@ Contents of the .debug_info section:
  <3><23593>: Abbrev Number: 0
  <2><23594>: Abbrev Number: 9 (DW_TAG_inlined_subroutine)
     <23595>   DW_AT_abstract_origin: <0x235ae>
-    <23599>   DW_AT_low_pc      : 0x800b584
+    <23599>   DW_AT_low_pc      : 0x800b4b4
     <2359d>   DW_AT_high_pc     : 0x14
     <235a1>   DW_AT_call_file   : 1
     <235a1>   DW_AT_call_line   : 275
@@ -74590,7 +74590,7 @@ Contents of the .debug_info section:
     <235db>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <235df>   DW_AT_ranges      : 0x182e
     <235e3>   DW_AT_low_pc      : 0
-    <235e7>   DW_AT_stmt_list   : 0x247fd
+    <235e7>   DW_AT_stmt_list   : 0x247ea
     <235eb>   DW_AT_macros      : 0x62cc
  <1><235ef>: Abbrev Number: 17 (DW_TAG_base_type)
     <235f0>   DW_AT_byte_size   : 4
@@ -74781,7 +74781,7 @@ Contents of the .debug_info section:
     <2374f>   DW_AT_decl_line   : 717
     <23751>   DW_AT_decl_column : 7
     <23752>   DW_AT_prototyped  : 1
-    <23752>   DW_AT_low_pc      : 0x800bff8
+    <23752>   DW_AT_low_pc      : 0x800bf28
     <23756>   DW_AT_high_pc     : 0x84
     <2375a>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <2375c>   DW_AT_call_all_calls: 1
@@ -74802,7 +74802,7 @@ Contents of the .debug_info section:
     <2377b>   DW_AT_location    : 2 byte block: 91 73 	(DW_OP_fbreg: -13)
  <2><2377e>: Abbrev Number: 7 (DW_TAG_inlined_subroutine)
     <2377f>   DW_AT_abstract_origin: <0x23a8c>
-    <23783>   DW_AT_low_pc      : 0x800c01e
+    <23783>   DW_AT_low_pc      : 0x800bf4e
     <23787>   DW_AT_high_pc     : 0x14
     <2378b>   DW_AT_call_file   : 1
     <2378b>   DW_AT_call_line   : 754
@@ -74814,7 +74814,7 @@ Contents of the .debug_info section:
  <3><2379a>: Abbrev Number: 0
  <2><2379b>: Abbrev Number: 4 (DW_TAG_inlined_subroutine)
     <2379c>   DW_AT_abstract_origin: <0x23a8c>
-    <237a0>   DW_AT_low_pc      : 0x800c046
+    <237a0>   DW_AT_low_pc      : 0x800bf76
     <237a4>   DW_AT_high_pc     : 0x14
     <237a8>   DW_AT_call_file   : 1
     <237a8>   DW_AT_call_line   : 770
@@ -74830,7 +74830,7 @@ Contents of the .debug_info section:
     <237ba>   DW_AT_decl_line   : 701
     <237bc>   DW_AT_decl_column : 13
     <237bc>   DW_AT_prototyped  : 1
-    <237bc>   DW_AT_low_pc      : 0x800bfe4
+    <237bc>   DW_AT_low_pc      : 0x800bf14
     <237c0>   DW_AT_high_pc     : 0x10
     <237c4>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <237c6>   DW_AT_call_all_calls: 1
@@ -74841,7 +74841,7 @@ Contents of the .debug_info section:
     <237cb>   DW_AT_decl_line   : 679
     <237cd>   DW_AT_decl_column : 30
     <237ce>   DW_AT_prototyped  : 1
-    <237ce>   DW_AT_low_pc      : 0x800bf9c
+    <237ce>   DW_AT_low_pc      : 0x800becc
     <237d2>   DW_AT_high_pc     : 0x48
     <237d6>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <237d8>   DW_AT_call_all_calls: 1
@@ -74852,14 +74852,14 @@ Contents of the .debug_info section:
     <237de>   DW_AT_decl_line   : 488
     <237e0>   DW_AT_decl_column : 6
     <237e1>   DW_AT_prototyped  : 1
-    <237e1>   DW_AT_low_pc      : 0x800bf58
+    <237e1>   DW_AT_low_pc      : 0x800be88
     <237e5>   DW_AT_high_pc     : 0x44
     <237e9>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <237eb>   DW_AT_call_all_tail_calls: 1
     <237eb>   DW_AT_sibling     : <0x23826>
  <2><237ef>: Abbrev Number: 7 (DW_TAG_inlined_subroutine)
     <237f0>   DW_AT_abstract_origin: <0x23a8c>
-    <237f4>   DW_AT_low_pc      : 0x800bf5e
+    <237f4>   DW_AT_low_pc      : 0x800be8e
     <237f8>   DW_AT_high_pc     : 0x14
     <237fc>   DW_AT_call_file   : 1
     <237fc>   DW_AT_call_line   : 494
@@ -74871,7 +74871,7 @@ Contents of the .debug_info section:
  <3><2380b>: Abbrev Number: 0
  <2><2380c>: Abbrev Number: 4 (DW_TAG_inlined_subroutine)
     <2380d>   DW_AT_abstract_origin: <0x23a72>
-    <23811>   DW_AT_low_pc      : 0x800bf88
+    <23811>   DW_AT_low_pc      : 0x800beb8
     <23815>   DW_AT_high_pc     : 0x8
     <23819>   DW_AT_call_file   : 1
     <23819>   DW_AT_call_line   : 504
@@ -74888,7 +74888,7 @@ Contents of the .debug_info section:
     <2382b>   DW_AT_decl_line   : 431
     <2382d>   DW_AT_decl_column : 6
     <2382e>   DW_AT_prototyped  : 1
-    <2382e>   DW_AT_low_pc      : 0x800bef0
+    <2382e>   DW_AT_low_pc      : 0x800be20
     <23832>   DW_AT_high_pc     : 0x66
     <23836>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <23838>   DW_AT_call_all_calls: 1
@@ -74899,14 +74899,14 @@ Contents of the .debug_info section:
     <2383d>   DW_AT_decl_line   : 420
     <2383f>   DW_AT_decl_column : 6
     <23840>   DW_AT_prototyped  : 1
-    <23840>   DW_AT_low_pc      : 0x800be9c
+    <23840>   DW_AT_low_pc      : 0x800bdcc
     <23844>   DW_AT_high_pc     : 0x54
     <23848>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <2384a>   DW_AT_call_all_calls: 1
     <2384a>   DW_AT_sibling     : <0x23885>
  <2><2384e>: Abbrev Number: 7 (DW_TAG_inlined_subroutine)
     <2384f>   DW_AT_abstract_origin: <0x23a8c>
-    <23853>   DW_AT_low_pc      : 0x800beaa
+    <23853>   DW_AT_low_pc      : 0x800bdda
     <23857>   DW_AT_high_pc     : 0x14
     <2385b>   DW_AT_call_file   : 1
     <2385b>   DW_AT_call_line   : 422
@@ -74918,7 +74918,7 @@ Contents of the .debug_info section:
  <3><2386a>: Abbrev Number: 0
  <2><2386b>: Abbrev Number: 4 (DW_TAG_inlined_subroutine)
     <2386c>   DW_AT_abstract_origin: <0x23a72>
-    <23870>   DW_AT_low_pc      : 0x800bed8
+    <23870>   DW_AT_low_pc      : 0x800be08
     <23874>   DW_AT_high_pc     : 0x8
     <23878>   DW_AT_call_file   : 1
     <23878>   DW_AT_call_line   : 426
@@ -74935,14 +74935,14 @@ Contents of the .debug_info section:
     <2388a>   DW_AT_decl_line   : 403
     <2388c>   DW_AT_decl_column : 6
     <2388d>   DW_AT_prototyped  : 1
-    <2388d>   DW_AT_low_pc      : 0x800be38
+    <2388d>   DW_AT_low_pc      : 0x800bd68
     <23891>   DW_AT_high_pc     : 0x64
     <23895>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <23897>   DW_AT_call_all_calls: 1
     <23897>   DW_AT_sibling     : <0x238d2>
  <2><2389b>: Abbrev Number: 7 (DW_TAG_inlined_subroutine)
     <2389c>   DW_AT_abstract_origin: <0x23a8c>
-    <238a0>   DW_AT_low_pc      : 0x800be3e
+    <238a0>   DW_AT_low_pc      : 0x800bd6e
     <238a4>   DW_AT_high_pc     : 0x14
     <238a8>   DW_AT_call_file   : 1
     <238a8>   DW_AT_call_line   : 405
@@ -74954,7 +74954,7 @@ Contents of the .debug_info section:
  <3><238b7>: Abbrev Number: 0
  <2><238b8>: Abbrev Number: 4 (DW_TAG_inlined_subroutine)
     <238b9>   DW_AT_abstract_origin: <0x23a8c>
-    <238bd>   DW_AT_low_pc      : 0x800be6e
+    <238bd>   DW_AT_low_pc      : 0x800bd9e
     <238c1>   DW_AT_high_pc     : 0x14
     <238c5>   DW_AT_call_file   : 1
     <238c5>   DW_AT_call_line   : 415
@@ -74996,13 +74996,13 @@ Contents of the .debug_info section:
     <2390a>   DW_AT_decl_column : 12
     <2390b>   DW_AT_prototyped  : 1
     <2390b>   DW_AT_type        : <0x236b6>
-    <2390f>   DW_AT_low_pc      : 0x800bcf0
+    <2390f>   DW_AT_low_pc      : 0x800bc20
     <23913>   DW_AT_high_pc     : 0x148
     <23917>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <23919>   DW_AT_call_all_tail_calls: 1
     <23919>   DW_AT_sibling     : <0x239a8>
  <2><2391d>: Abbrev Number: 26 (DW_TAG_lexical_block)
-    <2391e>   DW_AT_low_pc      : 0x800bd3a
+    <2391e>   DW_AT_low_pc      : 0x800bc6a
     <23922>   DW_AT_high_pc     : 0x92
     <23926>   DW_AT_sibling     : <0x23971>
  <3><2392a>: Abbrev Number: 6 (DW_TAG_variable)
@@ -75028,7 +75028,7 @@ Contents of the .debug_info section:
     <23954>   DW_AT_location    : 2 byte block: 91 63 	(DW_OP_fbreg: -29)
  <3><23957>: Abbrev Number: 4 (DW_TAG_inlined_subroutine)
     <23958>   DW_AT_abstract_origin: <0x23a8c>
-    <2395c>   DW_AT_low_pc      : 0x800bd96
+    <2395c>   DW_AT_low_pc      : 0x800bcc6
     <23960>   DW_AT_high_pc     : 0x14
     <23964>   DW_AT_call_file   : 1
     <23964>   DW_AT_call_line   : 346
@@ -75040,7 +75040,7 @@ Contents of the .debug_info section:
  <3><23970>: Abbrev Number: 0
  <2><23971>: Abbrev Number: 7 (DW_TAG_inlined_subroutine)
     <23972>   DW_AT_abstract_origin: <0x23a8c>
-    <23976>   DW_AT_low_pc      : 0x800bd00
+    <23976>   DW_AT_low_pc      : 0x800bc30
     <2397a>   DW_AT_high_pc     : 0x14
     <2397e>   DW_AT_call_file   : 1
     <2397e>   DW_AT_call_line   : 296
@@ -75052,7 +75052,7 @@ Contents of the .debug_info section:
  <3><2398d>: Abbrev Number: 0
  <2><2398e>: Abbrev Number: 4 (DW_TAG_inlined_subroutine)
     <2398f>   DW_AT_abstract_origin: <0x23a8c>
-    <23993>   DW_AT_low_pc      : 0x800bd22
+    <23993>   DW_AT_low_pc      : 0x800bc52
     <23997>   DW_AT_high_pc     : 0x14
     <2399b>   DW_AT_call_file   : 1
     <2399b>   DW_AT_call_line   : 297
@@ -75073,7 +75073,7 @@ Contents of the .debug_info section:
     <239b7>   DW_AT_decl_line   : 261
     <239b9>   DW_AT_decl_column : 13
     <239b9>   DW_AT_prototyped  : 1
-    <239b9>   DW_AT_low_pc      : 0x800bcc8
+    <239b9>   DW_AT_low_pc      : 0x800bbf8
     <239bd>   DW_AT_high_pc     : 0x24
     <239c1>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <239c3>   DW_AT_call_all_calls: 1
@@ -75084,7 +75084,7 @@ Contents of the .debug_info section:
     <239c9>   DW_AT_decl_line   : 242
     <239ca>   DW_AT_decl_column : 6
     <239cb>   DW_AT_prototyped  : 1
-    <239cb>   DW_AT_low_pc      : 0x800bca0
+    <239cb>   DW_AT_low_pc      : 0x800bbd0
     <239cf>   DW_AT_high_pc     : 0x26
     <239d3>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <239d5>   DW_AT_call_all_calls: 1
@@ -75094,7 +75094,7 @@ Contents of the .debug_info section:
     <239db>   DW_AT_decl_line   : 217
     <239dc>   DW_AT_decl_column : 13
     <239dd>   DW_AT_prototyped  : 1
-    <239dd>   DW_AT_low_pc      : 0x800bc40
+    <239dd>   DW_AT_low_pc      : 0x800bb70
     <239e1>   DW_AT_high_pc     : 0x5c
     <239e5>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <239e7>   DW_AT_call_all_calls: 1
@@ -75108,7 +75108,7 @@ Contents of the .debug_info section:
     <239f6>   DW_AT_location    : 2 byte block: 91 6c 	(DW_OP_fbreg: -20)
  <2><239f9>: Abbrev Number: 29 (DW_TAG_inlined_subroutine)
     <239fa>   DW_AT_abstract_origin: <0x23a8c>
-    <239fe>   DW_AT_low_pc      : 0x800bc54
+    <239fe>   DW_AT_low_pc      : 0x800bb84
     <23a02>   DW_AT_high_pc     : 0x14
     <23a06>   DW_AT_call_file   : 1
     <23a07>   DW_AT_call_line   : 227
@@ -75120,7 +75120,7 @@ Contents of the .debug_info section:
  <3><23a15>: Abbrev Number: 0
  <2><23a16>: Abbrev Number: 30 (DW_TAG_inlined_subroutine)
     <23a17>   DW_AT_abstract_origin: <0x23a8c>
-    <23a1b>   DW_AT_low_pc      : 0x800bc6c
+    <23a1b>   DW_AT_low_pc      : 0x800bb9c
     <23a1f>   DW_AT_high_pc     : 0x14
     <23a23>   DW_AT_call_file   : 1
     <23a24>   DW_AT_call_line   : 228
@@ -75138,7 +75138,7 @@ Contents of the .debug_info section:
     <23a37>   DW_AT_decl_column : 14
     <23a38>   DW_AT_prototyped  : 1
     <23a38>   DW_AT_type        : <0x236e1>
-    <23a3c>   DW_AT_low_pc      : 0x800bbd8
+    <23a3c>   DW_AT_low_pc      : 0x800bb08
     <23a40>   DW_AT_high_pc     : 0x68
     <23a44>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <23a46>   DW_AT_call_all_calls: 1
@@ -75208,7 +75208,7 @@ Contents of the .debug_info section:
     <23ab9>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <23abd>   DW_AT_ranges      : 0x188b
     <23ac1>   DW_AT_low_pc      : 0
-    <23ac5>   DW_AT_stmt_list   : 0x25148
+    <23ac5>   DW_AT_stmt_list   : 0x25135
     <23ac9>   DW_AT_macros      : 0x6512
  <1><23acd>: Abbrev Number: 4 (DW_TAG_typedef)
     <23ace>   DW_AT_name        : (indirect string, offset: 0x84ee9): size_t
@@ -75564,7 +75564,7 @@ Contents of the .debug_info section:
     <23d69>   DW_AT_decl_line   : 381
     <23d6b>   DW_AT_decl_column : 13
     <23d6b>   DW_AT_prototyped  : 1
-    <23d6b>   DW_AT_low_pc      : 0x800c3a4
+    <23d6b>   DW_AT_low_pc      : 0x800c2d4
     <23d6f>   DW_AT_high_pc     : 0xb4
     <23d73>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <23d75>   DW_AT_call_all_calls: 1
@@ -75597,7 +75597,7 @@ Contents of the .debug_info section:
     <23dab>   DW_AT_decl_line   : 333
     <23dad>   DW_AT_decl_column : 13
     <23dad>   DW_AT_prototyped  : 1
-    <23dad>   DW_AT_low_pc      : 0x800c2e0
+    <23dad>   DW_AT_low_pc      : 0x800c210
     <23db1>   DW_AT_high_pc     : 0xc4
     <23db5>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <23db7>   DW_AT_call_all_calls: 1
@@ -75673,7 +75673,7 @@ Contents of the .debug_info section:
     <23e3a>   DW_AT_decl_line   : 266
     <23e3c>   DW_AT_decl_column : 6
     <23e3c>   DW_AT_prototyped  : 1
-    <23e3c>   DW_AT_low_pc      : 0x800c218
+    <23e3c>   DW_AT_low_pc      : 0x800c148
     <23e40>   DW_AT_high_pc     : 0xc8
     <23e44>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <23e46>   DW_AT_call_all_tail_calls: 1
@@ -75701,7 +75701,7 @@ Contents of the .debug_info section:
     <23e73>   DW_AT_location    : 2 byte block: 91 70 	(DW_OP_fbreg: -16)
  <2><23e76>: Abbrev Number: 27 (DW_TAG_inlined_subroutine)
     <23e77>   DW_AT_abstract_origin: <0x23f61>
-    <23e7b>   DW_AT_low_pc      : 0x800c246
+    <23e7b>   DW_AT_low_pc      : 0x800c176
     <23e7f>   DW_AT_high_pc     : 0x14
     <23e83>   DW_AT_call_file   : 1
     <23e84>   DW_AT_call_line   : 281
@@ -75713,7 +75713,7 @@ Contents of the .debug_info section:
  <3><23e93>: Abbrev Number: 0
  <2><23e94>: Abbrev Number: 15 (DW_TAG_inlined_subroutine)
     <23e95>   DW_AT_abstract_origin: <0x23f61>
-    <23e99>   DW_AT_low_pc      : 0x800c266
+    <23e99>   DW_AT_low_pc      : 0x800c196
     <23e9d>   DW_AT_high_pc     : 0x14
     <23ea1>   DW_AT_call_file   : 1
     <23ea1>   DW_AT_call_line   : 282
@@ -75731,7 +75731,7 @@ Contents of the .debug_info section:
     <23eb5>   DW_AT_decl_column : 7
     <23eb6>   DW_AT_prototyped  : 1
     <23eb6>   DW_AT_type        : <0x23b43>
-    <23eba>   DW_AT_low_pc      : 0x800c07c
+    <23eba>   DW_AT_low_pc      : 0x800bfac
     <23ebe>   DW_AT_high_pc     : 0x19c
     <23ec2>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <23ec4>   DW_AT_call_all_tail_calls: 1
@@ -75773,7 +75773,7 @@ Contents of the .debug_info section:
     <23f0c>   DW_AT_location    : 2 byte block: 91 6c 	(DW_OP_fbreg: -20)
  <2><23f0f>: Abbrev Number: 16 (DW_TAG_inlined_subroutine)
     <23f10>   DW_AT_abstract_origin: <0x23f61>
-    <23f14>   DW_AT_low_pc      : 0x800c0d2
+    <23f14>   DW_AT_low_pc      : 0x800c002
     <23f18>   DW_AT_high_pc     : 0x14
     <23f1c>   DW_AT_call_file   : 1
     <23f1c>   DW_AT_call_line   : 151
@@ -75785,7 +75785,7 @@ Contents of the .debug_info section:
  <3><23f2a>: Abbrev Number: 0
  <2><23f2b>: Abbrev Number: 16 (DW_TAG_inlined_subroutine)
     <23f2c>   DW_AT_abstract_origin: <0x23f61>
-    <23f30>   DW_AT_low_pc      : 0x800c160
+    <23f30>   DW_AT_low_pc      : 0x800c090
     <23f34>   DW_AT_high_pc     : 0x14
     <23f38>   DW_AT_call_file   : 1
     <23f38>   DW_AT_call_line   : 196
@@ -75797,7 +75797,7 @@ Contents of the .debug_info section:
  <3><23f46>: Abbrev Number: 0
  <2><23f47>: Abbrev Number: 15 (DW_TAG_inlined_subroutine)
     <23f48>   DW_AT_abstract_origin: <0x23f61>
-    <23f4c>   DW_AT_low_pc      : 0x800c1de
+    <23f4c>   DW_AT_low_pc      : 0x800c10e
     <23f50>   DW_AT_high_pc     : 0x14
     <23f54>   DW_AT_call_file   : 1
     <23f54>   DW_AT_call_line   : 261
@@ -75835,7 +75835,7 @@ Contents of the .debug_info section:
     <23f8e>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <23f92>   DW_AT_ranges      : 0x18cd
     <23f96>   DW_AT_low_pc      : 0
-    <23f9a>   DW_AT_stmt_list   : 0x25af6
+    <23f9a>   DW_AT_stmt_list   : 0x25ae3
     <23f9e>   DW_AT_macros      : 0x66d2
  <1><23fa2>: Abbrev Number: 6 (DW_TAG_base_type)
     <23fa3>   DW_AT_byte_size   : 1
@@ -76784,7 +76784,7 @@ Contents of the .debug_info section:
     <24679>   DW_AT_decl_line   : 64
     <2467a>   DW_AT_decl_column : 6
     <2467b>   DW_AT_prototyped  : 1
-    <2467b>   DW_AT_low_pc      : 0x800c458
+    <2467b>   DW_AT_low_pc      : 0x800c388
     <2467f>   DW_AT_high_pc     : 0x60
     <24683>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <24685>   DW_AT_call_all_tail_calls: 1
@@ -76802,7 +76802,7 @@ Contents of the .debug_info section:
     <2469c>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <246a0>   DW_AT_ranges      : 0x18e0
     <246a4>   DW_AT_low_pc      : 0
-    <246a8>   DW_AT_stmt_list   : 0x265de
+    <246a8>   DW_AT_stmt_list   : 0x265cb
     <246ac>   DW_AT_macros      : 0x6c0d
  <1><246b0>: Abbrev Number: 6 (DW_TAG_typedef)
     <246b1>   DW_AT_name        : (indirect string, offset: 0xa53ba): __int8_t
@@ -77828,7 +77828,7 @@ Contents of the .debug_info section:
     <24e32>   DW_AT_decl_column : 15
     <24e33>   DW_AT_prototyped  : 1
     <24e33>   DW_AT_type        : <0x24736>
-    <24e37>   DW_AT_low_pc      : 0x800c620
+    <24e37>   DW_AT_low_pc      : 0x800c550
     <24e3b>   DW_AT_high_pc     : 0x22
     <24e3f>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <24e41>   DW_AT_call_all_calls: 1
@@ -77870,7 +77870,7 @@ Contents of the .debug_info section:
     <24e8b>   DW_AT_decl_column : 9
     <24e8c>   DW_AT_prototyped  : 1
     <24e8c>   DW_AT_type        : <0x24742>
-    <24e90>   DW_AT_low_pc      : 0x800c5d4
+    <24e90>   DW_AT_low_pc      : 0x800c504
     <24e94>   DW_AT_high_pc     : 0x4c
     <24e98>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <24e9a>   DW_AT_call_all_tail_calls: 1
@@ -77914,7 +77914,7 @@ Contents of the .debug_info section:
     <24ee8>   DW_AT_decl_column : 15
     <24ee9>   DW_AT_prototyped  : 1
     <24ee9>   DW_AT_type        : <0x24736>
-    <24eed>   DW_AT_low_pc      : 0x800c5ac
+    <24eed>   DW_AT_low_pc      : 0x800c4dc
     <24ef1>   DW_AT_high_pc     : 0x28
     <24ef5>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <24ef7>   DW_AT_call_all_tail_calls: 1
@@ -77941,7 +77941,7 @@ Contents of the .debug_info section:
     <24f21>   DW_AT_decl_column : 15
     <24f22>   DW_AT_prototyped  : 1
     <24f22>   DW_AT_type        : <0x24736>
-    <24f26>   DW_AT_low_pc      : 0x800c4f0
+    <24f26>   DW_AT_low_pc      : 0x800c420
     <24f2a>   DW_AT_high_pc     : 0xbc
     <24f2e>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <24f30>   DW_AT_call_all_calls: 1
@@ -77975,7 +77975,7 @@ Contents of the .debug_info section:
     <24f67>   DW_AT_decl_column : 15
     <24f68>   DW_AT_prototyped  : 1
     <24f68>   DW_AT_type        : <0x24736>
-    <24f6c>   DW_AT_low_pc      : 0x800c4e0
+    <24f6c>   DW_AT_low_pc      : 0x800c410
     <24f70>   DW_AT_high_pc     : 0x10
     <24f74>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <24f76>   DW_AT_call_all_calls: 1
@@ -77986,7 +77986,7 @@ Contents of the .debug_info section:
     <24f7d>   DW_AT_decl_column : 15
     <24f7e>   DW_AT_prototyped  : 1
     <24f7e>   DW_AT_type        : <0x24736>
-    <24f82>   DW_AT_low_pc      : 0x800c4b8
+    <24f82>   DW_AT_low_pc      : 0x800c3e8
     <24f86>   DW_AT_high_pc     : 0x28
     <24f8a>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <24f8c>   DW_AT_call_all_tail_calls: 1
@@ -78004,7 +78004,7 @@ Contents of the .debug_info section:
     <24fa3>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <24fa7>   DW_AT_ranges      : 0x1912
     <24fab>   DW_AT_low_pc      : 0
-    <24faf>   DW_AT_stmt_list   : 0x27119
+    <24faf>   DW_AT_stmt_list   : 0x27106
     <24fb3>   DW_AT_macros      : 0x6fe9
  <1><24fb7>: Abbrev Number: 2 (DW_TAG_base_type)
     <24fb8>   DW_AT_byte_size   : 1
@@ -78294,7 +78294,7 @@ Contents of the .debug_info section:
     <251ca>   DW_AT_decl_line   : 414
     <251cc>   DW_AT_decl_column : 13
     <251cd>   DW_AT_prototyped  : 1
-    <251cd>   DW_AT_low_pc      : 0x800c7e4
+    <251cd>   DW_AT_low_pc      : 0x800c714
     <251d1>   DW_AT_high_pc     : 0x7e
     <251d5>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <251d7>   DW_AT_call_all_calls: 1
@@ -78334,7 +78334,7 @@ Contents of the .debug_info section:
     <25220>   DW_AT_decl_line   : 388
     <25222>   DW_AT_decl_column : 13
     <25223>   DW_AT_prototyped  : 1
-    <25223>   DW_AT_low_pc      : 0x800c78c
+    <25223>   DW_AT_low_pc      : 0x800c6bc
     <25227>   DW_AT_high_pc     : 0x58
     <2522b>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <2522d>   DW_AT_call_all_tail_calls: 1
@@ -78369,7 +78369,7 @@ Contents of the .debug_info section:
     <25263>   DW_AT_decl_column : 11
     <25263>   DW_AT_prototyped  : 1
     <25263>   DW_AT_type        : <0x25053>
-    <25267>   DW_AT_low_pc      : 0x800c750
+    <25267>   DW_AT_low_pc      : 0x800c680
     <2526b>   DW_AT_high_pc     : 0x3c
     <2526f>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <25271>   DW_AT_call_all_tail_calls: 1
@@ -78397,7 +78397,7 @@ Contents of the .debug_info section:
     <2529b>   DW_AT_decl_column : 11
     <2529b>   DW_AT_prototyped  : 1
     <2529b>   DW_AT_type        : <0x25053>
-    <2529f>   DW_AT_low_pc      : 0x800c714
+    <2529f>   DW_AT_low_pc      : 0x800c644
     <252a3>   DW_AT_high_pc     : 0x3c
     <252a7>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <252a9>   DW_AT_call_all_tail_calls: 1
@@ -78425,7 +78425,7 @@ Contents of the .debug_info section:
     <252d3>   DW_AT_decl_column : 11
     <252d3>   DW_AT_prototyped  : 1
     <252d3>   DW_AT_type        : <0x25053>
-    <252d7>   DW_AT_low_pc      : 0x800c6f0
+    <252d7>   DW_AT_low_pc      : 0x800c620
     <252db>   DW_AT_high_pc     : 0x24
     <252df>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <252e1>   DW_AT_call_all_tail_calls: 1
@@ -78453,7 +78453,7 @@ Contents of the .debug_info section:
     <2530b>   DW_AT_decl_column : 11
     <2530b>   DW_AT_prototyped  : 1
     <2530b>   DW_AT_type        : <0x25053>
-    <2530f>   DW_AT_low_pc      : 0x800c6c8
+    <2530f>   DW_AT_low_pc      : 0x800c5f8
     <25313>   DW_AT_high_pc     : 0x28
     <25317>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <25319>   DW_AT_call_all_tail_calls: 1
@@ -78481,7 +78481,7 @@ Contents of the .debug_info section:
     <25343>   DW_AT_decl_column : 11
     <25343>   DW_AT_prototyped  : 1
     <25343>   DW_AT_type        : <0x25053>
-    <25347>   DW_AT_low_pc      : 0x800c68c
+    <25347>   DW_AT_low_pc      : 0x800c5bc
     <2534b>   DW_AT_high_pc     : 0x3c
     <2534f>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <25351>   DW_AT_call_all_tail_calls: 1
@@ -78509,7 +78509,7 @@ Contents of the .debug_info section:
     <2537c>   DW_AT_decl_column : 11
     <2537d>   DW_AT_prototyped  : 1
     <2537d>   DW_AT_type        : <0x25053>
-    <25381>   DW_AT_low_pc      : 0x800c668
+    <25381>   DW_AT_low_pc      : 0x800c598
     <25385>   DW_AT_high_pc     : 0x24
     <25389>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <2538b>   DW_AT_call_all_calls: 1
@@ -78537,7 +78537,7 @@ Contents of the .debug_info section:
     <253b6>   DW_AT_decl_column : 11
     <253b7>   DW_AT_prototyped  : 1
     <253b7>   DW_AT_type        : <0x25053>
-    <253bb>   DW_AT_low_pc      : 0x800c644
+    <253bb>   DW_AT_low_pc      : 0x800c574
     <253bf>   DW_AT_high_pc     : 0x24
     <253c3>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <253c5>   DW_AT_call_all_calls: 1
@@ -78570,7 +78570,7 @@ Contents of the .debug_info section:
     <253fb>   DW_AT_comp_dir    : (indirect string, offset: 0xabdd): C:/Users/rguilletlhomat/STM32CubeIDE/workspace_1.17.0/Remote_STM32F411CEU6/Debug
     <253ff>   DW_AT_ranges      : 0x1955
     <25403>   DW_AT_low_pc      : 0
-    <25407>   DW_AT_stmt_list   : 0x27caa
+    <25407>   DW_AT_stmt_list   : 0x27c97
     <2540b>   DW_AT_macros      : 0x7400
  <1><2540f>: Abbrev Number: 23 (DW_TAG_enumeration_type)
     <25410>   DW_AT_encoding    : 5	(signed)
@@ -81282,7 +81282,7 @@ Contents of the .debug_info section:
     <26841>   DW_AT_decl_column : 20
     <26842>   DW_AT_prototyped  : 1
     <26842>   DW_AT_type        : <0x26366>
-    <26846>   DW_AT_low_pc      : 0x800ce20
+    <26846>   DW_AT_low_pc      : 0x800cd50
     <2684a>   DW_AT_high_pc     : 0x58
     <2684e>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <26850>   DW_AT_call_all_calls: 1
@@ -81329,7 +81329,7 @@ Contents of the .debug_info section:
     <2689e>   DW_AT_decl_line   : 628
     <268a0>   DW_AT_decl_column : 6
     <268a1>   DW_AT_prototyped  : 1
-    <268a1>   DW_AT_low_pc      : 0x800ce0c
+    <268a1>   DW_AT_low_pc      : 0x800cd3c
     <268a5>   DW_AT_high_pc     : 0x14
     <268a9>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <268ab>   DW_AT_call_all_calls: 1
@@ -81350,7 +81350,7 @@ Contents of the .debug_info section:
     <268c5>   DW_AT_decl_column : 7
     <268c6>   DW_AT_prototyped  : 1
     <268c6>   DW_AT_type        : <0x25c9e>
-    <268ca>   DW_AT_low_pc      : 0x800cdf0
+    <268ca>   DW_AT_low_pc      : 0x800cd20
     <268ce>   DW_AT_high_pc     : 0x1c
     <268d2>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <268d4>   DW_AT_call_all_calls: 1
@@ -81385,7 +81385,7 @@ Contents of the .debug_info section:
     <26912>   DW_AT_decl_column : 10
     <26913>   DW_AT_prototyped  : 1
     <26913>   DW_AT_type        : <0x25635>
-    <26917>   DW_AT_low_pc      : 0x800cdca
+    <26917>   DW_AT_low_pc      : 0x800ccfa
     <2691b>   DW_AT_high_pc     : 0x26
     <2691f>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <26921>   DW_AT_call_all_tail_calls: 1
@@ -81413,7 +81413,7 @@ Contents of the .debug_info section:
     <2694b>   DW_AT_decl_column : 20
     <2694c>   DW_AT_prototyped  : 1
     <2694c>   DW_AT_type        : <0x26366>
-    <26950>   DW_AT_low_pc      : 0x800cd88
+    <26950>   DW_AT_low_pc      : 0x800ccb8
     <26954>   DW_AT_high_pc     : 0x42
     <26958>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <2695a>   DW_AT_call_all_tail_calls: 1
@@ -81469,7 +81469,7 @@ Contents of the .debug_info section:
     <269c0>   DW_AT_decl_column : 20
     <269c1>   DW_AT_prototyped  : 1
     <269c1>   DW_AT_type        : <0x26366>
-    <269c5>   DW_AT_low_pc      : 0x800cd46
+    <269c5>   DW_AT_low_pc      : 0x800cc76
     <269c9>   DW_AT_high_pc     : 0x42
     <269cd>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <269cf>   DW_AT_call_all_tail_calls: 1
@@ -81525,7 +81525,7 @@ Contents of the .debug_info section:
     <26a35>   DW_AT_decl_column : 20
     <26a36>   DW_AT_prototyped  : 1
     <26a36>   DW_AT_type        : <0x26366>
-    <26a3a>   DW_AT_low_pc      : 0x800cd08
+    <26a3a>   DW_AT_low_pc      : 0x800cc38
     <26a3e>   DW_AT_high_pc     : 0x3e
     <26a42>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <26a44>   DW_AT_call_all_tail_calls: 1
@@ -81567,7 +81567,7 @@ Contents of the .debug_info section:
     <26a8c>   DW_AT_decl_column : 9
     <26a8d>   DW_AT_prototyped  : 1
     <26a8d>   DW_AT_type        : <0x25618>
-    <26a91>   DW_AT_low_pc      : 0x800ccb0
+    <26a91>   DW_AT_low_pc      : 0x800cbe0
     <26a95>   DW_AT_high_pc     : 0x58
     <26a99>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <26a9b>   DW_AT_call_all_calls: 1
@@ -81602,7 +81602,7 @@ Contents of the .debug_info section:
     <26ad4>   DW_AT_decl_column : 20
     <26ad5>   DW_AT_prototyped  : 1
     <26ad5>   DW_AT_type        : <0x26366>
-    <26ad9>   DW_AT_low_pc      : 0x800cc72
+    <26ad9>   DW_AT_low_pc      : 0x800cba2
     <26add>   DW_AT_high_pc     : 0x3e
     <26ae1>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <26ae3>   DW_AT_call_all_tail_calls: 1
@@ -81644,7 +81644,7 @@ Contents of the .debug_info section:
     <26b2b>   DW_AT_decl_column : 20
     <26b2c>   DW_AT_prototyped  : 1
     <26b2c>   DW_AT_type        : <0x26366>
-    <26b30>   DW_AT_low_pc      : 0x800cc34
+    <26b30>   DW_AT_low_pc      : 0x800cb64
     <26b34>   DW_AT_high_pc     : 0x3e
     <26b38>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <26b3a>   DW_AT_call_all_tail_calls: 1
@@ -81728,7 +81728,7 @@ Contents of the .debug_info section:
     <26bd9>   DW_AT_decl_column : 20
     <26bda>   DW_AT_prototyped  : 1
     <26bda>   DW_AT_type        : <0x26366>
-    <26bde>   DW_AT_low_pc      : 0x800cbf6
+    <26bde>   DW_AT_low_pc      : 0x800cb26
     <26be2>   DW_AT_high_pc     : 0x3e
     <26be6>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <26be8>   DW_AT_call_all_tail_calls: 1
@@ -81770,7 +81770,7 @@ Contents of the .debug_info section:
     <26c30>   DW_AT_decl_column : 20
     <26c31>   DW_AT_prototyped  : 1
     <26c31>   DW_AT_type        : <0x26366>
-    <26c35>   DW_AT_low_pc      : 0x800cbaa
+    <26c35>   DW_AT_low_pc      : 0x800cada
     <26c39>   DW_AT_high_pc     : 0x4c
     <26c3d>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <26c3f>   DW_AT_call_all_tail_calls: 1
@@ -81861,7 +81861,7 @@ Contents of the .debug_info section:
     <26ced>   DW_AT_decl_column : 20
     <26cee>   DW_AT_prototyped  : 1
     <26cee>   DW_AT_type        : <0x26366>
-    <26cf2>   DW_AT_low_pc      : 0x800cb74
+    <26cf2>   DW_AT_low_pc      : 0x800caa4
     <26cf6>   DW_AT_high_pc     : 0x36
     <26cfa>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <26cfc>   DW_AT_call_all_tail_calls: 1
@@ -81931,7 +81931,7 @@ Contents of the .debug_info section:
     <26d7d>   DW_AT_decl_column : 20
     <26d7e>   DW_AT_prototyped  : 1
     <26d7e>   DW_AT_type        : <0x26366>
-    <26d82>   DW_AT_low_pc      : 0x800cadc
+    <26d82>   DW_AT_low_pc      : 0x800ca0c
     <26d86>   DW_AT_high_pc     : 0x98
     <26d8a>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <26d8c>   DW_AT_call_all_tail_calls: 1
@@ -81951,7 +81951,7 @@ Contents of the .debug_info section:
     <26da5>   DW_AT_decl_line   : 304
     <26da7>   DW_AT_decl_column : 6
     <26da7>   DW_AT_prototyped  : 1
-    <26da7>   DW_AT_low_pc      : 0x800cac0
+    <26da7>   DW_AT_low_pc      : 0x800c9f0
     <26dab>   DW_AT_high_pc     : 0x1c
     <26daf>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <26db1>   DW_AT_call_all_tail_calls: 1
@@ -81971,7 +81971,7 @@ Contents of the .debug_info section:
     <26dca>   DW_AT_decl_line   : 290
     <26dcc>   DW_AT_decl_column : 6
     <26dcc>   DW_AT_prototyped  : 1
-    <26dcc>   DW_AT_low_pc      : 0x800caa4
+    <26dcc>   DW_AT_low_pc      : 0x800c9d4
     <26dd0>   DW_AT_high_pc     : 0x1c
     <26dd4>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <26dd6>   DW_AT_call_all_tail_calls: 1
@@ -81991,7 +81991,7 @@ Contents of the .debug_info section:
     <26def>   DW_AT_decl_line   : 276
     <26df1>   DW_AT_decl_column : 6
     <26df1>   DW_AT_prototyped  : 1
-    <26df1>   DW_AT_low_pc      : 0x800ca80
+    <26df1>   DW_AT_low_pc      : 0x800c9b0
     <26df5>   DW_AT_high_pc     : 0x24
     <26df9>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <26dfb>   DW_AT_call_all_tail_calls: 1
@@ -82018,7 +82018,7 @@ Contents of the .debug_info section:
     <26e23>   DW_AT_decl_line   : 261
     <26e25>   DW_AT_decl_column : 6
     <26e25>   DW_AT_prototyped  : 1
-    <26e25>   DW_AT_low_pc      : 0x800ca5c
+    <26e25>   DW_AT_low_pc      : 0x800c98c
     <26e29>   DW_AT_high_pc     : 0x24
     <26e2d>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <26e2f>   DW_AT_call_all_tail_calls: 1
@@ -82045,7 +82045,7 @@ Contents of the .debug_info section:
     <26e57>   DW_AT_decl_line   : 243
     <26e58>   DW_AT_decl_column : 6
     <26e58>   DW_AT_prototyped  : 1
-    <26e58>   DW_AT_low_pc      : 0x800ca40
+    <26e58>   DW_AT_low_pc      : 0x800c970
     <26e5c>   DW_AT_high_pc     : 0x1c
     <26e60>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <26e62>   DW_AT_call_all_tail_calls: 1
@@ -82065,7 +82065,7 @@ Contents of the .debug_info section:
     <26e7a>   DW_AT_decl_line   : 218
     <26e7b>   DW_AT_decl_column : 6
     <26e7b>   DW_AT_prototyped  : 1
-    <26e7b>   DW_AT_low_pc      : 0x800c9f4
+    <26e7b>   DW_AT_low_pc      : 0x800c924
     <26e7f>   DW_AT_high_pc     : 0x4c
     <26e83>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <26e85>   DW_AT_call_all_tail_calls: 1
@@ -82085,7 +82085,7 @@ Contents of the .debug_info section:
     <26e9d>   DW_AT_decl_line   : 193
     <26e9e>   DW_AT_decl_column : 6
     <26e9e>   DW_AT_prototyped  : 1
-    <26e9e>   DW_AT_low_pc      : 0x800c9b6
+    <26e9e>   DW_AT_low_pc      : 0x800c8e6
     <26ea2>   DW_AT_high_pc     : 0x3c
     <26ea6>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <26ea8>   DW_AT_call_all_tail_calls: 1
@@ -82112,7 +82112,7 @@ Contents of the .debug_info section:
     <26ece>   DW_AT_decl_line   : 179
     <26ecf>   DW_AT_decl_column : 6
     <26ecf>   DW_AT_prototyped  : 1
-    <26ecf>   DW_AT_low_pc      : 0x800c99a
+    <26ecf>   DW_AT_low_pc      : 0x800c8ca
     <26ed3>   DW_AT_high_pc     : 0x1c
     <26ed7>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <26ed9>   DW_AT_call_all_tail_calls: 1
@@ -82132,7 +82132,7 @@ Contents of the .debug_info section:
     <26ef1>   DW_AT_decl_line   : 165
     <26ef2>   DW_AT_decl_column : 6
     <26ef2>   DW_AT_prototyped  : 1
-    <26ef2>   DW_AT_low_pc      : 0x800c966
+    <26ef2>   DW_AT_low_pc      : 0x800c896
     <26ef6>   DW_AT_high_pc     : 0x34
     <26efa>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <26efc>   DW_AT_call_all_tail_calls: 1
@@ -82159,7 +82159,7 @@ Contents of the .debug_info section:
     <26f22>   DW_AT_decl_line   : 150
     <26f23>   DW_AT_decl_column : 6
     <26f23>   DW_AT_prototyped  : 1
-    <26f23>   DW_AT_low_pc      : 0x800c930
+    <26f23>   DW_AT_low_pc      : 0x800c860
     <26f27>   DW_AT_high_pc     : 0x36
     <26f2b>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <26f2d>   DW_AT_call_all_tail_calls: 1
@@ -82186,7 +82186,7 @@ Contents of the .debug_info section:
     <26f53>   DW_AT_decl_line   : 135
     <26f54>   DW_AT_decl_column : 6
     <26f54>   DW_AT_prototyped  : 1
-    <26f54>   DW_AT_low_pc      : 0x800c90c
+    <26f54>   DW_AT_low_pc      : 0x800c83c
     <26f58>   DW_AT_high_pc     : 0x24
     <26f5c>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <26f5e>   DW_AT_call_all_tail_calls: 1
@@ -82226,7 +82226,7 @@ Contents of the .debug_info section:
     <26f9a>   DW_AT_decl_line   : 69
     <26f9b>   DW_AT_decl_column : 6
     <26f9c>   DW_AT_prototyped  : 1
-    <26f9c>   DW_AT_low_pc      : 0x800c864
+    <26f9c>   DW_AT_low_pc      : 0x800c794
     <26fa0>   DW_AT_high_pc     : 0xa8
     <26fa4>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <26fa6>   DW_AT_call_all_tail_calls: 1
@@ -82245,7 +82245,7 @@ Contents of the .debug_info section:
     <26fbb>   DW_AT_type        : <0x25c92>
     <26fbf>   DW_AT_location    : 2 byte block: 91 64 	(DW_OP_fbreg: -28)
  <2><26fc2>: Abbrev Number: 48 (DW_TAG_lexical_block)
-    <26fc3>   DW_AT_low_pc      : 0x800c886
+    <26fc3>   DW_AT_low_pc      : 0x800c7b6
     <26fc7>   DW_AT_high_pc     : 0x1c
     <26fcb>   DW_AT_sibling     : <0x26fde>
  <3><26fcf>: Abbrev Number: 28 (DW_TAG_variable)
@@ -82257,7 +82257,7 @@ Contents of the .debug_info section:
     <26fda>   DW_AT_location    : 2 byte block: 91 60 	(DW_OP_fbreg: -32)
  <3><26fdd>: Abbrev Number: 0
  <2><26fde>: Abbrev Number: 49 (DW_TAG_lexical_block)
-    <26fdf>   DW_AT_low_pc      : 0x800c8d0
+    <26fdf>   DW_AT_low_pc      : 0x800c800
     <26fe3>   DW_AT_high_pc     : 0x1c
  <3><26fe7>: Abbrev Number: 28 (DW_TAG_variable)
     <26fe8>   DW_AT_name        : (indirect string, offset: 0x16f7): tmpreg
