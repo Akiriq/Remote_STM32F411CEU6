@@ -68,8 +68,8 @@ all: main-build
 main-build: Remote_STM32F411CEU6.elf secondary-outputs
 
 # Tool invocations
-Remote_STM32F411CEU6.elf Remote_STM32F411CEU6.map: $(OBJS) $(USER_OBJS) C:\Users\rguilletlhomat\STM32CubeIDE\workspace_1.17.0\Remote_STM32F411CEU6\STM32F411CEUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Remote_STM32F411CEU6.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\rguilletlhomat\STM32CubeIDE\workspace_1.17.0\Remote_STM32F411CEU6\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Remote_STM32F411CEU6.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Remote_STM32F411CEU6.elf Remote_STM32F411CEU6.map: $(OBJS) $(USER_OBJS) F:\Nucleo_Workspace\Remote_STM32F411CEU6\STM32F411CEUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Remote_STM32F411CEU6.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"F:\Nucleo_Workspace\Remote_STM32F411CEU6\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Remote_STM32F411CEU6.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

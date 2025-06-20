@@ -12,5 +12,5 @@
 ../Core/Src/radio.c:219:6:ecretage_joy_y	8
 ../Core/Src/radio.c:236:6:ecretage_slide	3
 ../Core/Src/radio.c:246:6:sendCommande	4
-../Core/Src/radio.c:275:9:channel	21
+../Core/Src/radio.c:275:9:channel	20
 ../Core/Src/radio.c:339:6:runRadio	6

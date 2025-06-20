@@ -235,7 +235,7 @@ void ecretage_joy_y(uint16_t* val)
 
 void ecretage_slide(uint16_t* val)
 {
-	uint16_t range_b = 600;
+	uint16_t range_b = 400;
 	uint16_t range_h = 1600;
 
 	if		((4096 - range_h) < *val)	*val =  4096 - range_h;
@@ -276,7 +276,7 @@ uint8_t channel(void)
 {
 	uint8_t channel = 115;
 	uint8_t set_channel = 0;
-	if(!HAL_GPIO_ReadPin (DSW_0_GPIO_Port, DSW_0_Pin)) set_channel += 1;
+	//if(!HAL_GPIO_ReadPin (DSW_0_GPIO_Port, DSW_0_Pin)) set_channel += 1;
 	if(!HAL_GPIO_ReadPin (DSW_1_GPIO_Port, DSW_1_Pin)) set_channel += 2;
 	if(!HAL_GPIO_ReadPin (DSW_2_GPIO_Port, DSW_2_Pin)) set_channel += 4;
 	if(!HAL_GPIO_ReadPin (DSW_3_GPIO_Port, DSW_3_Pin)) set_channel += 8;
@@ -424,7 +424,7 @@ void runRadio(void)
     		blink += 10;
     	}
 
-    	if(blink++ > 500)
+    	if(blink++ > 100)
     	{
     		blink = 0;
     		Toggle_LED();
